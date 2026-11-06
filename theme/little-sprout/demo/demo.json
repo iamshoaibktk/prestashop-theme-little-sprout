@@ -1,0 +1,3972 @@
+{
+ "meta": {
+  "slug": "little-sprout",
+  "theme": "little-sprout",
+  "name": "Little Sprout",
+  "version": "1.0.0",
+  "description": {
+   "en": "Playful kids' clothing shop: organic cotton baby wear, kidswear, pyjamas and rain gear in a bright, rounded layout.",
+   "fr": "Boutique de vêtements pour enfants pleine de gaieté : bébé en coton bio, enfant, pyjamas et tenues de pluie dans une mise en page colorée et arrondie.",
+   "es": "Tienda de ropa infantil alegre: ropa de bebé de algodón orgánico, ropa infantil, pijamas y ropa de lluvia en un diseño colorido y redondeado.",
+   "it": "Negozio di abbigliamento per bambini allegro: neonato in cotone biologico, bambini, pigiami e abbigliamento da pioggia in un layout colorato e arrotondato.",
+   "pl": "Radosny sklep z ubrankami dla dzieci: ubranka niemowlęce z bawełny organicznej, odzież dziecięca, piżamy i odzież przeciwdeszczowa w kolorowym, zaokrąglonym układzie.",
+   "de": "Fröhlicher Kindermode-Shop: Babykleidung aus Bio-Baumwolle, Kinderkleidung, Schlafanzüge und Regenkleidung in einem bunten, runden Layout.",
+   "cs": "Veselý obchod s dětským oblečením: kojenecké oblečení z biobavlny, dětské oblečení, pyžama a oblečení do deště v barevném, zaobleném rozvržení.",
+   "nl": "Vrolijke kinderkledingwinkel: babykleding van biologisch katoen, kinderkleding, pyjama's en regenkleding in een kleurrijke, ronde lay-out.",
+   "pt": "Loja de roupa infantil alegre: roupa de bebé em algodão biológico, roupa de criança, pijamas e roupa de chuva num layout colorido e arredondado.",
+   "ru": "Яркий магазин детской одежды: одежда для малышей из органического хлопка, детская одежда, пижамы и непромокаемые вещи в красочном округлом макете."
+  }
+ },
+ "vars": {
+  "shop": "Little Sprout",
+  "free_over": {
+   "en": "€60",
+   "fr": "60 €",
+   "es": "60 €",
+   "it": "60 €",
+   "pl": "60 €",
+   "de": "60 €",
+   "cs": "60 €",
+   "nl": "€ 60",
+   "pt": "60 €",
+   "ru": "60 €"
+  }
+ },
+ "shop": {
+  "name": "Little Sprout",
+  "email": "hello@littlesprout.example",
+  "phone": "+31 20 123 4567",
+  "address1": "Prinsengracht 210",
+  "postcode": "1016 HC",
+  "city": "Amsterdam",
+  "country": "NL",
+  "logo": "brand/logo.png",
+  "favicon": "brand/favicon.ico",
+  "social": {
+   "instagram": "https://www.instagram.com/",
+   "pinterest": "https://www.pinterest.com/"
+  }
+ },
+ "tokens": {
+  "primary": "#24305e",
+  "primary_contrast": "#ffffff",
+  "accent": "#cc4520",
+  "bg": "#fbf8f2",
+  "surface": "#dcebf7",
+  "text": "#24305e",
+  "muted": "#5c6480",
+  "border": "#e8e2d4",
+  "sale": "#cc4520",
+  "dark": "#24305e",
+  "dark_text": "#ffffff",
+  "field_border": "#8a8fa6",
+  "field_height": "48",
+  "font_heading": "Bricolage Grotesque",
+  "font_body": "Figtree",
+  "heading_weight": "800",
+  "heading_transform": "none",
+  "heading_spacing": "-0.02",
+  "radius": "14",
+  "button_radius": "10",
+  "button_transform": "none",
+  "header_style": "classic",
+  "footer_style": "dark",
+  "card_style": "boxed",
+  "cart_style": "drawer",
+  "cart_layout": "cards",
+  "listing_layout": "drawer",
+  "category_header": "minimal",
+  "grid_columns": "4",
+  "product_layout": "classic",
+  "product_thumbs": "bottom",
+  "product_tabs": "accordion",
+  "free_bar": "1",
+  "header_sticky": "up",
+  "search_style": "field",
+  "search_trigger": "icon",
+  "cart_word": "bag"
+ },
+ "topbar": {
+  "active": 1,
+  "text": {
+   "en": "Free delivery over €60. Free returns for 30 days.",
+   "fr": "Livraison offerte dès 60 €. Retours gratuits sous 30 jours.",
+   "es": "Envío gratis desde 60 €. Devoluciones gratis en 30 días.",
+   "it": "Spedizione gratuita sopra 60 €. Resi gratuiti entro 30 giorni.",
+   "pl": "Darmowa dostawa od 60 €. Darmowe zwroty w ciągu 30 dni.",
+   "de": "Kostenloser Versand ab 60 €. Kostenlose Rücksendung innerhalb von 30 Tagen.",
+   "cs": "Doprava zdarma od 60 €. Vrácení zdarma do 30 dnů.",
+   "nl": "Gratis verzending vanaf €60. Gratis retourneren binnen 30 dagen.",
+   "pt": "Entrega gratuita acima de 60 €. Devoluções gratuitas em 30 dias.",
+   "ru": "Бесплатная доставка от 60 €. Бесплатный возврат в течение 30 дней."
+  }
+ },
+ "attribute_groups": [
+  {
+   "key": "size",
+   "type": "radio",
+   "name": {
+    "en": "Age and height",
+    "fr": "Âge et taille",
+    "es": "Edad y altura",
+    "it": "Età e altezza",
+    "pl": "Wiek i wzrost",
+    "de": "Alter und Größe",
+    "cs": "Věk a výška",
+    "nl": "Leeftijd en lengte",
+    "pt": "Idade e altura",
+    "ru": "Возраст и рост"
+   },
+   "values": [
+    {
+     "key": "0-6m",
+     "name": {
+      "en": "0–6 m (50–68 cm)",
+      "fr": "0–6 mois (50–68 cm)",
+      "es": "0–6 meses (50–68 cm)",
+      "it": "0–6 mesi (50–68 cm)",
+      "pl": "0–6 mies. (50–68 cm)",
+      "de": "0–6 Mon. (50–68 cm)",
+      "cs": "0–6 měs. (50–68 cm)",
+      "nl": "0–6 mnd (50–68 cm)",
+      "pt": "0–6 meses (50–68 cm)",
+      "ru": "0–6 мес. (50–68 cm)"
+     }
+    },
+    {
+     "key": "6-12m",
+     "name": {
+      "en": "6–12 m (68–80 cm)",
+      "fr": "6–12 mois (68–80 cm)",
+      "es": "6–12 meses (68–80 cm)",
+      "it": "6–12 mesi (68–80 cm)",
+      "pl": "6–12 mies. (68–80 cm)",
+      "de": "6–12 Mon. (68–80 cm)",
+      "cs": "6–12 měs. (68–80 cm)",
+      "nl": "6–12 mnd (68–80 cm)",
+      "pt": "6–12 meses (68–80 cm)",
+      "ru": "6–12 мес. (68–80 cm)"
+     }
+    },
+    {
+     "key": "12-24m",
+     "name": {
+      "en": "12–24 m (80–92 cm)",
+      "fr": "12–24 mois (80–92 cm)",
+      "es": "12–24 meses (80–92 cm)",
+      "it": "12–24 mesi (80–92 cm)",
+      "pl": "12–24 mies. (80–92 cm)",
+      "de": "12–24 Mon. (80–92 cm)",
+      "cs": "12–24 měs. (80–92 cm)",
+      "nl": "12–24 mnd (80–92 cm)",
+      "pt": "12–24 meses (80–92 cm)",
+      "ru": "12–24 мес. (80–92 cm)"
+     }
+    },
+    {
+     "key": "2-3",
+     "name": {
+      "en": "2–3 y (92–98 cm)",
+      "fr": "2–3 ans (92–98 cm)",
+      "es": "2–3 años (92–98 cm)",
+      "it": "2–3 anni (92–98 cm)",
+      "pl": "2–3 lat (92–98 cm)",
+      "de": "2–3 J. (92–98 cm)",
+      "cs": "2–3 let (92–98 cm)",
+      "nl": "2–3 jr (92–98 cm)",
+      "pt": "2–3 anos (92–98 cm)",
+      "ru": "2–3 лет (92–98 cm)"
+     }
+    },
+    {
+     "key": "4-5",
+     "name": {
+      "en": "4–5 y (104–110 cm)",
+      "fr": "4–5 ans (104–110 cm)",
+      "es": "4–5 años (104–110 cm)",
+      "it": "4–5 anni (104–110 cm)",
+      "pl": "4–5 lat (104–110 cm)",
+      "de": "4–5 J. (104–110 cm)",
+      "cs": "4–5 let (104–110 cm)",
+      "nl": "4–5 jr (104–110 cm)",
+      "pt": "4–5 anos (104–110 cm)",
+      "ru": "4–5 лет (104–110 cm)"
+     }
+    },
+    {
+     "key": "6-7",
+     "name": {
+      "en": "6–7 y (116–122 cm)",
+      "fr": "6–7 ans (116–122 cm)",
+      "es": "6–7 años (116–122 cm)",
+      "it": "6–7 anni (116–122 cm)",
+      "pl": "6–7 lat (116–122 cm)",
+      "de": "6–7 J. (116–122 cm)",
+      "cs": "6–7 let (116–122 cm)",
+      "nl": "6–7 jr (116–122 cm)",
+      "pt": "6–7 anos (116–122 cm)",
+      "ru": "6–7 лет (116–122 cm)"
+     }
+    },
+    {
+     "key": "8-9",
+     "name": {
+      "en": "8–9 y (128–134 cm)",
+      "fr": "8–9 ans (128–134 cm)",
+      "es": "8–9 años (128–134 cm)",
+      "it": "8–9 anni (128–134 cm)",
+      "pl": "8–9 lat (128–134 cm)",
+      "de": "8–9 J. (128–134 cm)",
+      "cs": "8–9 let (128–134 cm)",
+      "nl": "8–9 jr (128–134 cm)",
+      "pt": "8–9 anos (128–134 cm)",
+      "ru": "8–9 лет (128–134 cm)"
+     }
+    },
+    {
+     "key": "19-21",
+     "name": "19–21"
+    },
+    {
+     "key": "22-25",
+     "name": "22–25"
+    },
+    {
+     "key": "26-29",
+     "name": "26–29"
+    }
+   ]
+  },
+  {
+   "key": "color",
+   "type": "color",
+   "name": {
+    "en": "Colour",
+    "fr": "Couleur",
+    "es": "Color",
+    "it": "Colore",
+    "pl": "Kolor",
+    "de": "Farbe",
+    "cs": "Barva",
+    "nl": "Kleur",
+    "pt": "Cor",
+    "ru": "Цвет"
+   },
+   "values": [
+    {
+     "key": "white",
+     "name": {
+      "en": "White",
+      "fr": "Blanc",
+      "es": "Blanco",
+      "it": "Bianco",
+      "pl": "Biały",
+      "de": "Weiß",
+      "cs": "Bílá",
+      "nl": "Wit",
+      "pt": "Branco",
+      "ru": "Белый"
+     },
+     "color": "#FFFFFF"
+    },
+    {
+     "key": "sage",
+     "name": {
+      "en": "Sage",
+      "fr": "Sauge",
+      "es": "Salvia",
+      "it": "Salvia",
+      "pl": "Szałwiowy",
+      "de": "Salbei",
+      "cs": "Šalvějová",
+      "nl": "Salie",
+      "pt": "Salva",
+      "ru": "Шалфейный"
+     },
+     "color": "#A3B09A"
+    },
+    {
+     "key": "oat",
+     "name": {
+      "en": "Oat",
+      "fr": "Avoine",
+      "es": "Avena",
+      "it": "Avena",
+      "pl": "Owsiany",
+      "de": "Hafer",
+      "cs": "Ovesná",
+      "nl": "Haver",
+      "pt": "Aveia",
+      "ru": "Овсяный"
+     },
+     "color": "#E6DCC8"
+    },
+    {
+     "key": "mint",
+     "name": {
+      "en": "Mint",
+      "fr": "Menthe",
+      "es": "Menta",
+      "it": "Menta",
+      "pl": "Miętowy",
+      "de": "Mint",
+      "cs": "Mátová",
+      "nl": "Mint",
+      "pt": "Menta",
+      "ru": "Мятный"
+     },
+     "color": "#9FD8C5"
+    },
+    {
+     "key": "cream",
+     "name": {
+      "en": "Cream",
+      "fr": "Crème",
+      "es": "Crudo",
+      "it": "Panna",
+      "pl": "Kremowy",
+      "de": "Creme",
+      "cs": "Krémová",
+      "nl": "Crème",
+      "pt": "Creme",
+      "ru": "Кремовый"
+     },
+     "color": "#F3EAD8"
+    },
+    {
+     "key": "mustard",
+     "name": {
+      "en": "Mustard",
+      "fr": "Moutarde",
+      "es": "Mostaza",
+      "it": "Senape",
+      "pl": "Musztardowy",
+      "de": "Senf",
+      "cs": "Hořčicová",
+      "nl": "Mosterd",
+      "pt": "Mostarda",
+      "ru": "Горчичный"
+     },
+     "color": "#D9A933"
+    },
+    {
+     "key": "pink",
+     "name": {
+      "en": "Pink",
+      "fr": "Rose",
+      "es": "Rosa",
+      "it": "Rosa",
+      "pl": "Różowy",
+      "de": "Rosa",
+      "cs": "Růžová",
+      "nl": "Roze",
+      "pt": "Rosa",
+      "ru": "Розовый"
+     },
+     "color": "#F2B5C0"
+    },
+    {
+     "key": "yellow",
+     "name": {
+      "en": "Yellow",
+      "fr": "Jaune",
+      "es": "Amarillo",
+      "it": "Giallo",
+      "pl": "Żółty",
+      "de": "Gelb",
+      "cs": "Žlutá",
+      "nl": "Geel",
+      "pt": "Amarelo",
+      "ru": "Жёлтый"
+     },
+     "color": "#F6D04D"
+    },
+    {
+     "key": "light-blue",
+     "name": {
+      "en": "Light blue",
+      "fr": "Bleu clair",
+      "es": "Azul claro",
+      "it": "Azzurro",
+      "pl": "Jasnoniebieski",
+      "de": "Hellblau",
+      "cs": "Světle modrá",
+      "nl": "Lichtblauw",
+      "pt": "Azul-claro",
+      "ru": "Голубой"
+     },
+     "color": "#A9C9E8"
+    },
+    {
+     "key": "coral",
+     "name": {
+      "en": "Coral",
+      "fr": "Corail",
+      "es": "Coral",
+      "it": "Corallo",
+      "pl": "Koralowy",
+      "de": "Koralle",
+      "cs": "Korálová",
+      "nl": "Koraal",
+      "pt": "Coral",
+      "ru": "Коралловый"
+     },
+     "color": "#F28C78"
+    },
+    {
+     "key": "navy",
+     "name": {
+      "en": "Navy",
+      "fr": "Marine",
+      "es": "Azul marino",
+      "it": "Blu navy",
+      "pl": "Granatowy",
+      "de": "Marine",
+      "cs": "Námořnická modrá",
+      "nl": "Marineblauw",
+      "pt": "Azul-marinho",
+      "ru": "Тёмно-синий"
+     },
+     "color": "#24365C"
+    },
+    {
+     "key": "red",
+     "name": {
+      "en": "Red",
+      "fr": "Rouge",
+      "es": "Rojo",
+      "it": "Rosso",
+      "pl": "Czerwony",
+      "de": "Rot",
+      "cs": "Červená",
+      "nl": "Rood",
+      "pt": "Vermelho",
+      "ru": "Красный"
+     },
+     "color": "#D9483B"
+    },
+    {
+     "key": "khaki",
+     "name": {
+      "en": "Khaki",
+      "fr": "Kaki",
+      "es": "Caqui",
+      "it": "Cachi",
+      "pl": "Khaki",
+      "de": "Khaki",
+      "cs": "Khaki",
+      "nl": "Kaki",
+      "pt": "Caqui",
+      "ru": "Хаки"
+     },
+     "color": "#B3A27A"
+    },
+    {
+     "key": "grey",
+     "name": {
+      "en": "Grey",
+      "fr": "Gris",
+      "es": "Gris",
+      "it": "Grigio",
+      "pl": "Szary",
+      "de": "Grau",
+      "cs": "Šedá",
+      "nl": "Grijs",
+      "pt": "Cinzento",
+      "ru": "Серый"
+     },
+     "color": "#A3A6AB"
+    },
+    {
+     "key": "lavender",
+     "name": {
+      "en": "Lavender",
+      "fr": "Lavande",
+      "es": "Lavanda",
+      "it": "Lavanda",
+      "pl": "Lawendowy",
+      "de": "Lavendel",
+      "cs": "Levandulová",
+      "nl": "Lavendel",
+      "pt": "Lavanda",
+      "ru": "Лавандовый"
+     },
+     "color": "#C7B8E3"
+    },
+    {
+     "key": "tan",
+     "name": {
+      "en": "Tan",
+      "fr": "Fauve",
+      "es": "Tostado",
+      "it": "Cuoio",
+      "pl": "Jasnobrązowy",
+      "de": "Hellbraun",
+      "cs": "Světle hnědá",
+      "nl": "Lichtbruin",
+      "pt": "Caramelo",
+      "ru": "Светло-коричневый"
+     },
+     "color": "#C69C6D"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "key": "ages",
+   "name": {
+    "en": "Ages",
+    "fr": "Âge",
+    "es": "Edad",
+    "it": "Età",
+    "pl": "Wiek",
+    "de": "Alter",
+    "cs": "Věk",
+    "nl": "Leeftijd",
+    "pt": "Idade",
+    "ru": "Возраст"
+   },
+   "values": [
+    {
+     "key": "0-24m",
+     "name": {
+      "en": "0–24 months",
+      "fr": "0–24 mois",
+      "es": "0–24 meses",
+      "it": "0–24 mesi",
+      "pl": "0–24 miesiące",
+      "de": "0–24 Monate",
+      "cs": "0–24 měsíců",
+      "nl": "0–24 maanden",
+      "pt": "0–24 meses",
+      "ru": "0–24 месяца"
+     }
+    },
+    {
+     "key": "2-9",
+     "name": {
+      "en": "Ages 2–9",
+      "fr": "2–9 ans",
+      "es": "2–9 años",
+      "it": "2–9 anni",
+      "pl": "2–9 lat",
+      "de": "2–9 Jahre",
+      "cs": "2–9 let",
+      "nl": "2–9 jaar",
+      "pt": "2–9 anos",
+      "ru": "2–9 лет"
+     }
+    },
+    {
+     "key": "shoes",
+     "name": {
+      "en": "Shoe sizes 19–29",
+      "fr": "Pointures 19–29",
+      "es": "Tallas 19–29",
+      "it": "Numeri 19–29",
+      "pl": "Rozmiary 19–29",
+      "de": "Größen 19–29",
+      "cs": "Velikosti 19–29",
+      "nl": "Maten 19–29",
+      "pt": "Tamanhos 19–29",
+      "ru": "Размеры 19–29"
+     }
+    },
+    {
+     "key": "one-size",
+     "name": {
+      "en": "One size",
+      "fr": "Taille unique",
+      "es": "Talla única",
+      "it": "Taglia unica",
+      "pl": "Jeden rozmiar",
+      "de": "Einheitsgröße",
+      "cs": "Univerzální velikost",
+      "nl": "One size",
+      "pt": "Tamanho único",
+      "ru": "Один размер"
+     }
+    }
+   ]
+  },
+  {
+   "key": "material",
+   "name": {
+    "en": "Material",
+    "fr": "Matière",
+    "es": "Material",
+    "it": "Materiale",
+    "pl": "Materiał",
+    "de": "Material",
+    "cs": "Materiál",
+    "nl": "Materiaal",
+    "pt": "Material",
+    "ru": "Материал"
+   },
+   "values": [
+    {
+     "key": "organic-cotton",
+     "name": {
+      "en": "Organic cotton",
+      "fr": "Coton biologique",
+      "es": "Algodón orgánico",
+      "it": "Cotone biologico",
+      "pl": "Bawełna organiczna",
+      "de": "Bio-Baumwolle",
+      "cs": "Biobavlna",
+      "nl": "Biologisch katoen",
+      "pt": "Algodão biológico",
+      "ru": "Органический хлопок"
+     }
+    },
+    {
+     "key": "merino-wool",
+     "name": {
+      "en": "Merino wool",
+      "fr": "Laine mérinos",
+      "es": "Lana merino",
+      "it": "Lana merino",
+      "pl": "Wełna merino",
+      "de": "Merinowolle",
+      "cs": "Merino vlna",
+      "nl": "Merinowol",
+      "pt": "Lã merino",
+      "ru": "Шерсть мериноса"
+     }
+    },
+    {
+     "key": "muslin",
+     "name": {
+      "en": "Organic cotton muslin",
+      "fr": "Mousseline de coton bio",
+      "es": "Muselina de algodón orgánico",
+      "it": "Mussola di cotone biologico",
+      "pl": "Muślin z bawełny organicznej",
+      "de": "Musselin aus Bio-Baumwolle",
+      "cs": "Mušelín z biobavlny",
+      "nl": "Mousseline van biologisch katoen",
+      "pt": "Musselina de algodão biológico",
+      "ru": "Муслин из органического хлопка"
+     }
+    },
+    {
+     "key": "denim-soft",
+     "name": {
+      "en": "Soft cotton denim",
+      "fr": "Denim de coton souple",
+      "es": "Denim de algodón suave",
+      "it": "Denim di cotone morbido",
+      "pl": "Miękki bawełniany denim",
+      "de": "Weicher Baumwoll-Denim",
+      "cs": "Měkký bavlněný denim",
+      "nl": "Zacht katoenen denim",
+      "pt": "Ganga de algodão macia",
+      "ru": "Мягкий хлопковый деним"
+     }
+    },
+    {
+     "key": "cotton-twill",
+     "name": {
+      "en": "Cotton twill",
+      "fr": "Sergé de coton",
+      "es": "Sarga de algodón",
+      "it": "Twill di cotone",
+      "pl": "Bawełniany diagonal",
+      "de": "Baumwoll-Twill",
+      "cs": "Bavlněný kepr",
+      "nl": "Katoenen twill",
+      "pt": "Sarja de algodão",
+      "ru": "Хлопковый твил"
+     }
+    },
+    {
+     "key": "nylon",
+     "name": {
+      "en": "Recycled nylon",
+      "fr": "Nylon recyclé",
+      "es": "Nailon reciclado",
+      "it": "Nylon riciclato",
+      "pl": "Nylon z recyklingu",
+      "de": "Recyceltes Nylon",
+      "cs": "Recyklovaný nylon",
+      "nl": "Gerecycled nylon",
+      "pt": "Nylon reciclado",
+      "ru": "Переработанный нейлон"
+     }
+    },
+    {
+     "key": "fleece",
+     "name": {
+      "en": "Recycled fleece",
+      "fr": "Polaire recyclée",
+      "es": "Forro polar reciclado",
+      "it": "Pile riciclato",
+      "pl": "Polar z recyklingu",
+      "de": "Recyceltes Fleece",
+      "cs": "Recyklovaný fleece",
+      "nl": "Gerecyclede fleece",
+      "pt": "Polar reciclado",
+      "ru": "Переработанный флис"
+     }
+    },
+    {
+     "key": "leather-full",
+     "name": {
+      "en": "Full-grain leather",
+      "fr": "Cuir pleine fleur",
+      "es": "Piel plena flor",
+      "it": "Pelle pieno fiore",
+      "pl": "Skóra licowa",
+      "de": "Vollnarbenleder",
+      "cs": "Lícová kůže",
+      "nl": "Volnerf leer",
+      "pt": "Pele flor integral",
+      "ru": "Натуральная кожа"
+     }
+    },
+    {
+     "key": "rubber",
+     "name": {
+      "en": "Natural rubber",
+      "fr": "Caoutchouc naturel",
+      "es": "Caucho natural",
+      "it": "Gomma naturale",
+      "pl": "Kauczuk naturalny",
+      "de": "Naturkautschuk",
+      "cs": "Přírodní kaučuk",
+      "nl": "Natuurrubber",
+      "pt": "Borracha natural",
+      "ru": "Натуральный каучук"
+     }
+    },
+    {
+     "key": "canvas",
+     "name": {
+      "en": "Cotton canvas",
+      "fr": "Toile de coton",
+      "es": "Lona de algodón",
+      "it": "Tela di cotone",
+      "pl": "Płótno bawełniane",
+      "de": "Baumwoll-Canvas",
+      "cs": "Bavlněné plátno",
+      "nl": "Katoenen canvas",
+      "pt": "Lona de algodão",
+      "ru": "Хлопковый канвас"
+     }
+    }
+   ]
+  },
+  {
+   "key": "care",
+   "name": {
+    "en": "Care",
+    "fr": "Entretien",
+    "es": "Cuidado",
+    "it": "Manutenzione",
+    "pl": "Pielęgnacja",
+    "de": "Pflege",
+    "cs": "Péče",
+    "nl": "Onderhoud",
+    "pt": "Cuidados",
+    "ru": "Уход"
+   },
+   "values": [
+    {
+     "key": "machine",
+     "name": {
+      "en": "Machine wash 30°C",
+      "fr": "Lavage en machine à 30 °C",
+      "es": "Lavar a máquina a 30 °C",
+      "it": "Lavare in lavatrice a 30 °C",
+      "pl": "Prać w pralce w 30 °C",
+      "de": "Maschinenwäsche 30 °C",
+      "cs": "Praní v pračce na 30 °C",
+      "nl": "Machinewas 30 °C",
+      "pt": "Lavar na máquina a 30 °C",
+      "ru": "Машинная стирка при 30 °C"
+     }
+    },
+    {
+     "key": "cool",
+     "name": {
+      "en": "Machine wash 40°C",
+      "fr": "Lavage en machine à 40 °C",
+      "es": "Lavar a máquina a 40 °C",
+      "it": "Lavare in lavatrice a 40 °C",
+      "pl": "Prać w pralce w 40 °C",
+      "de": "Maschinenwäsche 40 °C",
+      "cs": "Praní v pračce na 40 °C",
+      "nl": "Machinewas 40 °C",
+      "pt": "Lavar na máquina a 40 °C",
+      "ru": "Машинная стирка при 40 °C"
+     }
+    },
+    {
+     "key": "hand",
+     "name": {
+      "en": "Hand wash cold",
+      "fr": "Lavage à la main à froid",
+      "es": "Lavar a mano en frío",
+      "it": "Lavare a mano a freddo",
+      "pl": "Prać ręcznie w zimnej wodzie",
+      "de": "Kalte Handwäsche",
+      "cs": "Ruční praní ve studené vodě",
+      "nl": "Koude handwas",
+      "pt": "Lavar à mão a frio",
+      "ru": "Ручная стирка в холодной воде"
+     }
+    },
+    {
+     "key": "wipe",
+     "name": {
+      "en": "Wipe with a soft cloth",
+      "fr": "Essuyer avec un chiffon doux",
+      "es": "Limpiar con un paño suave",
+      "it": "Pulire con un panno morbido",
+      "pl": "Przetrzeć miękką ściereczką",
+      "de": "Mit weichem Tuch abwischen",
+      "cs": "Otřít jemným hadříkem",
+      "nl": "Afnemen met een zachte doek",
+      "pt": "Limpar com um pano macio",
+      "ru": "Протирать мягкой тканью"
+     }
+    }
+   ]
+  },
+  {
+   "key": "origin",
+   "name": {
+    "en": "Made in",
+    "fr": "Fabriqué en",
+    "es": "Fabricado en",
+    "it": "Prodotto in",
+    "pl": "Wyprodukowano w",
+    "de": "Hergestellt in",
+    "cs": "Vyrobeno v",
+    "nl": "Gemaakt in",
+    "pt": "Fabricado em",
+    "ru": "Сделано в"
+   },
+   "values": [
+    {
+     "key": "portugal",
+     "name": {
+      "en": "Portugal",
+      "fr": "Portugal",
+      "es": "Portugal",
+      "it": "Portogallo",
+      "pl": "Portugalii",
+      "de": "Portugal",
+      "cs": "Portugalsku",
+      "nl": "Portugal",
+      "pt": "Portugal",
+      "ru": "Португалии"
+     }
+    },
+    {
+     "key": "lithuania",
+     "name": {
+      "en": "Lithuania",
+      "fr": "Lituanie",
+      "es": "Lituania",
+      "it": "Lituania",
+      "pl": "Litwie",
+      "de": "Litauen",
+      "cs": "Litvě",
+      "nl": "Litouwen",
+      "pt": "Lituânia",
+      "ru": "Литве"
+     }
+    },
+    {
+     "key": "india",
+     "name": {
+      "en": "India",
+      "fr": "Inde",
+      "es": "India",
+      "it": "India",
+      "pl": "Indiach",
+      "de": "Indien",
+      "cs": "Indii",
+      "nl": "India",
+      "pt": "Índia",
+      "ru": "Индии"
+     }
+    },
+    {
+     "key": "turkey",
+     "name": {
+      "en": "Türkiye",
+      "fr": "Turquie",
+      "es": "Turquía",
+      "it": "Turchia",
+      "pl": "Turcji",
+      "de": "der Türkei",
+      "cs": "Turecku",
+      "nl": "Turkije",
+      "pt": "Turquia",
+      "ru": "Турции"
+     }
+    },
+    {
+     "key": "vietnam",
+     "name": {
+      "en": "Vietnam",
+      "fr": "Viêt Nam",
+      "es": "Vietnam",
+      "it": "Vietnam",
+      "pl": "Wietnamie",
+      "de": "Vietnam",
+      "cs": "Vietnamu",
+      "nl": "Vietnam",
+      "pt": "Vietname",
+      "ru": "Вьетнаме"
+     }
+    },
+    {
+     "key": "spain",
+     "name": {
+      "en": "Spain",
+      "fr": "Espagne",
+      "es": "España",
+      "it": "Spagna",
+      "pl": "Hiszpanii",
+      "de": "Spanien",
+      "cs": "Španělsku",
+      "nl": "Spanje",
+      "pt": "Espanha",
+      "ru": "Испании"
+     }
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "key": "little-sprout",
+   "name": "Little Sprout",
+   "logo": "brands/little-sprout.png"
+  },
+  {
+   "key": "pebble-pip",
+   "name": "Pebble & Pip",
+   "logo": "brands/pebble-pip.png"
+  },
+  {
+   "key": "woolly-bear",
+   "name": "Woolly Bear",
+   "logo": "brands/woolly-bear.png"
+  },
+  {
+   "key": "sunbeam",
+   "name": "Sunbeam",
+   "logo": "brands/sunbeam.png"
+  }
+ ],
+ "categories": [
+  {
+   "key": "baby",
+   "name": {
+    "en": "Baby",
+    "fr": "Bébé",
+    "es": "Bebé",
+    "it": "Neonato",
+    "pl": "Niemowlę",
+    "de": "Baby",
+    "cs": "Miminko",
+    "nl": "Baby",
+    "pt": "Bebé",
+    "ru": "Малыши"
+   },
+   "description": {
+    "en": "Soft organic basics for the first two years: bodysuits, rompers and cosy knits.",
+    "fr": "Des basiques bio tout doux pour les deux premières années : bodies, barboteuses et mailles douillettes.",
+    "es": "Básicos orgánicos suaves para los dos primeros años: bodies, peleles y punto acogedor.",
+    "it": "Basic biologici morbidissimi per i primi due anni: body, tutine e maglie avvolgenti.",
+    "pl": "Miękkie organiczne podstawy na pierwsze dwa lata: body, pajacyki i przytulne dzianiny.",
+    "de": "Weiche Bio-Basics für die ersten zwei Jahre: Bodys, Strampler und kuschelige Strickteile.",
+    "cs": "Měkké bio základy na první dva roky: body, overalky a hřejivé pleteniny.",
+    "nl": "Zachte biologische basics voor de eerste twee jaar: rompers, boxpakjes en knus breiwerk.",
+    "pt": "Básicos biológicos macios para os dois primeiros anos: bodies, macacões e malhas aconchegantes.",
+    "ru": "Мягкие органические вещи на первые два года: боди, комбинезоны и уютный трикотаж."
+   },
+   "image": "categories/baby.jpg"
+  },
+  {
+   "key": "girls",
+   "name": {
+    "en": "Girls",
+    "fr": "Fille",
+    "es": "Niña",
+    "it": "Bambina",
+    "pl": "Dziewczynka",
+    "de": "Mädchen",
+    "cs": "Holky",
+    "nl": "Meisjes",
+    "pt": "Menina",
+    "ru": "Девочки"
+   },
+   "description": {
+    "en": "Dresses, tops and leggings made for climbing, twirling and running.",
+    "fr": "Robes, hauts et leggings faits pour grimper, tourner et courir.",
+    "es": "Vestidos, camisetas y leggings para trepar, girar y correr.",
+    "it": "Abiti, top e leggings fatti per arrampicarsi, girare e correre.",
+    "pl": "Sukienki, bluzki i legginsy do wspinania, kręcenia się i biegania.",
+    "de": "Kleider, Shirts und Leggings zum Klettern, Drehen und Rennen.",
+    "cs": "Šaty, trička a legíny na lezení, točení a běhání.",
+    "nl": "Jurkjes, shirts en leggings om in te klimmen, draaien en rennen.",
+    "pt": "Vestidos, tops e leggings para trepar, rodopiar e correr.",
+    "ru": "Платья, топы и леггинсы, чтобы лазать, кружиться и бегать."
+   },
+   "image": "categories/girls.jpg"
+  },
+  {
+   "key": "boys",
+   "name": {
+    "en": "Boys",
+    "fr": "Garçon",
+    "es": "Niño",
+    "it": "Bambino",
+    "pl": "Chłopiec",
+    "de": "Jungen",
+    "cs": "Kluci",
+    "nl": "Jongens",
+    "pt": "Menino",
+    "ru": "Мальчики"
+   },
+   "description": {
+    "en": "Tees, shorts, dungarees and hoodies that keep up with every adventure.",
+    "fr": "T-shirts, shorts, salopettes et sweats qui suivent toutes les aventures.",
+    "es": "Camisetas, shorts, petos y sudaderas para todas las aventuras.",
+    "it": "T-shirt, shorts, salopette e felpe per ogni avventura.",
+    "pl": "Koszulki, szorty, ogrodniczki i bluzy na każdą przygodę.",
+    "de": "T-Shirts, Shorts, Latzhosen und Hoodies für jedes Abenteuer.",
+    "cs": "Trička, kraťasy, laclové kalhoty a mikiny na každé dobrodružství.",
+    "nl": "T-shirts, shorts, tuinbroeken en hoodies voor elk avontuur.",
+    "pt": "T-shirts, calções, jardineiras e sweats para todas as aventuras.",
+    "ru": "Футболки, шорты, полукомбинезоны и худи для любых приключений."
+   },
+   "image": "categories/boys.jpg"
+  },
+  {
+   "key": "sleep",
+   "name": {
+    "en": "Sleepwear",
+    "fr": "Pyjamas & nuit",
+    "es": "Pijamas",
+    "it": "Pigiami",
+    "pl": "Do spania",
+    "de": "Schlafen",
+    "cs": "Na spaní",
+    "nl": "Slapen",
+    "pt": "Pijamas",
+    "ru": "Для сна"
+   },
+   "description": {
+    "en": "Pyjamas, sleeping bags and dressing gowns for calm evenings.",
+    "fr": "Pyjamas, gigoteuses et peignoirs pour des soirées calmes.",
+    "es": "Pijamas, sacos de dormir y albornoces para noches tranquilas.",
+    "it": "Pigiami, sacchi nanna e accappatoi per serate tranquille.",
+    "pl": "Piżamy, śpiworki i szlafroki na spokojne wieczory.",
+    "de": "Schlafanzüge, Schlafsäcke und Bademäntel für ruhige Abende.",
+    "cs": "Pyžama, spací pytle a župany na klidné večery.",
+    "nl": "Pyjama's, slaapzakken en badjassen voor rustige avonden.",
+    "pt": "Pijamas, sacos-cama e roupões para noites tranquilas.",
+    "ru": "Пижамы, спальные мешки и халаты для спокойных вечеров."
+   },
+   "image": "categories/sleep.jpg"
+  },
+  {
+   "key": "outerwear",
+   "name": {
+    "en": "Coats & rainwear",
+    "fr": "Manteaux & pluie",
+    "es": "Abrigos y lluvia",
+    "it": "Giacche e pioggia",
+    "pl": "Kurtki i deszcz",
+    "de": "Jacken & Regen",
+    "cs": "Bundy a do deště",
+    "nl": "Jassen & regen",
+    "pt": "Casacos e chuva",
+    "ru": "Куртки и дождевики"
+   },
+   "description": {
+    "en": "Raincoats, puffers and fleeces for puddles and playgrounds.",
+    "fr": "Imperméables, doudounes et polaires pour les flaques et la cour de récré.",
+    "es": "Chubasqueros, plumíferos y forros polares para charcos y parques.",
+    "it": "Impermeabili, piumini e pile per pozzanghere e parchi giochi.",
+    "pl": "Kurtki przeciwdeszczowe, puchówki i polary na kałuże i place zabaw.",
+    "de": "Regenjacken, Steppjacken und Fleece für Pfützen und Spielplätze.",
+    "cs": "Pláštěnky, péřovky a flísky na louže a hřiště.",
+    "nl": "Regenjassen, pufferjassen en fleece voor plassen en speeltuinen.",
+    "pt": "Impermeáveis, casacos acolchoados e polares para poças e parques.",
+    "ru": "Дождевики, пуховики и флис для луж и детских площадок."
+   },
+   "image": "categories/outerwear.jpg"
+  },
+  {
+   "key": "accessories",
+   "name": {
+    "en": "Shoes & accessories",
+    "fr": "Chaussures & accessoires",
+    "es": "Calzado y accesorios",
+    "it": "Scarpe e accessori",
+    "pl": "Buty i akcesoria",
+    "de": "Schuhe & Accessoires",
+    "cs": "Boty a doplňky",
+    "nl": "Schoenen & accessoires",
+    "pt": "Calçado e acessórios",
+    "ru": "Обувь и аксессуары"
+   },
+   "description": {
+    "en": "First shoes, rain boots, hats and backpacks.",
+    "fr": "Premiers pas, bottes de pluie, chapeaux et sacs à dos.",
+    "es": "Primeros pasos, botas de agua, gorros y mochilas.",
+    "it": "Primi passi, stivali da pioggia, cappelli e zainetti.",
+    "pl": "Pierwsze buciki, kalosze, czapki i plecaki.",
+    "de": "Lauflernschuhe, Gummistiefel, Mützen und Rucksäcke.",
+    "cs": "První botičky, holínky, čepice a batohy.",
+    "nl": "Eerste schoentjes, regenlaarzen, mutsen en rugzakken.",
+    "pt": "Primeiros passos, galochas, chapéus e mochilas.",
+    "ru": "Первая обувь, резиновые сапоги, шапки и рюкзаки."
+   },
+   "image": "categories/accessories.jpg"
+  }
+ ],
+ "catalog": {
+  "id_tax_rules_group": 0,
+  "also_in_home": true,
+  "details_feature_list": false,
+  "home_name": {
+   "en": "Home",
+   "fr": "Accueil",
+   "es": "Inicio",
+   "it": "Home",
+   "pl": "Strona główna",
+   "de": "Startseite",
+   "cs": "Domů",
+   "nl": "Home",
+   "pt": "Início",
+   "ru": "Главная"
+  },
+  "facets": [
+   "group:size",
+   "group:color",
+   "feature:material",
+   "price"
+  ]
+ },
+ "products": [
+  {
+   "key": "bodysuit-set",
+   "reference": "LS-101",
+   "category": "baby",
+   "brand": "little-sprout",
+   "price": 29,
+   "name": {
+    "en": "Organic Bodysuit Set (3-pack)",
+    "fr": "Lot de 3 bodies en coton bio",
+    "es": "Pack de 3 bodies de algodón orgánico",
+    "it": "Set di 3 body in cotone biologico",
+    "pl": "Zestaw 3 body z bawełny organicznej",
+    "de": "Bio-Body-Set (3er-Pack)",
+    "cs": "Sada 3 body z biobavlny",
+    "nl": "Biologische rompers (3-pack)",
+    "pt": "Conjunto de 3 bodies em algodão biológico",
+    "ru": "Набор из 3 боди из органического хлопка"
+   },
+   "short": {
+    "en": "Three short-sleeve bodysuits in soft organic cotton.",
+    "fr": "Trois bodies à manches courtes en coton bio tout doux.",
+    "es": "Tres bodies de manga corta en suave algodón orgánico.",
+    "it": "Tre body a maniche corte in morbido cotone biologico.",
+    "pl": "Trzy body z krótkim rękawem z miękkiej bawełny organicznej.",
+    "de": "Drei Kurzarmbodys aus weicher Bio-Baumwolle.",
+    "cs": "Tři body s krátkým rukávem z měkké biobavlny.",
+    "nl": "Drie rompers met korte mouw van zacht biologisch katoen.",
+    "pt": "Três bodies de manga curta em algodão biológico macio.",
+    "ru": "Три боди с коротким рукавом из мягкого органического хлопка."
+   },
+   "description": {
+    "en": "Envelope shoulders make dressing easy, and nickel-free poppers make nappy changes quick. Soft organic cotton that is gentle on newborn skin.",
+    "fr": "Les épaules américaines facilitent l'habillage et les pressions sans nickel accélèrent le change. Un coton bio doux pour la peau des nouveau-nés.",
+    "es": "Los hombros cruzados facilitan vestirlo y los corchetes sin níquel agilizan el cambio de pañal. Algodón orgánico suave para la piel del recién nacido.",
+    "it": "Le spalle a incrocio rendono facile vestirlo e i bottoni automatici senza nichel velocizzano il cambio. Cotone biologico delicato sulla pelle del neonato.",
+    "pl": "Kopertowe ramiona ułatwiają ubieranie, a zatrzaski bez niklu przyspieszają przewijanie. Miękka bawełna organiczna delikatna dla skóry noworodka.",
+    "de": "Der Schlupfausschnitt erleichtert das Anziehen, nickelfreie Druckknöpfe das Wickeln. Weiche Bio-Baumwolle, sanft zur Babyhaut.",
+    "cs": "Překládaná ramena usnadňují oblékání a patentky bez niklu rychlé přebalování. Měkká biobavlna šetrná k pokožce novorozence.",
+    "nl": "Een overslaghals maakt aankleden makkelijk en nikkelvrije drukknoopjes maken verschonen snel. Zacht biologisch katoen, lief voor de babyhuid.",
+    "pt": "Os ombros traçados facilitam vestir e as molas sem níquel tornam a muda da fralda rápida. Algodão biológico macio para a pele do recém-nascido.",
+    "ru": "Плечи с запахом облегчают одевание, а кнопки без никеля ускоряют смену подгузника. Мягкий органический хлопок, бережный к коже новорождённого."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "cool",
+    "origin": "portugal",
+    "ages": "0-24m"
+   },
+   "combinations": {
+    "size": [
+     "0-6m",
+     "6-12m",
+     "12-24m"
+    ],
+    "color": [
+     "white",
+     "sage"
+    ]
+   },
+   "images": [
+    "products/bodysuit-set.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "related": [
+    "muslin-swaddles",
+    "baby-cardigan"
+   ]
+  },
+  {
+   "key": "knitted-romper",
+   "reference": "LS-102",
+   "category": "baby",
+   "brand": "woolly-bear",
+   "price": 39,
+   "name": {
+    "en": "Knitted Romper",
+    "fr": "Barboteuse en maille",
+    "es": "Pelele de punto",
+    "it": "Tutina in maglia",
+    "pl": "Dziergany pajacyk",
+    "de": "Strick-Strampler",
+    "cs": "Pletená overalka",
+    "nl": "Gebreid boxpakje",
+    "pt": "Macacão de malha",
+    "ru": "Вязаный песочник"
+   },
+   "short": {
+    "en": "A fine-knit romper with wooden buttons.",
+    "fr": "Une barboteuse en maille fine avec boutons en bois.",
+    "es": "Un pelele de punto fino con botones de madera.",
+    "it": "Una tutina in maglia sottile con bottoni in legno.",
+    "pl": "Pajacyk z cienkiej dzianiny z drewnianymi guzikami.",
+    "de": "Ein Feinstrick-Strampler mit Holzknöpfen.",
+    "cs": "Overalka z jemného úpletu s dřevěnými knoflíky.",
+    "nl": "Een fijngebreid boxpakje met houten knoopjes.",
+    "pt": "Um macacão de malha fina com botões de madeira.",
+    "ru": "Песочник из тонкого трикотажа с деревянными пуговицами."
+   },
+   "description": {
+    "en": "A fine organic cotton knit with wooden buttons along the shoulder and poppers at the leg. Lovely on its own in summer or over a bodysuit in winter.",
+    "fr": "Une maille fine en coton bio avec boutons en bois à l'épaule et pressions à l'entrejambe. Ravissante seule en été ou sur un body en hiver.",
+    "es": "Punto fino de algodón orgánico con botones de madera en el hombro y corchetes en la entrepierna. Precioso solo en verano o sobre un body en invierno.",
+    "it": "Maglia sottile in cotone biologico con bottoni in legno sulla spalla e automatici al cavallo. Deliziosa da sola d'estate o sopra un body d'inverno.",
+    "pl": "Cienka dzianina z bawełny organicznej z drewnianymi guzikami na ramieniu i zatrzaskami w kroku. Uroczy solo latem lub na body zimą.",
+    "de": "Feiner Strick aus Bio-Baumwolle mit Holzknöpfen an der Schulter und Druckknöpfen im Schritt. Im Sommer solo, im Winter über dem Body.",
+    "cs": "Jemný úplet z biobavlny s dřevěnými knoflíky na rameni a patentkami v rozkroku. Krásná samotná v létě nebo přes body v zimě.",
+    "nl": "Fijn breisel van biologisch katoen met houten knoopjes op de schouder en drukknoopjes in het kruis. Mooi los in de zomer of over een romper in de winter.",
+    "pt": "Malha fina de algodão biológico com botões de madeira no ombro e molas no entrepernas. Lindo sozinho no verão ou sobre um body no inverno.",
+    "ru": "Тонкая вязка из органического хлопка с деревянными пуговицами на плече и кнопками в шаге. Хорош отдельно летом или поверх боди зимой."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "hand",
+    "origin": "portugal",
+    "ages": "0-24m"
+   },
+   "combinations": {
+    "size": [
+     "0-6m",
+     "6-12m",
+     "12-24m"
+    ],
+    "color": [
+     "oat",
+     "mint"
+    ]
+   },
+   "images": [
+    "products/knitted-romper.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "baby-cardigan",
+   "reference": "LS-103",
+   "category": "baby",
+   "brand": "woolly-bear",
+   "price": 32,
+   "name": {
+    "en": "Merino Baby Cardigan",
+    "fr": "Gilet bébé en mérinos",
+    "es": "Chaqueta de merino para bebé",
+    "it": "Cardigan neonato in merino",
+    "pl": "Sweterek niemowlęcy merino",
+    "de": "Merino-Babystrickjacke",
+    "cs": "Kojenecký merino svetřík",
+    "nl": "Merino babyvestje",
+    "pt": "Casaco de malha de merino para bebé",
+    "ru": "Детский кардиган из мериноса"
+   },
+   "short": {
+    "en": "A soft merino cardigan that keeps babies warm without overheating.",
+    "fr": "Un gilet doux en mérinos qui garde bébé au chaud sans surchauffe.",
+    "es": "Una chaqueta suave de merino que abriga sin sobrecalentar.",
+    "it": "Un morbido cardigan in merino che scalda senza far sudare.",
+    "pl": "Miękki sweterek z merino, który grzeje, ale nie przegrzewa.",
+    "de": "Eine weiche Merino-Strickjacke, die wärmt, ohne zu überhitzen.",
+    "cs": "Měkký merino svetřík, který hřeje, ale nepřehřívá.",
+    "nl": "Een zacht merino vestje dat warm houdt zonder oververhitting.",
+    "pt": "Um casaco macio de merino que aquece sem sobreaquecer.",
+    "ru": "Мягкий кардиган из мериноса, который греет, но не перегревает."
+   },
+   "description": {
+    "en": "Extra-fine merino regulates temperature, so babies stay warm but never too hot. Ribbed cuffs and a classic V neck.",
+    "fr": "Le mérinos extra-fin régule la température : bébé reste au chaud sans avoir trop chaud. Poignets côtelés et col V classique.",
+    "es": "El merino extrafino regula la temperatura, así el bebé está calentito pero nunca acalorado. Puños de canalé y cuello en V clásico.",
+    "it": "Il merino extrafine regola la temperatura: il bambino sta al caldo ma mai troppo. Polsini a coste e classico scollo a V.",
+    "pl": "Bardzo cienka merino reguluje temperaturę – maluch jest ciepło ubrany, ale się nie poci. Prążkowane mankiety i klasyczny dekolt w serek.",
+    "de": "Extrafeines Merino reguliert die Temperatur – Babys bleiben warm, aber schwitzen nicht. Rippbündchen und klassischer V-Ausschnitt.",
+    "cs": "Extra jemné merino reguluje teplotu – miminko je v teple, ale nepotí se. Žebrované manžety a klasický výstřih do V.",
+    "nl": "Extra fijne merino regelt de temperatuur, zodat baby's warm blijven maar nooit te warm. Geribde boordjes en klassieke V-hals.",
+    "pt": "O merino extrafino regula a temperatura: o bebé fica quente mas nunca com calor. Punhos canelados e decote em V clássico.",
+    "ru": "Тонкий меринос регулирует температуру — малышу тепло, но не жарко. Манжеты в рубчик и классический V-вырез."
+   },
+   "features": {
+    "material": "merino-wool",
+    "care": "hand",
+    "origin": "lithuania",
+    "ages": "0-24m"
+   },
+   "combinations": {
+    "size": [
+     "0-6m",
+     "6-12m",
+     "12-24m"
+    ],
+    "color": [
+     "cream",
+     "mustard"
+    ]
+   },
+   "images": [
+    "products/baby-cardigan.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "muslin-swaddles",
+   "reference": "LS-104",
+   "category": "baby",
+   "brand": "pebble-pip",
+   "price": 25,
+   "name": {
+    "en": "Muslin Swaddles (2-pack)",
+    "fr": "Lot de 2 langes en mousseline",
+    "es": "Pack de 2 muselinas",
+    "it": "Set di 2 teli in mussola",
+    "pl": "Pieluszki muślinowe (2 szt.)",
+    "de": "Mulltücher (2er-Pack)",
+    "cs": "Mušelínové pleny (2 ks)",
+    "nl": "Hydrofiele doeken (2-pack)",
+    "pt": "Conjunto de 2 fraldas de musselina",
+    "ru": "Муслиновые пелёнки (2 шт.)"
+   },
+   "short": {
+    "en": "Two large muslin squares for swaddling, feeding and naps.",
+    "fr": "Deux grands langes en mousseline pour emmailloter, nourrir et faire la sieste.",
+    "es": "Dos muselinas grandes para arropar, dar de comer y la siesta.",
+    "it": "Due grandi teli in mussola per fasciare, la pappa e i sonnellini.",
+    "pl": "Dwie duże muślinowe pieluszki do otulania, karmienia i drzemek.",
+    "de": "Zwei große Mulltücher zum Pucken, Füttern und für Nickerchen.",
+    "cs": "Dvě velké mušelínové pleny na zavinování, krmení a spánek.",
+    "nl": "Twee grote hydrofiele doeken om in te bakeren, voeden en dutten.",
+    "pt": "Duas fraldas grandes de musselina para enrolar, alimentar e sestas.",
+    "ru": "Две большие муслиновые пелёнки для пеленания, кормления и сна."
+   },
+   "description": {
+    "en": "Light, breathable muslin that gets softer with every wash. Use them to swaddle, as a burp cloth or as a sunshade on the pram.",
+    "fr": "Une mousseline légère et respirante qui s'adoucit à chaque lavage. Pour emmailloter, en bavoir ou comme pare-soleil sur la poussette.",
+    "es": "Muselina ligera y transpirable que se suaviza con cada lavado. Para arropar, como babero o como parasol en el cochecito.",
+    "it": "Mussola leggera e traspirante che si ammorbidisce a ogni lavaggio. Per fasciare, come bavaglino o come parasole sul passeggino.",
+    "pl": "Lekki, przewiewny muślin, który mięknie z każdym praniem. Do otulania, jako śliniak albo osłona przeciwsłoneczna wózka.",
+    "de": "Leichter, atmungsaktiver Musselin, der mit jeder Wäsche weicher wird. Zum Pucken, als Spucktuch oder als Sonnenschutz am Kinderwagen.",
+    "cs": "Lehký prodyšný mušelín, který s každým praním změkne. K zavinování, jako bryndák nebo stínítko na kočárek.",
+    "nl": "Licht, ademend mousseline dat bij elke was zachter wordt. Om in te bakeren, als spuugdoekje of als zonnescherm op de kinderwagen.",
+    "pt": "Musselina leve e respirável que amacia a cada lavagem. Para enrolar, como babete ou como para-sol no carrinho.",
+    "ru": "Лёгкий дышащий муслин, который становится мягче с каждой стиркой. Для пеленания, вместо слюнявчика или как тент на коляску."
+   },
+   "features": {
+    "material": "muslin",
+    "care": "cool",
+    "origin": "india",
+    "ages": "0-24m"
+   },
+   "combinations": {
+    "color": [
+     "sage",
+     "pink"
+    ]
+   },
+   "images": [
+    "products/muslin-swaddles.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "floral-dress",
+   "reference": "LS-201",
+   "category": "girls",
+   "brand": "sunbeam",
+   "price": 35,
+   "name": {
+    "en": "Floral Twirl Dress",
+    "fr": "Robe fleurie qui tourne",
+    "es": "Vestido de flores con vuelo",
+    "it": "Abito a fiori con ruota",
+    "pl": "Kwiecista sukienka do kręcenia",
+    "de": "Blumenkleid zum Drehen",
+    "cs": "Květované točicí šaty",
+    "nl": "Gebloemde draaijurk",
+    "pt": "Vestido florido de rodar",
+    "ru": "Цветочное платье-солнце"
+   },
+   "short": {
+    "en": "A floral cotton dress with a full skirt made for twirling.",
+    "fr": "Une robe en coton fleuri à jupe ample, faite pour tourner.",
+    "es": "Un vestido de algodón de flores con mucho vuelo para girar.",
+    "it": "Un abito in cotone a fiori con gonna ampia per girare.",
+    "pl": "Bawełniana sukienka w kwiaty z szeroką spódnicą do kręcenia.",
+    "de": "Ein Baumwollkleid mit Blumen und weitem Rock zum Drehen.",
+    "cs": "Bavlněné květované šaty s nabíranou sukní na točení.",
+    "nl": "Een katoenen jurk met bloemen en een wijde rok om in te draaien.",
+    "pt": "Um vestido de algodão florido com saia ampla para rodar.",
+    "ru": "Хлопковое платье в цветочек с пышной юбкой, чтобы кружиться."
+   },
+   "description": {
+    "en": "A full skirt, puff sleeves and hidden pockets for treasures. Made in organic cotton poplin with a soft lining.",
+    "fr": "Une jupe ample, des manches bouffantes et des poches cachées pour les trésors. En popeline de coton bio avec doublure douce.",
+    "es": "Falda con vuelo, mangas abullonadas y bolsillos ocultos para los tesoros. En popelín de algodón orgánico con forro suave.",
+    "it": "Gonna ampia, maniche a sbuffo e tasche nascoste per i tesori. In popeline di cotone biologico con fodera morbida.",
+    "pl": "Szeroka spódnica, bufiaste rękawy i ukryte kieszenie na skarby. Z popeliny z bawełny organicznej z miękką podszewką.",
+    "de": "Ein weiter Rock, Puffärmel und versteckte Taschen für Schätze. Aus Bio-Baumwollpopeline mit weichem Futter.",
+    "cs": "Nabíraná sukně, nadýchané rukávy a skryté kapsy na poklady. Z popelínu z biobavlny s měkkou podšívkou.",
+    "nl": "Een wijde rok, pofmouwtjes en verborgen zakken voor schatten. Van biologisch katoenen popeline met een zachte voering.",
+    "pt": "Saia ampla, mangas tufadas e bolsos escondidos para os tesouros. Em popelina de algodão biológico com forro macio.",
+    "ru": "Пышная юбка, рукава-фонарики и потайные карманы для сокровищ. Из поплина органического хлопка с мягкой подкладкой."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "machine",
+    "origin": "portugal",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "pink",
+     "yellow"
+    ]
+   },
+   "images": [
+    "products/floral-dress.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "denim-pinafore",
+   "reference": "LS-202",
+   "category": "girls",
+   "brand": "pebble-pip",
+   "price": 32,
+   "name": {
+    "en": "Denim Pinafore",
+    "fr": "Robe chasuble en denim",
+    "es": "Pichi vaquero",
+    "it": "Scamiciato in denim",
+    "pl": "Sukienka ogrodniczka z denimu",
+    "de": "Jeans-Trägerkleid",
+    "cs": "Džínové laclové šaty",
+    "nl": "Denim overgooier",
+    "pt": "Vestido jardineira de ganga",
+    "ru": "Джинсовый сарафан"
+   },
+   "short": {
+    "en": "A soft denim pinafore with adjustable straps.",
+    "fr": "Une robe chasuble en denim souple aux bretelles réglables.",
+    "es": "Un pichi de denim suave con tirantes regulables.",
+    "it": "Uno scamiciato in denim morbido con bretelle regolabili.",
+    "pl": "Miękka sukienka z denimu z regulowanymi szelkami.",
+    "de": "Ein weiches Jeans-Trägerkleid mit verstellbaren Trägern.",
+    "cs": "Měkké džínové laclové šaty s nastavitelnými šlemi.",
+    "nl": "Een zachte denim overgooier met verstelbare bandjes.",
+    "pt": "Um vestido jardineira de ganga macia com alças ajustáveis.",
+    "ru": "Мягкий джинсовый сарафан с регулируемыми лямками."
+   },
+   "description": {
+    "en": "Soft washed denim, a big front pocket and adjustable straps that grow with your child. Layer it over tees and jumpers.",
+    "fr": "Un denim délavé tout doux, une grande poche devant et des bretelles réglables qui grandissent avec l'enfant. À superposer sur t-shirts et pulls.",
+    "es": "Denim lavado suave, un gran bolsillo delantero y tirantes regulables que crecen con el niño. Para combinar con camisetas y jerséis.",
+    "it": "Denim lavato morbido, una grande tasca davanti e bretelle regolabili che crescono con il bambino. Da abbinare a t-shirt e maglioni.",
+    "pl": "Miękki sprany denim, duża kieszeń z przodu i regulowane szelki, które rosną razem z dzieckiem. Do noszenia na koszulki i swetry.",
+    "de": "Weicher, gewaschener Denim, eine große Vordertasche und verstellbare Träger, die mitwachsen. Über T-Shirts und Pullover tragen.",
+    "cs": "Měkký praný denim, velká přední kapsa a nastavitelné šle, které rostou s dítětem. Přes trička i svetry.",
+    "nl": "Zacht gewassen denim, een grote voorzak en verstelbare bandjes die meegroeien. Over shirts en truien te dragen.",
+    "pt": "Ganga lavada macia, um grande bolso à frente e alças ajustáveis que crescem com a criança. Para usar sobre t-shirts e camisolas.",
+    "ru": "Мягкий стираный деним, большой передний карман и регулируемые лямки, которые растут вместе с ребёнком. Поверх футболок и свитеров."
+   },
+   "features": {
+    "material": "denim-soft",
+    "care": "machine",
+    "origin": "turkey",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "light-blue"
+    ]
+   },
+   "images": [
+    "products/denim-pinafore.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "ruffle-top",
+   "reference": "LS-203",
+   "category": "girls",
+   "brand": "sunbeam",
+   "price": 24,
+   "name": {
+    "en": "Ruffle Sleeve Top",
+    "fr": "Haut à manches volantées",
+    "es": "Camiseta con mangas de volante",
+    "it": "Top con maniche a volant",
+    "pl": "Bluzka z falbankami",
+    "de": "Shirt mit Rüschenärmeln",
+    "cs": "Tričko s volánky",
+    "nl": "Shirt met ruchemouwtjes",
+    "pt": "Top com mangas de folho",
+    "ru": "Топ с рукавами-рюшами"
+   },
+   "short": {
+    "en": "A cotton top with sweet ruffled sleeves.",
+    "fr": "Un haut en coton aux jolies manches volantées.",
+    "es": "Una camiseta de algodón con bonitas mangas de volante.",
+    "it": "Un top in cotone con graziose maniche a volant.",
+    "pl": "Bawełniana bluzka z uroczymi falbankami na rękawach.",
+    "de": "Ein Baumwollshirt mit süßen Rüschenärmeln.",
+    "cs": "Bavlněné tričko s roztomilými volánkovými rukávy.",
+    "nl": "Een katoenen shirt met lieve ruchemouwtjes.",
+    "pt": "Um top de algodão com lindas mangas de folho.",
+    "ru": "Хлопковый топ с милыми рукавами-рюшами."
+   },
+   "description": {
+    "en": "Organic cotton jersey with little ruffled sleeves. Easy to pull on and perfect with leggings or a skirt.",
+    "fr": "Un jersey de coton bio avec de petites manches volantées. Facile à enfiler et parfait avec un legging ou une jupe.",
+    "es": "Punto de algodón orgánico con mangas de volantes. Fácil de poner y perfecta con leggings o falda.",
+    "it": "Jersey di cotone biologico con piccole maniche a volant. Facile da indossare e perfetto con leggings o gonna.",
+    "pl": "Dzianina z bawełny organicznej z małymi falbankami na rękawach. Łatwo się zakłada i pasuje do legginsów i spódnic.",
+    "de": "Bio-Baumwolljersey mit kleinen Rüschenärmeln. Leicht anzuziehen und perfekt zu Leggings oder Rock.",
+    "cs": "Úplet z biobavlny s malými volánky na rukávech. Snadno se obléká a hodí se k legínám i sukni.",
+    "nl": "Jersey van biologisch katoen met kleine ruchemouwtjes. Makkelijk aan te trekken en perfect bij een legging of rokje.",
+    "pt": "Malha de algodão biológico com pequenas mangas de folho. Fácil de vestir e perfeito com leggings ou saia.",
+    "ru": "Трикотаж из органического хлопка с маленькими рюшами на рукавах. Легко надевается и подходит к леггинсам и юбке."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "machine",
+    "origin": "portugal",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "white",
+     "coral"
+    ]
+   },
+   "images": [
+    "products/ruffle-top.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false
+  },
+  {
+   "key": "leggings-pack",
+   "reference": "LS-204",
+   "category": "girls",
+   "brand": "little-sprout",
+   "price": 22,
+   "name": {
+    "en": "Leggings (2-pack)",
+    "fr": "Lot de 2 leggings",
+    "es": "Pack de 2 leggings",
+    "it": "Set di 2 leggings",
+    "pl": "Legginsy (2 pary)",
+    "de": "Leggings (2er-Pack)",
+    "cs": "Legíny (2 ks)",
+    "nl": "Leggings (2-pack)",
+    "pt": "Conjunto de 2 leggings",
+    "ru": "Леггинсы (2 шт.)"
+   },
+   "short": {
+    "en": "Two pairs of stretchy organic cotton leggings.",
+    "fr": "Deux leggings extensibles en coton bio.",
+    "es": "Dos leggings elásticos de algodón orgánico.",
+    "it": "Due leggings elasticizzati in cotone biologico.",
+    "pl": "Dwie pary rozciągliwych legginsów z bawełny organicznej.",
+    "de": "Zwei dehnbare Leggings aus Bio-Baumwolle.",
+    "cs": "Dvoje pružné legíny z biobavlny.",
+    "nl": "Twee rekbare leggings van biologisch katoen.",
+    "pt": "Duas leggings elásticas em algodão biológico.",
+    "ru": "Две пары эластичных леггинсов из органического хлопка."
+   },
+   "description": {
+    "en": "Soft, stretchy and made to move. A wide waistband stays comfortable all day, at school and at play.",
+    "fr": "Doux, extensibles et faits pour bouger. La large ceinture reste confortable toute la journée, à l'école comme au jeu.",
+    "es": "Suaves, elásticos y hechos para moverse. La cinturilla ancha es cómoda todo el día, en el cole y jugando.",
+    "it": "Morbidi, elastici e fatti per muoversi. La fascia in vita larga resta comoda tutto il giorno, a scuola e a giocare.",
+    "pl": "Miękkie, rozciągliwe i stworzone do ruchu. Szeroki pas jest wygodny przez cały dzień – w szkole i podczas zabawy.",
+    "de": "Weich, dehnbar und zum Bewegen gemacht. Der breite Bund bleibt den ganzen Tag bequem – in der Schule und beim Spielen.",
+    "cs": "Měkké, pružné a stvořené k pohybu. Široký pas je pohodlný celý den – ve škole i při hře.",
+    "nl": "Zacht, rekbaar en gemaakt om te bewegen. De brede tailleband blijft de hele dag comfortabel, op school en bij het spelen.",
+    "pt": "Macias, elásticas e feitas para mexer. O cós largo mantém-se confortável o dia inteiro, na escola e a brincar.",
+    "ru": "Мягкие, эластичные и созданы для движения. Широкий пояс удобен весь день — в школе и на прогулке."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "cool",
+    "origin": "portugal",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "navy",
+     "pink"
+    ]
+   },
+   "images": [
+    "products/leggings-pack.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "striped-tee",
+   "reference": "LS-301",
+   "category": "boys",
+   "brand": "little-sprout",
+   "price": 18,
+   "name": {
+    "en": "Breton Striped T-shirt",
+    "fr": "T-shirt marinière",
+    "es": "Camiseta de rayas marineras",
+    "it": "T-shirt a righe marinière",
+    "pl": "Koszulka w paski bretońskie",
+    "de": "Ringel-T-Shirt",
+    "cs": "Pruhované námořnické tričko",
+    "nl": "Bretons gestreept T-shirt",
+    "pt": "T-shirt às riscas marinheiras",
+    "ru": "Футболка в бретонскую полоску"
+   },
+   "short": {
+    "en": "A classic striped tee in organic cotton.",
+    "fr": "Une marinière classique en coton bio.",
+    "es": "Una clásica camiseta de rayas en algodón orgánico.",
+    "it": "Una classica t-shirt a righe in cotone biologico.",
+    "pl": "Klasyczna koszulka w paski z bawełny organicznej.",
+    "de": "Ein klassisches Ringelshirt aus Bio-Baumwolle.",
+    "cs": "Klasické pruhované tričko z biobavlny.",
+    "nl": "Een klassiek gestreept shirt van biologisch katoen.",
+    "pt": "Uma t-shirt clássica às riscas em algodão biológico.",
+    "ru": "Классическая полосатая футболка из органического хлопка."
+   },
+   "description": {
+    "en": "The Breton stripe in soft organic cotton, with a shoulder button that makes it easy to pull over little heads.",
+    "fr": "La rayure marinière en coton bio doux, avec un bouton à l'épaule qui facilite le passage de la tête.",
+    "es": "La raya marinera en suave algodón orgánico, con un botón en el hombro para pasarla fácilmente por la cabeza.",
+    "it": "La riga marinière in morbido cotone biologico, con un bottone sulla spalla per infilarla facilmente dalla testa.",
+    "pl": "Bretońskie paski w miękkiej bawełnie organicznej, z guzikiem na ramieniu, który ułatwia zakładanie przez głowę.",
+    "de": "Der Bretonstreifen aus weicher Bio-Baumwolle, mit Schulterknopf, damit es leicht über kleine Köpfe geht.",
+    "cs": "Bretaňské pruhy v měkké biobavlně s knoflíkem na rameni, aby šlo snadno přes hlavičku.",
+    "nl": "De Bretonse streep in zacht biologisch katoen, met een schouderknoop zodat hij makkelijk over kleine hoofdjes gaat.",
+    "pt": "A risca marinheira em algodão biológico macio, com um botão no ombro para passar facilmente pela cabeça.",
+    "ru": "Бретонская полоска в мягком органическом хлопке, с пуговицей на плече, чтобы футболка легко надевалась через голову."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "cool",
+    "origin": "portugal",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "navy",
+     "red"
+    ]
+   },
+   "images": [
+    "products/striped-tee.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "cargo-shorts",
+   "reference": "LS-302",
+   "category": "boys",
+   "brand": "pebble-pip",
+   "price": 24,
+   "name": {
+    "en": "Cargo Shorts",
+    "fr": "Short cargo",
+    "es": "Shorts cargo",
+    "it": "Shorts cargo",
+    "pl": "Szorty bojówki",
+    "de": "Cargo-Shorts",
+    "cs": "Cargo kraťasy",
+    "nl": "Cargoshort",
+    "pt": "Calções cargo",
+    "ru": "Шорты карго"
+   },
+   "short": {
+    "en": "Pull-on cargo shorts with lots of pockets.",
+    "fr": "Un short cargo à enfiler avec plein de poches.",
+    "es": "Shorts cargo sin botones con muchos bolsillos.",
+    "it": "Shorts cargo con elastico e tante tasche.",
+    "pl": "Wciągane szorty bojówki z mnóstwem kieszeni.",
+    "de": "Schlupf-Cargoshorts mit vielen Taschen.",
+    "cs": "Natahovací cargo kraťasy se spoustou kapes.",
+    "nl": "Een cargoshort met elastiek en veel zakken.",
+    "pt": "Calções cargo com elástico e muitos bolsos.",
+    "ru": "Шорты карго на резинке с множеством карманов."
+   },
+   "description": {
+    "en": "An elastic waist, cotton twill and pockets everywhere for pebbles, shells and snacks.",
+    "fr": "Une taille élastique, du sergé de coton et des poches partout pour les cailloux, les coquillages et le goûter.",
+    "es": "Cintura elástica, sarga de algodón y bolsillos por todas partes para piedras, conchas y la merienda.",
+    "it": "Vita elastica, twill di cotone e tasche ovunque per sassi, conchiglie e merende.",
+    "pl": "Elastyczny pas, bawełniany diagonal i kieszenie wszędzie – na kamyki, muszelki i przekąski.",
+    "de": "Gummibund, Baumwoll-Twill und überall Taschen für Steine, Muscheln und Snacks.",
+    "cs": "Pružný pas, bavlněný kepr a kapsy všude – na kamínky, mušle i svačinu.",
+    "nl": "Elastische taille, katoenen twill en overal zakken voor steentjes, schelpen en snacks.",
+    "pt": "Cintura elástica, sarja de algodão e bolsos por todo o lado para pedras, conchas e lanches.",
+    "ru": "Эластичный пояс, хлопковый твил и карманы повсюду — для камешков, ракушек и перекусов."
+   },
+   "features": {
+    "material": "cotton-twill",
+    "care": "machine",
+    "origin": "turkey",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "khaki",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/cargo-shorts.jpg"
+   ],
+   "quantity": 30,
+   "discount": 25,
+   "new": false
+  },
+  {
+   "key": "dungarees",
+   "reference": "LS-303",
+   "category": "boys",
+   "brand": "pebble-pip",
+   "price": 36,
+   "name": {
+    "en": "Twill Dungarees",
+    "fr": "Salopette en sergé",
+    "es": "Peto de sarga",
+    "it": "Salopette in twill",
+    "pl": "Ogrodniczki z diagonalu",
+    "de": "Twill-Latzhose",
+    "cs": "Laclové kalhoty z kepru",
+    "nl": "Twill tuinbroek",
+    "pt": "Jardineiras de sarja",
+    "ru": "Полукомбинезон из твила"
+   },
+   "short": {
+    "en": "Sturdy dungarees with adjustable straps and roll-up legs.",
+    "fr": "Une salopette robuste aux bretelles réglables et jambes à revers.",
+    "es": "Un peto resistente con tirantes regulables y bajos para doblar.",
+    "it": "Una salopette robusta con bretelle regolabili e risvolti.",
+    "pl": "Wytrzymałe ogrodniczki z regulowanymi szelkami i podwijanymi nogawkami.",
+    "de": "Eine robuste Latzhose mit verstellbaren Trägern und Umschlag.",
+    "cs": "Pevné laclové kalhoty s nastavitelnými šlemi a ohrnutím.",
+    "nl": "Een stevige tuinbroek met verstelbare bandjes en omslag.",
+    "pt": "Jardineiras resistentes com alças ajustáveis e bainhas dobráveis.",
+    "ru": "Прочный полукомбинезон с регулируемыми лямками и отворотами."
+   },
+   "description": {
+    "en": "Hard-wearing cotton twill, adjustable straps and legs you can roll up as they grow. Built for gardens, sandpits and scooters.",
+    "fr": "Un sergé de coton résistant, des bretelles réglables et des jambes à retrousser au fil de la croissance. Faite pour le jardin, le bac à sable et la trottinette.",
+    "es": "Sarga de algodón resistente, tirantes regulables y perneras que se doblan a medida que crecen. Para el jardín, el arenero y el patinete.",
+    "it": "Twill di cotone resistente, bretelle regolabili e gambe da risvoltare mentre crescono. Per giardino, sabbiera e monopattino.",
+    "pl": "Wytrzymały bawełniany diagonal, regulowane szelki i nogawki do podwijania, gdy dziecko rośnie. Do ogrodu, piaskownicy i na hulajnogę.",
+    "de": "Strapazierfähiger Baumwoll-Twill, verstellbare Träger und Beine zum Umkrempeln, wenn sie wachsen. Für Garten, Sandkasten und Roller.",
+    "cs": "Odolný bavlněný kepr, nastavitelné šle a nohavice k ohrnutí, jak dítě roste. Na zahradu, do pískoviště i na koloběžku.",
+    "nl": "Sterk katoenen twill, verstelbare bandjes en pijpen die je omslaat terwijl ze groeien. Voor de tuin, de zandbak en de step.",
+    "pt": "Sarja de algodão resistente, alças ajustáveis e pernas que se dobram à medida que crescem. Para o jardim, a caixa de areia e a trotinete.",
+    "ru": "Прочный хлопковый твил, регулируемые лямки и штанины, которые подворачивают по мере роста. Для сада, песочницы и самоката."
+   },
+   "features": {
+    "material": "cotton-twill",
+    "care": "machine",
+    "origin": "portugal",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "light-blue",
+     "mustard"
+    ]
+   },
+   "images": [
+    "products/dungarees.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "zip-hoodie",
+   "reference": "LS-304",
+   "category": "boys",
+   "brand": "little-sprout",
+   "price": 34,
+   "name": {
+    "en": "Zip Hoodie",
+    "fr": "Sweat zippé à capuche",
+    "es": "Sudadera con cremallera",
+    "it": "Felpa con zip e cappuccio",
+    "pl": "Bluza z kapturem na zamek",
+    "de": "Kapuzenjacke mit Reißverschluss",
+    "cs": "Mikina na zip s kapucí",
+    "nl": "Hoodie met rits",
+    "pt": "Sweat com capuz e fecho",
+    "ru": "Худи на молнии"
+   },
+   "short": {
+    "en": "A cosy zip-up hoodie in brushed organic cotton.",
+    "fr": "Un sweat zippé douillet en coton bio gratté.",
+    "es": "Una sudadera con capucha y cremallera en algodón orgánico perchado.",
+    "it": "Una felpa avvolgente con zip in cotone biologico garzato.",
+    "pl": "Przytulna bluza z kapturem z drapanej bawełny organicznej.",
+    "de": "Eine kuschelige Kapuzenjacke aus angerauter Bio-Baumwolle.",
+    "cs": "Hřejivá mikina na zip z počesané biobavlny.",
+    "nl": "Een knusse hoodie met rits van geruwd biologisch katoen.",
+    "pt": "Uma sweat aconchegante com fecho em algodão biológico cardado.",
+    "ru": "Уютное худи на молнии из начёсанного органического хлопка."
+   },
+   "description": {
+    "en": "Brushed inside for warmth, with a chin guard on the zip and two pouch pockets. The layer they will wear every day.",
+    "fr": "Gratté à l'intérieur pour plus de chaleur, avec protège-menton sur le zip et deux poches kangourou. La couche qu'ils porteront tous les jours.",
+    "es": "Perchada por dentro para más calidez, con protector de barbilla en la cremallera y dos bolsillos canguro. La capa que llevarán cada día.",
+    "it": "Garzata all'interno per più calore, con proteggimento sulla zip e due tasche a marsupio. Lo strato che indosseranno ogni giorno.",
+    "pl": "Drapana od środka dla ciepła, z osłoną brody przy zamku i dwiema kieszeniami. Warstwa, którą będą nosić codziennie.",
+    "de": "Innen angeraut für Wärme, mit Kinnschutz am Reißverschluss und zwei Kängurutaschen. Die Schicht, die sie jeden Tag tragen.",
+    "cs": "Uvnitř počesaná pro teplo, s chráničem brady u zipu a dvěma klokaními kapsami. Vrstva, kterou budou nosit každý den.",
+    "nl": "Binnenkant geruwd voor warmte, met kinbescherming bij de rits en twee buidelzakken. De laag die ze elke dag dragen.",
+    "pt": "Cardada por dentro para mais calor, com proteção de queixo no fecho e dois bolsos canguru. A camada que vão usar todos os dias.",
+    "ru": "С начёсом внутри для тепла, защитой подбородка у молнии и двумя карманами-кенгуру. Вещь, которую будут носить каждый день."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "cool",
+    "origin": "portugal",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "grey",
+     "mint"
+    ]
+   },
+   "images": [
+    "products/zip-hoodie.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "star-pyjamas",
+   "reference": "LS-401",
+   "category": "sleep",
+   "brand": "sunbeam",
+   "price": 28,
+   "name": {
+    "en": "Star Print Pyjamas",
+    "fr": "Pyjama imprimé étoiles",
+    "es": "Pijama de estrellas",
+    "it": "Pigiama a stelle",
+    "pl": "Piżama w gwiazdki",
+    "de": "Schlafanzug mit Sternen",
+    "cs": "Pyžamo s hvězdičkami",
+    "nl": "Pyjama met sterren",
+    "pt": "Pijama de estrelas",
+    "ru": "Пижама со звёздами"
+   },
+   "short": {
+    "en": "Snug-fit organic cotton pyjamas with a star print.",
+    "fr": "Un pyjama ajusté en coton bio imprimé étoiles.",
+    "es": "Un pijama ajustado de algodón orgánico con estampado de estrellas.",
+    "it": "Un pigiama aderente in cotone biologico con stampa di stelle.",
+    "pl": "Dopasowana piżama z bawełny organicznej z nadrukiem gwiazdek.",
+    "de": "Ein eng anliegender Schlafanzug aus Bio-Baumwolle mit Sternenprint.",
+    "cs": "Přiléhavé pyžamo z biobavlny s potiskem hvězd.",
+    "nl": "Een nauwsluitende pyjama van biologisch katoen met sterrenprint.",
+    "pt": "Um pijama justo em algodão biológico com estampado de estrelas.",
+    "ru": "Облегающая пижама из органического хлопка с принтом звёзд."
+   },
+   "description": {
+    "en": "A snug fit, soft ribbed cuffs and a sleepy star print. Organic cotton that stays soft wash after wash.",
+    "fr": "Une coupe ajustée, des poignets côtelés tout doux et un imprimé étoiles qui donne envie de dormir. Un coton bio qui reste doux lavage après lavage.",
+    "es": "Corte ajustado, puños de canalé suaves y un estampado de estrellas que da sueño. Algodón orgánico que sigue suave lavado tras lavado.",
+    "it": "Vestibilità aderente, polsini a coste morbidi e una stampa di stelle che concilia il sonno. Cotone biologico che resta morbido lavaggio dopo lavaggio.",
+    "pl": "Dopasowany krój, miękkie prążkowane mankiety i usypiający nadruk gwiazdek. Bawełna organiczna, która pozostaje miękka po każdym praniu.",
+    "de": "Eng anliegend, weiche Rippbündchen und ein verträumter Sternenprint. Bio-Baumwolle, die Wäsche für Wäsche weich bleibt.",
+    "cs": "Přiléhavý střih, měkké žebrované manžety a ospalý potisk hvězd. Biobavlna, která zůstává měkká praní co praní.",
+    "nl": "Nauwsluitend, zachte geribde boordjes en een slaperige sterrenprint. Biologisch katoen dat was na was zacht blijft.",
+    "pt": "Corte justo, punhos canelados macios e um estampado de estrelas que dá sono. Algodão biológico que se mantém macio lavagem após lavagem.",
+    "ru": "Облегающий крой, мягкие манжеты в рубчик и сонный принт со звёздами. Органический хлопок, который остаётся мягким после каждой стирки."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "cool",
+    "origin": "portugal",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "navy",
+     "pink"
+    ]
+   },
+   "images": [
+    "products/star-pyjamas.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "sleeping-bag",
+   "reference": "LS-402",
+   "category": "sleep",
+   "brand": "woolly-bear",
+   "price": 45,
+   "name": {
+    "en": "Baby Sleeping Bag",
+    "fr": "Gigoteuse bébé",
+    "es": "Saco de dormir para bebé",
+    "it": "Sacco nanna neonato",
+    "pl": "Śpiworek niemowlęcy",
+    "de": "Baby-Schlafsack",
+    "cs": "Kojenecký spací pytel",
+    "nl": "Babyslaapzak",
+    "pt": "Saco-cama de bebé",
+    "ru": "Детский спальный мешок"
+   },
+   "short": {
+    "en": "A padded sleeping bag that keeps babies covered all night.",
+    "fr": "Une gigoteuse rembourrée qui garde bébé couvert toute la nuit.",
+    "es": "Un saco de dormir acolchado que mantiene al bebé tapado toda la noche.",
+    "it": "Un sacco nanna imbottito che tiene coperto il bambino tutta la notte.",
+    "pl": "Ocieplany śpiworek, który okrywa malucha przez całą noc.",
+    "de": "Ein gefütterter Schlafsack, der Babys die ganze Nacht zudeckt.",
+    "cs": "Zateplený spací pytel, který miminko přikryje celou noc.",
+    "nl": "Een gevoerde slaapzak die baby's de hele nacht toegedekt houdt.",
+    "pt": "Um saco-cama acolchoado que mantém o bebé tapado toda a noite.",
+    "ru": "Утеплённый спальный мешок, который укрывает малыша всю ночь."
+   },
+   "description": {
+    "en": "A two-way zip makes night changes easy, and the padded organic cotton keeps babies at the right temperature without loose blankets.",
+    "fr": "Un zip double sens facilite le change de nuit et le coton bio rembourré garde bébé à bonne température sans couverture.",
+    "es": "La cremallera de doble cursor facilita los cambios nocturnos y el algodón orgánico acolchado mantiene la temperatura adecuada sin mantas sueltas.",
+    "it": "La zip a doppio cursore rende facili i cambi notturni e il cotone biologico imbottito mantiene la giusta temperatura senza coperte libere.",
+    "pl": "Dwukierunkowy zamek ułatwia nocne przewijanie, a ocieplana bawełna organiczna utrzymuje właściwą temperaturę bez luźnych kocyków.",
+    "de": "Ein Zwei-Wege-Reißverschluss erleichtert nächtliches Wickeln, und die gefütterte Bio-Baumwolle hält die richtige Temperatur ohne lose Decken.",
+    "cs": "Dvoucestný zip usnadní noční přebalování a zateplená biobavlna udrží správnou teplotu bez volných přikrývek.",
+    "nl": "Een tweewegrits maakt nachtelijk verschonen makkelijk en het gevoerde biologische katoen houdt de juiste temperatuur zonder losse dekens.",
+    "pt": "O fecho de duplo cursor facilita as mudas noturnas e o algodão biológico acolchoado mantém a temperatura certa sem mantas soltas.",
+    "ru": "Двухсторонняя молния облегчает ночную смену подгузника, а утеплённый органический хлопок держит нужную температуру без одеял."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "machine",
+    "origin": "lithuania",
+    "ages": "0-24m"
+   },
+   "combinations": {
+    "size": [
+     "0-6m",
+     "6-12m",
+     "12-24m"
+    ],
+    "color": [
+     "sage",
+     "grey"
+    ]
+   },
+   "images": [
+    "products/sleeping-bag.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "dressing-gown",
+   "reference": "LS-403",
+   "category": "sleep",
+   "brand": "sunbeam",
+   "price": 39,
+   "name": {
+    "en": "Hooded Dressing Gown",
+    "fr": "Peignoir à capuche",
+    "es": "Albornoz con capucha",
+    "it": "Accappatoio con cappuccio",
+    "pl": "Szlafrok z kapturem",
+    "de": "Kapuzen-Bademantel",
+    "cs": "Župan s kapucí",
+    "nl": "Badjas met capuchon",
+    "pt": "Roupão com capuz",
+    "ru": "Халат с капюшоном"
+   },
+   "short": {
+    "en": "A soft towelling dressing gown with a hood.",
+    "fr": "Un peignoir en éponge douce avec capuche.",
+    "es": "Un albornoz de rizo suave con capucha.",
+    "it": "Un morbido accappatoio in spugna con cappuccio.",
+    "pl": "Miękki frotowy szlafrok z kapturem.",
+    "de": "Ein weicher Frottee-Bademantel mit Kapuze.",
+    "cs": "Měkký froté župan s kapucí.",
+    "nl": "Een zachte badstof badjas met capuchon.",
+    "pt": "Um roupão de turco macio com capuz.",
+    "ru": "Мягкий махровый халат с капюшоном."
+   },
+   "description": {
+    "en": "Organic cotton towelling for after bath time, with a hood, a tie belt and two pockets.",
+    "fr": "De l'éponge de coton bio pour la sortie du bain, avec capuche, ceinture à nouer et deux poches.",
+    "es": "Rizo de algodón orgánico para después del baño, con capucha, cinturón y dos bolsillos.",
+    "it": "Spugna di cotone biologico per il dopo bagnetto, con cappuccio, cintura e due tasche.",
+    "pl": "Frotte z bawełny organicznej na czas po kąpieli, z kapturem, paskiem i dwiema kieszeniami.",
+    "de": "Frottee aus Bio-Baumwolle für nach dem Baden, mit Kapuze, Bindegürtel und zwei Taschen.",
+    "cs": "Froté z biobavlny na chvíle po koupeli, s kapucí, páskem a dvěma kapsami.",
+    "nl": "Badstof van biologisch katoen voor na het badje, met capuchon, ceintuur en twee zakken.",
+    "pt": "Turco de algodão biológico para depois do banho, com capuz, cinto e dois bolsos.",
+    "ru": "Махра из органического хлопка для после купания, с капюшоном, поясом и двумя карманами."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "cool",
+    "origin": "portugal",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "pink",
+     "light-blue"
+    ]
+   },
+   "images": [
+    "products/dressing-gown.jpg"
+   ],
+   "quantity": 30,
+   "discount": 15,
+   "new": false
+  },
+  {
+   "key": "nightdress",
+   "reference": "LS-404",
+   "category": "sleep",
+   "brand": "sunbeam",
+   "price": 25,
+   "name": {
+    "en": "Cotton Nightdress",
+    "fr": "Chemise de nuit en coton",
+    "es": "Camisón de algodón",
+    "it": "Camicia da notte in cotone",
+    "pl": "Bawełniana koszula nocna",
+    "de": "Baumwoll-Nachthemd",
+    "cs": "Bavlněná noční košilka",
+    "nl": "Katoenen nachthemd",
+    "pt": "Camisa de noite de algodão",
+    "ru": "Хлопковая ночная сорочка"
+   },
+   "short": {
+    "en": "A light, airy nightdress with a lace-trimmed collar.",
+    "fr": "Une chemise de nuit légère et aérienne au col bordé de dentelle.",
+    "es": "Un camisón ligero con cuello de encaje.",
+    "it": "Una camicia da notte leggera con colletto di pizzo.",
+    "pl": "Lekka, przewiewna koszula nocna z koronkowym kołnierzykiem.",
+    "de": "Ein leichtes, luftiges Nachthemd mit Spitzenkragen.",
+    "cs": "Lehká vzdušná noční košilka s krajkovým límečkem.",
+    "nl": "Een licht, luchtig nachthemd met kanten kraagje.",
+    "pt": "Uma camisa de noite leve com gola de renda.",
+    "ru": "Лёгкая воздушная ночная сорочка с кружевным воротничком."
+   },
+   "description": {
+    "en": "Light organic cotton voile with a little lace collar. Cool for summer nights and lovely for sleepovers.",
+    "fr": "Un voile de coton bio léger avec un petit col en dentelle. Fraîche pour les nuits d'été et parfaite pour les soirées pyjama.",
+    "es": "Voile de algodón orgánico ligero con un pequeño cuello de encaje. Fresco para las noches de verano y perfecto para fiestas de pijamas.",
+    "it": "Voile di cotone biologico leggero con un piccolo colletto in pizzo. Fresca per le notti d'estate e perfetta per i pigiama party.",
+    "pl": "Lekki woal z bawełny organicznej z małym koronkowym kołnierzykiem. Chłodna na letnie noce i idealna na nocowanie u przyjaciół.",
+    "de": "Leichter Voile aus Bio-Baumwolle mit kleinem Spitzenkragen. Kühl für Sommernächte und perfekt für Übernachtungspartys.",
+    "cs": "Lehký voál z biobavlny s malým krajkovým límečkem. Chladivá na letní noci a skvělá na přespávání u kamarádů.",
+    "nl": "Lichte voile van biologisch katoen met een klein kanten kraagje. Koel voor zomernachten en leuk voor logeerpartijtjes.",
+    "pt": "Voile de algodão biológico leve com uma pequena gola de renda. Fresca para as noites de verão e ótima para festas do pijama.",
+    "ru": "Лёгкая вуаль из органического хлопка с маленьким кружевным воротничком. Прохладная для летних ночей и отличная для ночёвок у друзей."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "machine",
+    "origin": "portugal",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "white",
+     "lavender"
+    ]
+   },
+   "images": [
+    "products/nightdress.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "rain-jacket",
+   "reference": "LS-501",
+   "category": "outerwear",
+   "brand": "pebble-pip",
+   "price": 49,
+   "name": {
+    "en": "Rain Jacket",
+    "fr": "Veste de pluie",
+    "es": "Chubasquero",
+    "it": "Giacca impermeabile",
+    "pl": "Kurtka przeciwdeszczowa",
+    "de": "Regenjacke",
+    "cs": "Pláštěnka",
+    "nl": "Regenjas",
+    "pt": "Impermeável",
+    "ru": "Дождевик"
+   },
+   "short": {
+    "en": "A waterproof rain jacket with taped seams and a hood.",
+    "fr": "Une veste de pluie imperméable à coutures étanchées et capuche.",
+    "es": "Un chubasquero impermeable con costuras selladas y capucha.",
+    "it": "Una giacca impermeabile con cuciture nastrate e cappuccio.",
+    "pl": "Nieprzemakalna kurtka z klejonymi szwami i kapturem.",
+    "de": "Eine wasserdichte Regenjacke mit verschweißten Nähten und Kapuze.",
+    "cs": "Nepromokavá bunda s podlepenými švy a kapucí.",
+    "nl": "Een waterdichte regenjas met getapete naden en capuchon.",
+    "pt": "Um impermeável com costuras seladas e capuz.",
+    "ru": "Непромокаемая куртка с проклеенными швами и капюшоном."
+   },
+   "description": {
+    "en": "Fully waterproof with taped seams, a peaked hood and reflective details for darker days. Made from recycled nylon.",
+    "fr": "Totalement imperméable avec coutures étanchées, capuche à visière et détails réfléchissants pour les jours sombres. En nylon recyclé.",
+    "es": "Totalmente impermeable con costuras selladas, capucha con visera y detalles reflectantes para los días oscuros. De nailon reciclado.",
+    "it": "Completamente impermeabile con cuciture nastrate, cappuccio con visiera e dettagli riflettenti per le giornate buie. In nylon riciclato.",
+    "pl": "Całkowicie nieprzemakalna, z klejonymi szwami, kapturem z daszkiem i odblaskami na ciemniejsze dni. Z nylonu z recyklingu.",
+    "de": "Komplett wasserdicht mit verschweißten Nähten, Schirmkapuze und Reflektoren für dunkle Tage. Aus recyceltem Nylon.",
+    "cs": "Zcela nepromokavá, s podlepenými švy, kapucí s kšiltem a reflexními prvky na tmavší dny. Z recyklovaného nylonu.",
+    "nl": "Volledig waterdicht met getapete naden, een capuchon met klep en reflecterende details voor donkere dagen. Van gerecycled nylon.",
+    "pt": "Totalmente impermeável com costuras seladas, capuz com pala e detalhes refletores para os dias escuros. Em nylon reciclado.",
+    "ru": "Полностью непромокаемая, с проклеенными швами, капюшоном с козырьком и светоотражающими деталями для тёмных дней. Из переработанного нейлона."
+   },
+   "features": {
+    "material": "nylon",
+    "care": "machine",
+    "origin": "vietnam",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "yellow",
+     "red"
+    ]
+   },
+   "images": [
+    "products/rain-jacket.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "rain-boots",
+    "knitted-hat"
+   ]
+  },
+  {
+   "key": "puffer-jacket",
+   "reference": "LS-502",
+   "category": "outerwear",
+   "brand": "pebble-pip",
+   "price": 59,
+   "name": {
+    "en": "Puffer Jacket",
+    "fr": "Doudoune",
+    "es": "Plumífero",
+    "it": "Piumino",
+    "pl": "Kurtka puchowa",
+    "de": "Steppjacke",
+    "cs": "Péřová bunda",
+    "nl": "Pufferjas",
+    "pt": "Casaco acolchoado",
+    "ru": "Пуховик"
+   },
+   "short": {
+    "en": "A warm, light puffer jacket for winter days.",
+    "fr": "Une doudoune chaude et légère pour l'hiver.",
+    "es": "Un plumífero cálido y ligero para el invierno.",
+    "it": "Un piumino caldo e leggero per l'inverno.",
+    "pl": "Ciepła, lekka kurtka pikowana na zimę.",
+    "de": "Eine warme, leichte Steppjacke für den Winter.",
+    "cs": "Teplá lehká prošívaná bunda na zimu.",
+    "nl": "Een warme, lichte pufferjas voor de winter.",
+    "pt": "Um casaco acolchoado quente e leve para o inverno.",
+    "ru": "Тёплый лёгкий пуховик для зимы."
+   },
+   "description": {
+    "en": "Light and warm, with a water-repellent shell, an inner chin guard and elastic cuffs that keep the cold out.",
+    "fr": "Légère et chaude, avec une coque déperlante, un protège-menton et des poignets élastiques qui arrêtent le froid.",
+    "es": "Ligero y cálido, con tejido repelente al agua, protector de barbilla y puños elásticos que frenan el frío.",
+    "it": "Leggero e caldo, con guscio idrorepellente, proteggimento interno e polsini elastici che tengono fuori il freddo.",
+    "pl": "Lekka i ciepła, z wodoodporną powłoką, osłoną brody i elastycznymi mankietami, które zatrzymują chłód.",
+    "de": "Leicht und warm, mit wasserabweisender Außenhülle, Kinnschutz und elastischen Bündchen gegen die Kälte.",
+    "cs": "Lehká a teplá, s vodoodpudivým svrchním materiálem, chráničem brady a pružnými manžetami proti chladu.",
+    "nl": "Licht en warm, met waterafstotende buitenstof, kinbescherming en elastische boordjes tegen de kou.",
+    "pt": "Leve e quente, com exterior repelente à água, proteção de queixo e punhos elásticos que travam o frio.",
+    "ru": "Лёгкий и тёплый, с водоотталкивающим верхом, защитой подбородка и эластичными манжетами против холода."
+   },
+   "features": {
+    "material": "nylon",
+    "care": "machine",
+    "origin": "vietnam",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "navy",
+     "coral"
+    ]
+   },
+   "images": [
+    "products/puffer-jacket.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false
+  },
+  {
+   "key": "fleece-jacket",
+   "reference": "LS-503",
+   "category": "outerwear",
+   "brand": "little-sprout",
+   "price": 35,
+   "name": {
+    "en": "Fleece Jacket",
+    "fr": "Veste polaire",
+    "es": "Chaqueta polar",
+    "it": "Giacca in pile",
+    "pl": "Bluza polarowa",
+    "de": "Fleecejacke",
+    "cs": "Fleecová bunda",
+    "nl": "Fleecevest",
+    "pt": "Casaco polar",
+    "ru": "Флисовая куртка"
+   },
+   "short": {
+    "en": "A soft fleece jacket made from recycled bottles.",
+    "fr": "Une veste polaire douce fabriquée à partir de bouteilles recyclées.",
+    "es": "Una chaqueta polar suave hecha con botellas recicladas.",
+    "it": "Una morbida giacca in pile ottenuta da bottiglie riciclate.",
+    "pl": "Miękka bluza polarowa z butelek z recyklingu.",
+    "de": "Eine weiche Fleecejacke aus recycelten Flaschen.",
+    "cs": "Měkká fleecová bunda z recyklovaných lahví.",
+    "nl": "Een zacht fleecevest gemaakt van gerecyclede flessen.",
+    "pt": "Um casaco polar macio feito de garrafas recicladas.",
+    "ru": "Мягкая флисовая куртка из переработанных бутылок."
+   },
+   "description": {
+    "en": "Soft recycled fleece, a full zip and zipped pockets. Wear it alone in spring or under the rain jacket in autumn.",
+    "fr": "Une polaire recyclée toute douce, un zip intégral et des poches zippées. Seule au printemps ou sous la veste de pluie en automne.",
+    "es": "Forro polar reciclado y suave, cremallera completa y bolsillos con cremallera. Sola en primavera o bajo el chubasquero en otoño.",
+    "it": "Pile riciclato morbido, zip intera e tasche con zip. Da sola in primavera o sotto la giacca impermeabile in autunno.",
+    "pl": "Miękki polar z recyklingu, zamek na całej długości i kieszenie na zamek. Wiosną solo, jesienią pod kurtką przeciwdeszczową.",
+    "de": "Weiches recyceltes Fleece, durchgehender Reißverschluss und Reißverschlusstaschen. Im Frühling solo, im Herbst unter der Regenjacke.",
+    "cs": "Měkký recyklovaný fleece, celopropínací zip a kapsy na zip. Na jaře samostatně, na podzim pod pláštěnku.",
+    "nl": "Zachte gerecyclede fleece, een doorlopende rits en zakken met rits. Los in de lente of onder de regenjas in de herfst.",
+    "pt": "Polar reciclado macio, fecho inteiro e bolsos com fecho. Sozinho na primavera ou por baixo do impermeável no outono.",
+    "ru": "Мягкий переработанный флис, молния по всей длине и карманы на молнии. Весной — отдельно, осенью — под дождевик."
+   },
+   "features": {
+    "material": "fleece",
+    "care": "machine",
+    "origin": "portugal",
+    "ages": "2-9"
+   },
+   "combinations": {
+    "size": [
+     "2-3",
+     "4-5",
+     "6-7",
+     "8-9"
+    ],
+    "color": [
+     "mint",
+     "grey"
+    ]
+   },
+   "images": [
+    "products/fleece-jacket.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "knitted-hat",
+   "reference": "LS-504",
+   "category": "outerwear",
+   "brand": "woolly-bear",
+   "price": 22,
+   "name": {
+    "en": "Knitted Bobble Hat",
+    "fr": "Bonnet à pompon",
+    "es": "Gorro de pompón",
+    "it": "Berretto con pompon",
+    "pl": "Czapka z pomponem",
+    "de": "Bommelmütze",
+    "cs": "Čepice s bambulí",
+    "nl": "Muts met pompon",
+    "pt": "Gorro com pompom",
+    "ru": "Шапка с помпоном"
+   },
+   "short": {
+    "en": "A merino bobble hat for chilly days.",
+    "fr": "Un bonnet à pompon en mérinos pour les jours frais.",
+    "es": "Un gorro de merino con pompón para los días frescos.",
+    "it": "Un berretto in merino con pompon per le giornate fresche.",
+    "pl": "Czapka z merino z pomponem na chłodne dni.",
+    "de": "Eine Merino-Bommelmütze für kühle Tage.",
+    "cs": "Merino čepice s bambulí na chladné dny.",
+    "nl": "Een merino muts met pompon voor frisse dagen.",
+    "pt": "Um gorro de merino com pompom para os dias frescos.",
+    "ru": "Шапка из мериноса с помпоном для прохладных дней."
+   },
+   "description": {
+    "en": "A warm merino knit with a fluffy bobble. Soft enough for sensitive skin and warm enough for snowy days.",
+    "fr": "Une maille chaude en mérinos avec un pompon tout doux. Assez douce pour les peaux sensibles et assez chaude pour la neige.",
+    "es": "Un punto cálido de merino con un pompón esponjoso. Suave para pieles sensibles y cálido para los días de nieve.",
+    "it": "Una maglia calda in merino con un soffice pompon. Morbido per le pelli sensibili e caldo per i giorni di neve.",
+    "pl": "Ciepła dzianina merino z puszystym pomponem. Wystarczająco miękka dla wrażliwej skóry i ciepła na śnieżne dni.",
+    "de": "Ein warmer Merinostrick mit flauschigem Bommel. Weich genug für empfindliche Haut und warm genug für Schneetage.",
+    "cs": "Teplý merino úplet s nadýchanou bambulí. Dost měkká pro citlivou pokožku a dost teplá na sníh.",
+    "nl": "Warm merino breiwerk met een zachte pompon. Zacht genoeg voor een gevoelige huid en warm genoeg voor sneeuwdagen.",
+    "pt": "Uma malha quente de merino com um pompom fofo. Macio para peles sensíveis e quente para os dias de neve.",
+    "ru": "Тёплая вязка из мериноса с пушистым помпоном. Мягкая для чувствительной кожи и тёплая для снежных дней."
+   },
+   "features": {
+    "material": "merino-wool",
+    "care": "hand",
+    "origin": "lithuania",
+    "ages": "one-size"
+   },
+   "combinations": {
+    "color": [
+     "mustard",
+     "mint",
+     "pink"
+    ]
+   },
+   "images": [
+    "products/knitted-hat.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "first-shoes",
+   "reference": "LS-601",
+   "category": "accessories",
+   "brand": "little-sprout",
+   "price": 34,
+   "name": {
+    "en": "First Walker Shoes",
+    "fr": "Chaussures premiers pas",
+    "es": "Zapatos primeros pasos",
+    "it": "Scarpe primi passi",
+    "pl": "Buciki do nauki chodzenia",
+    "de": "Lauflernschuhe",
+    "cs": "Botičky na první krůčky",
+    "nl": "Eerste loopschoentjes",
+    "pt": "Sapatos primeiros passos",
+    "ru": "Обувь для первых шагов"
+   },
+   "short": {
+    "en": "Flexible leather shoes for first steps.",
+    "fr": "Des chaussures souples en cuir pour les premiers pas.",
+    "es": "Zapatos flexibles de piel para los primeros pasos.",
+    "it": "Scarpe flessibili in pelle per i primi passi.",
+    "pl": "Elastyczne skórzane buciki na pierwsze kroki.",
+    "de": "Flexible Lederschuhe für die ersten Schritte.",
+    "cs": "Ohebné kožené botičky na první krůčky.",
+    "nl": "Flexibele leren schoentjes voor de eerste stapjes.",
+    "pt": "Sapatos flexíveis de pele para os primeiros passos.",
+    "ru": "Гибкие кожаные ботиночки для первых шагов."
+   },
+   "description": {
+    "en": "Soft, flexible leather and a non-slip sole that lets little feet move naturally. A wide toe box and easy hook-and-loop closure.",
+    "fr": "Un cuir souple et flexible et une semelle antidérapante qui laissent le pied bouger naturellement. Avant large et fermeture auto-agrippante facile.",
+    "es": "Piel suave y flexible con suela antideslizante que deja que el pie se mueva con naturalidad. Puntera ancha y cierre de velcro fácil.",
+    "it": "Pelle morbida e flessibile e suola antiscivolo che lasciano muovere il piede in modo naturale. Punta ampia e chiusura a strappo facile.",
+    "pl": "Miękka, elastyczna skóra i antypoślizgowa podeszwa pozwalają stópkom poruszać się naturalnie. Szeroki nosek i łatwe zapięcie na rzep.",
+    "de": "Weiches, flexibles Leder und eine rutschfeste Sohle lassen kleine Füße natürlich bewegen. Breite Zehenbox und einfacher Klettverschluss.",
+    "cs": "Měkká ohebná kůže a protiskluzová podrážka nechají nožky přirozeně pracovat. Široká špička a snadné zapínání na suchý zip.",
+    "nl": "Zacht, flexibel leer en een antislipzool laten kleine voetjes natuurlijk bewegen. Brede neus en makkelijke klittenbandsluiting.",
+    "pt": "Pele macia e flexível e sola antiderrapante que deixam o pé mexer-se naturalmente. Biqueira larga e fecho de velcro fácil.",
+    "ru": "Мягкая гибкая кожа и нескользящая подошва позволяют ножкам двигаться естественно. Широкий носок и удобная застёжка-липучка."
+   },
+   "features": {
+    "material": "leather-full",
+    "care": "wipe",
+    "origin": "spain",
+    "ages": "shoes"
+   },
+   "combinations": {
+    "size": [
+     "19-21",
+     "22-25",
+     "26-29"
+    ],
+    "color": [
+     "tan",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/first-shoes.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "rain-boots",
+   "reference": "LS-602",
+   "category": "accessories",
+   "brand": "pebble-pip",
+   "price": 29,
+   "name": {
+    "en": "Rain Boots",
+    "fr": "Bottes de pluie",
+    "es": "Botas de agua",
+    "it": "Stivali da pioggia",
+    "pl": "Kalosze",
+    "de": "Gummistiefel",
+    "cs": "Holínky",
+    "nl": "Regenlaarzen",
+    "pt": "Galochas",
+    "ru": "Резиновые сапоги"
+   },
+   "short": {
+    "en": "Natural rubber rain boots with easy pull-on handles.",
+    "fr": "Des bottes en caoutchouc naturel avec poignées pour les enfiler.",
+    "es": "Botas de caucho natural con asas para calzarse solos.",
+    "it": "Stivali in gomma naturale con maniglie per infilarli.",
+    "pl": "Kalosze z kauczuku naturalnego z uchwytami do wkładania.",
+    "de": "Gummistiefel aus Naturkautschuk mit Anziehschlaufen.",
+    "cs": "Holínky z přírodního kaučuku s poutky na nazouvání.",
+    "nl": "Regenlaarzen van natuurrubber met aantreklussen.",
+    "pt": "Galochas de borracha natural com pegas para calçar.",
+    "ru": "Сапоги из натурального каучука с ручками для надевания."
+   },
+   "description": {
+    "en": "Natural rubber with a grippy sole and two handles so children can pull them on themselves. Made for jumping in puddles.",
+    "fr": "Du caoutchouc naturel avec une semelle accrocheuse et deux poignées pour que les enfants les enfilent seuls. Faites pour sauter dans les flaques.",
+    "es": "Caucho natural con suela de buen agarre y dos asas para que los niños se las pongan solos. Hechas para saltar en los charcos.",
+    "it": "Gomma naturale con suola aderente e due maniglie perché i bambini li infilino da soli. Fatti per saltare nelle pozzanghere.",
+    "pl": "Kauczuk naturalny z przyczepną podeszwą i dwoma uchwytami, by dzieci same mogły je założyć. Stworzone do skakania po kałużach.",
+    "de": "Naturkautschuk mit griffiger Sohle und zwei Schlaufen, damit Kinder sie selbst anziehen können. Gemacht zum Pfützenspringen.",
+    "cs": "Přírodní kaučuk s přilnavou podrážkou a dvěma poutky, aby si je děti nazuly samy. Stvořené na skákání do louží.",
+    "nl": "Natuurrubber met een grijpende zool en twee lussen, zodat kinderen ze zelf aantrekken. Gemaakt om in plassen te springen.",
+    "pt": "Borracha natural com sola aderente e duas pegas para que as crianças as calcem sozinhas. Feitas para saltar nas poças.",
+    "ru": "Натуральный каучук с цепкой подошвой и двумя ручками, чтобы дети обувались сами. Созданы для прыжков по лужам."
+   },
+   "features": {
+    "material": "rubber",
+    "care": "wipe",
+    "origin": "spain",
+    "ages": "shoes"
+   },
+   "combinations": {
+    "size": [
+     "19-21",
+     "22-25",
+     "26-29"
+    ],
+    "color": [
+     "yellow",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/rain-boots.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "sun-hat",
+   "reference": "LS-603",
+   "category": "accessories",
+   "brand": "sunbeam",
+   "price": 16,
+   "name": {
+    "en": "Sun Hat",
+    "fr": "Chapeau de soleil",
+    "es": "Gorro de sol",
+    "it": "Cappello da sole",
+    "pl": "Kapelusz przeciwsłoneczny",
+    "de": "Sonnenhut",
+    "cs": "Klobouček proti slunci",
+    "nl": "Zonnehoedje",
+    "pt": "Chapéu de sol",
+    "ru": "Панама"
+   },
+   "short": {
+    "en": "A wide-brim cotton sun hat with a chin strap.",
+    "fr": "Un chapeau en coton à large bord avec jugulaire.",
+    "es": "Un gorro de algodón de ala ancha con cinta para la barbilla.",
+    "it": "Un cappello in cotone a tesa larga con laccetto.",
+    "pl": "Bawełniany kapelusz z szerokim rondem i paskiem pod brodą.",
+    "de": "Ein Baumwoll-Sonnenhut mit breiter Krempe und Kinnband.",
+    "cs": "Bavlněný klobouček se širokou krempou a podbradníkem.",
+    "nl": "Een katoenen zonnehoedje met brede rand en kinbandje.",
+    "pt": "Um chapéu de algodão de aba larga com fita no queixo.",
+    "ru": "Хлопковая панама с широкими полями и завязками."
+   },
+   "description": {
+    "en": "A wide brim protects the neck and face, and the soft chin strap keeps the hat in place on windy beach days.",
+    "fr": "Un large bord protège la nuque et le visage, et la jugulaire douce garde le chapeau en place les jours de vent à la plage.",
+    "es": "El ala ancha protege cuello y cara, y la cinta suave mantiene el gorro en su sitio los días de viento en la playa.",
+    "it": "La tesa larga protegge collo e viso, e il laccetto morbido tiene fermo il cappello nelle giornate ventose in spiaggia.",
+    "pl": "Szerokie rondo chroni kark i twarz, a miękki pasek utrzymuje kapelusz w wietrzne dni na plaży.",
+    "de": "Die breite Krempe schützt Nacken und Gesicht, das weiche Kinnband hält den Hut an windigen Strandtagen fest.",
+    "cs": "Široká krempa chrání krk i obličej a měkký podbradník udrží klobouček na místě i ve větru na pláži.",
+    "nl": "De brede rand beschermt nek en gezicht, en het zachte kinbandje houdt het hoedje op zijn plek op winderige stranddagen.",
+    "pt": "A aba larga protege o pescoço e a cara, e a fita macia mantém o chapéu no lugar nos dias de vento na praia.",
+    "ru": "Широкие поля защищают шею и лицо, а мягкие завязки удерживают панаму в ветреные дни на пляже."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "care": "machine",
+    "origin": "portugal",
+    "ages": "one-size"
+   },
+   "combinations": {
+    "color": [
+     "white",
+     "sage"
+    ]
+   },
+   "images": [
+    "products/sun-hat.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "kids-backpack",
+   "reference": "LS-604",
+   "category": "accessories",
+   "brand": "little-sprout",
+   "price": 28,
+   "name": {
+    "en": "Kids Backpack",
+    "fr": "Sac à dos enfant",
+    "es": "Mochila infantil",
+    "it": "Zainetto bambino",
+    "pl": "Plecak dziecięcy",
+    "de": "Kinderrucksack",
+    "cs": "Dětský batoh",
+    "nl": "Kinderrugzak",
+    "pt": "Mochila infantil",
+    "ru": "Детский рюкзак"
+   },
+   "short": {
+    "en": "A small canvas backpack for nursery and day trips.",
+    "fr": "Un petit sac à dos en toile pour la crèche et les sorties.",
+    "es": "Una mochila pequeña de lona para la guardería y las excursiones.",
+    "it": "Un piccolo zaino in tela per il nido e le gite.",
+    "pl": "Mały płócienny plecak do żłobka i na wycieczki.",
+    "de": "Ein kleiner Canvas-Rucksack für Kita und Ausflüge.",
+    "cs": "Malý plátěný batoh do školky a na výlety.",
+    "nl": "Een kleine canvas rugzak voor de opvang en uitjes.",
+    "pt": "Uma pequena mochila de lona para a creche e passeios.",
+    "ru": "Маленький рюкзак из канваса для садика и прогулок."
+   },
+   "description": {
+    "en": "Sized for little shoulders, with padded straps, a chest clip and a name label inside.",
+    "fr": "À la taille des petites épaules, avec bretelles rembourrées, attache pectorale et étiquette prénom à l'intérieur.",
+    "es": "A la medida de hombros pequeños, con tirantes acolchados, cierre en el pecho y etiqueta para el nombre.",
+    "it": "Su misura per spalle piccole, con spallacci imbottiti, clip pettorale ed etichetta per il nome all'interno.",
+    "pl": "Dopasowany do małych ramion, z wyściełanymi szelkami, zapięciem na piersi i etykietą na imię w środku.",
+    "de": "Für kleine Schultern gemacht, mit gepolsterten Trägern, Brustgurt und Namensschild innen.",
+    "cs": "Na malá ramínka, s polstrovanými popruhy, hrudní sponou a jmenovkou uvnitř.",
+    "nl": "Op maat van kleine schouders, met gevoerde bandjes, borstclip en een naamlabel binnenin.",
+    "pt": "À medida de ombros pequenos, com alças almofadadas, fecho no peito e etiqueta para o nome no interior.",
+    "ru": "По размеру маленьких плеч, с мягкими лямками, нагрудной застёжкой и биркой для имени внутри."
+   },
+   "features": {
+    "material": "canvas",
+    "care": "wipe",
+    "origin": "portugal",
+    "ages": "one-size"
+   },
+   "combinations": {
+    "color": [
+     "mint",
+     "coral"
+    ]
+   },
+   "images": [
+    "products/kids-backpack.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  }
+ ],
+ "cms": [
+  {
+   "key": "about",
+   "title": {
+    "en": "About us",
+    "fr": "À propos",
+    "es": "Quiénes somos",
+    "it": "Chi siamo",
+    "pl": "O nas",
+    "de": "Über uns",
+    "cs": "O nás",
+    "nl": "Over ons",
+    "pt": "Sobre nós",
+    "ru": "О нас"
+   },
+   "meta_description": {
+    "en": "Little Sprout makes organic, durable kids' clothes designed for play and made to be handed down.",
+    "fr": "Little Sprout crée des vêtements enfants bio et résistants, pensés pour le jeu et faits pour se transmettre.",
+    "es": "Little Sprout crea ropa infantil orgánica y resistente, pensada para jugar y hecha para heredarse.",
+    "it": "Little Sprout crea abbigliamento per bambini biologico e resistente, pensato per giocare e fatto per passare di mano.",
+    "pl": "Little Sprout tworzy organiczne, wytrzymałe ubranka dla dzieci, zaprojektowane do zabawy i do przekazywania dalej.",
+    "de": "Little Sprout macht biologische, robuste Kinderkleidung zum Spielen – gemacht, um weitergegeben zu werden.",
+    "cs": "Little Sprout vyrábí bio a odolné dětské oblečení, navržené na hraní a určené k předávání dál.",
+    "nl": "Little Sprout maakt biologische, sterke kinderkleding om in te spelen en om door te geven.",
+    "pt": "A Little Sprout cria roupa infantil biológica e resistente, pensada para brincar e feita para passar de mão em mão.",
+    "ru": "Little Sprout создаёт органическую прочную детскую одежду для игр, которую можно передавать дальше."
+   },
+   "content": {
+    "en": "<h2>Made for play</h2><p>Little Sprout started with two parents tired of clothes that did not survive the playground. We design comfortable, hard-wearing pieces in organic cotton and recycled materials, made to be passed from sibling to sibling.</p><h3>Gentle on skin</h3><p>All our cotton is organic and every fabric is tested for harmful substances. No scratchy labels, no hard seams.</p><h3>Made to be handed down</h3><p>Reinforced knees, extra-long hems and adjustable straps mean our clothes grow with your child, and then go on to the next one.</p><p><em>This is demo content for the Little Sprout theme.</em></p>",
+    "fr": "<h2>Faits pour jouer</h2><p>Little Sprout est né de deux parents lassés des vêtements qui ne survivaient pas à la cour de récré. Nous créons des pièces confortables et résistantes en coton bio et matières recyclées, faites pour passer d'un enfant à l'autre.</p><h3>Douces pour la peau</h3><p>Tout notre coton est bio et chaque tissu est testé contre les substances nocives. Pas d'étiquettes qui grattent, pas de coutures dures.</p><h3>Faits pour se transmettre</h3><p>Genoux renforcés, ourlets extra-longs et bretelles réglables : nos vêtements grandissent avec votre enfant, puis passent au suivant.</p><p><em>Ceci est un contenu de démonstration du thème Little Sprout.</em></p>",
+    "es": "<h2>Hecha para jugar</h2><p>Little Sprout nació de dos padres cansados de ropa que no sobrevivía al parque. Diseñamos prendas cómodas y resistentes en algodón orgánico y materiales reciclados, hechas para pasar de hermano a hermano.</p><h3>Suave con la piel</h3><p>Todo nuestro algodón es orgánico y cada tejido se analiza para descartar sustancias nocivas. Sin etiquetas que piquen ni costuras duras.</p><h3>Hecha para heredarse</h3><p>Rodillas reforzadas, bajos extralargos y tirantes regulables: nuestra ropa crece con tu hijo y después pasa al siguiente.</p><p><em>Este es contenido de demostración del tema Little Sprout.</em></p>",
+    "it": "<h2>Fatti per giocare</h2><p>Little Sprout nasce da due genitori stanchi di vestiti che non sopravvivevano al parco giochi. Disegniamo capi comodi e resistenti in cotone biologico e materiali riciclati, fatti per passare da un fratello all'altro.</p><h3>Delicati sulla pelle</h3><p>Tutto il nostro cotone è biologico e ogni tessuto è testato contro le sostanze nocive. Niente etichette che pungono, niente cuciture rigide.</p><h3>Fatti per passare di mano</h3><p>Ginocchia rinforzate, orli extra lunghi e bretelle regolabili: i nostri vestiti crescono con tuo figlio e poi passano al prossimo.</p><p><em>Questo è un contenuto dimostrativo del tema Little Sprout.</em></p>",
+    "pl": "<h2>Stworzone do zabawy</h2><p>Little Sprout założyło dwoje rodziców zmęczonych ubraniami, które nie przetrwały placu zabaw. Projektujemy wygodne, wytrzymałe rzeczy z bawełny organicznej i materiałów z recyklingu, które przechodzą z rodzeństwa na rodzeństwo.</p><h3>Delikatne dla skóry</h3><p>Cała nasza bawełna jest organiczna, a każdą tkaninę badamy pod kątem szkodliwych substancji. Bez drapiących metek i twardych szwów.</p><h3>Do przekazywania dalej</h3><p>Wzmocnione kolana, wydłużone obrębienia i regulowane szelki: nasze ubrania rosną z dzieckiem, a potem trafiają do następnego.</p><p><em>To jest treść demonstracyjna motywu Little Sprout.</em></p>",
+    "de": "<h2>Gemacht zum Spielen</h2><p>Little Sprout entstand aus zwei Eltern, die Kleidung leid waren, die den Spielplatz nicht überlebte. Wir entwerfen bequeme, strapazierfähige Teile aus Bio-Baumwolle und recycelten Materialien, gemacht, um von Geschwister zu Geschwister weitergegeben zu werden.</p><h3>Sanft zur Haut</h3><p>Unsere gesamte Baumwolle ist bio, und jeder Stoff wird auf Schadstoffe geprüft. Keine kratzenden Etiketten, keine harten Nähte.</p><h3>Zum Weitergeben gemacht</h3><p>Verstärkte Knie, extralange Säume und verstellbare Träger: Unsere Kleidung wächst mit Ihrem Kind und geht dann ans nächste.</p><p><em>Dies ist Demo-Inhalt des Themes Little Sprout.</em></p>",
+    "cs": "<h2>Stvořeno na hraní</h2><p>Little Sprout založili dva rodiče, které unavovalo oblečení, jež nepřežilo hřiště. Navrhujeme pohodlné a odolné kousky z biobavlny a recyklovaných materiálů, které se předávají mezi sourozenci.</p><h3>Šetrné k pokožce</h3><p>Veškerá naše bavlna je bio a každou látku testujeme na škodlivé látky. Žádné škrábající visačky ani tvrdé švy.</p><h3>K předávání dál</h3><p>Zpevněná kolena, extra dlouhé lemy a nastavitelné šle: naše oblečení roste s dítětem a pak jde k dalšímu.</p><p><em>Toto je ukázkový obsah šablony Little Sprout.</em></p>",
+    "nl": "<h2>Gemaakt om in te spelen</h2><p>Little Sprout begon bij twee ouders die kleding beu waren die de speeltuin niet overleefde. We ontwerpen comfortabele, sterke stukken van biologisch katoen en gerecyclede materialen, gemaakt om van broer of zus op broer of zus te gaan.</p><h3>Zacht voor de huid</h3><p>Al ons katoen is biologisch en elke stof wordt getest op schadelijke stoffen. Geen kriebelende labels, geen harde naden.</p><h3>Gemaakt om door te geven</h3><p>Verstevigde knieën, extra lange zomen en verstelbare bandjes: onze kleding groeit mee met je kind en gaat daarna naar het volgende.</p><p><em>Dit is democontent van het thema Little Sprout.</em></p>",
+    "pt": "<h2>Feita para brincar</h2><p>A Little Sprout nasceu de dois pais cansados de roupa que não sobrevivia ao parque infantil. Criamos peças confortáveis e resistentes em algodão biológico e materiais reciclados, feitas para passar de irmão para irmão.</p><h3>Suave para a pele</h3><p>Todo o nosso algodão é biológico e cada tecido é testado contra substâncias nocivas. Sem etiquetas que picam nem costuras duras.</p><h3>Feita para passar de mão em mão</h3><p>Joelhos reforçados, bainhas extralongas e alças ajustáveis: a nossa roupa cresce com o seu filho e depois passa para o seguinte.</p><p><em>Este é conteúdo de demonstração do tema Little Sprout.</em></p>",
+    "ru": "<h2>Созданы для игр</h2><p>Little Sprout основали двое родителей, уставших от одежды, которая не выдерживала детскую площадку. Мы создаём удобные прочные вещи из органического хлопка и переработанных материалов, которые переходят от старших к младшим.</p><h3>Бережно к коже</h3><p>Весь наш хлопок органический, и каждую ткань проверяют на вредные вещества. Никаких колючих ярлыков и жёстких швов.</p><h3>Чтобы передавать дальше</h3><p>Усиленные колени, удлинённые подгибки и регулируемые лямки: наша одежда растёт вместе с ребёнком, а потом переходит к следующему.</p><p><em>Это демонстрационный контент темы Little Sprout.</em></p>"
+   }
+  },
+  {
+   "key": "size-guide",
+   "title": {
+    "en": "Size guide",
+    "fr": "Guide des tailles",
+    "es": "Guía de tallas",
+    "it": "Guida alle taglie",
+    "pl": "Tabela rozmiarów",
+    "de": "Größentabelle",
+    "cs": "Tabulka velikostí",
+    "nl": "Maattabel",
+    "pt": "Guia de tamanhos",
+    "ru": "Таблица размеров"
+   },
+   "meta_description": {
+    "en": "Find the right size for babies and kids: height by age.",
+    "fr": "Trouvez la bonne taille pour bébés et enfants : taille selon l'âge.",
+    "es": "Encuentra la talla adecuada para bebés y niños: altura según la edad.",
+    "it": "Trova la taglia giusta per neonati e bambini: altezza per età.",
+    "pl": "Dobierz rozmiar dla niemowląt i dzieci: wzrost według wieku.",
+    "de": "Die richtige Größe für Babys und Kinder: Körpergröße nach Alter.",
+    "cs": "Najděte správnou velikost pro miminka a děti: výška podle věku.",
+    "nl": "Vind de juiste maat voor baby's en kinderen: lengte per leeftijd.",
+    "pt": "Encontre o tamanho certo para bebés e crianças: altura por idade.",
+    "ru": "Подберите размер для малышей и детей: рост по возрасту."
+   },
+   "content": {
+    "en": "<h2>Size guide</h2><p>Our sizes follow age, but every child is different. When in doubt, use height.</p><table class=\"table\"><thead><tr><th>Age</th><th>Height (cm)</th></tr></thead><tbody><tr><td>0–6 m</td><td>56–68</td></tr><tr><td>6–12 m</td><td>68–80</td></tr><tr><td>12–24 m</td><td>80–92</td></tr><tr><td>2–3</td><td>92–98</td></tr><tr><td>4–5</td><td>104–110</td></tr><tr><td>6–7</td><td>116–122</td></tr><tr><td>8–9</td><td>128–134</td></tr></tbody></table><p>Shoes: 19–21 (first steps), 22–25 (toddlers), 26–29 (pre-school).</p>",
+    "fr": "<h2>Guide des tailles</h2><p>Nos tailles suivent l'âge, mais chaque enfant est différent. En cas de doute, fiez-vous à la taille en centimètres.</p><table class=\"table\"><thead><tr><th>Âge</th><th>Taille (cm)</th></tr></thead><tbody><tr><td>0–6 m</td><td>56–68</td></tr><tr><td>6–12 m</td><td>68–80</td></tr><tr><td>12–24 m</td><td>80–92</td></tr><tr><td>2–3</td><td>92–98</td></tr><tr><td>4–5</td><td>104–110</td></tr><tr><td>6–7</td><td>116–122</td></tr><tr><td>8–9</td><td>128–134</td></tr></tbody></table><p>Chaussures : 19–21 (premiers pas), 22–25 (tout-petits), 26–29 (maternelle).</p>",
+    "es": "<h2>Guía de tallas</h2><p>Nuestras tallas siguen la edad, pero cada niño es distinto. Ante la duda, usa la altura.</p><table class=\"table\"><thead><tr><th>Edad</th><th>Altura (cm)</th></tr></thead><tbody><tr><td>0–6 m</td><td>56–68</td></tr><tr><td>6–12 m</td><td>68–80</td></tr><tr><td>12–24 m</td><td>80–92</td></tr><tr><td>2–3</td><td>92–98</td></tr><tr><td>4–5</td><td>104–110</td></tr><tr><td>6–7</td><td>116–122</td></tr><tr><td>8–9</td><td>128–134</td></tr></tbody></table><p>Calzado: 19–21 (primeros pasos), 22–25 (bebés que andan), 26–29 (infantil).</p>",
+    "it": "<h2>Guida alle taglie</h2><p>Le nostre taglie seguono l'età, ma ogni bambino è diverso. Nel dubbio, usa l'altezza.</p><table class=\"table\"><thead><tr><th>Età</th><th>Altezza (cm)</th></tr></thead><tbody><tr><td>0–6 m</td><td>56–68</td></tr><tr><td>6–12 m</td><td>68–80</td></tr><tr><td>12–24 m</td><td>80–92</td></tr><tr><td>2–3</td><td>92–98</td></tr><tr><td>4–5</td><td>104–110</td></tr><tr><td>6–7</td><td>116–122</td></tr><tr><td>8–9</td><td>128–134</td></tr></tbody></table><p>Scarpe: 19–21 (primi passi), 22–25 (piccoli), 26–29 (scuola materna).</p>",
+    "pl": "<h2>Tabela rozmiarów</h2><p>Nasze rozmiary odpowiadają wiekowi, ale każde dziecko jest inne. W razie wątpliwości kieruj się wzrostem.</p><table class=\"table\"><thead><tr><th>Wiek</th><th>Wzrost (cm)</th></tr></thead><tbody><tr><td>0–6 m</td><td>56–68</td></tr><tr><td>6–12 m</td><td>68–80</td></tr><tr><td>12–24 m</td><td>80–92</td></tr><tr><td>2–3</td><td>92–98</td></tr><tr><td>4–5</td><td>104–110</td></tr><tr><td>6–7</td><td>116–122</td></tr><tr><td>8–9</td><td>128–134</td></tr></tbody></table><p>Buty: 19–21 (pierwsze kroki), 22–25 (maluchy), 26–29 (przedszkolaki).</p>",
+    "de": "<h2>Größentabelle</h2><p>Unsere Größen richten sich nach dem Alter, aber jedes Kind ist anders. Im Zweifel zählt die Körpergröße.</p><table class=\"table\"><thead><tr><th>Alter</th><th>Größe (cm)</th></tr></thead><tbody><tr><td>0–6 m</td><td>56–68</td></tr><tr><td>6–12 m</td><td>68–80</td></tr><tr><td>12–24 m</td><td>80–92</td></tr><tr><td>2–3</td><td>92–98</td></tr><tr><td>4–5</td><td>104–110</td></tr><tr><td>6–7</td><td>116–122</td></tr><tr><td>8–9</td><td>128–134</td></tr></tbody></table><p>Schuhe: 19–21 (erste Schritte), 22–25 (Kleinkinder), 26–29 (Kindergarten).</p>",
+    "cs": "<h2>Tabulka velikostí</h2><p>Naše velikosti odpovídají věku, ale každé dítě je jiné. V případě pochybností se řiďte výškou.</p><table class=\"table\"><thead><tr><th>Věk</th><th>Výška (cm)</th></tr></thead><tbody><tr><td>0–6 m</td><td>56–68</td></tr><tr><td>6–12 m</td><td>68–80</td></tr><tr><td>12–24 m</td><td>80–92</td></tr><tr><td>2–3</td><td>92–98</td></tr><tr><td>4–5</td><td>104–110</td></tr><tr><td>6–7</td><td>116–122</td></tr><tr><td>8–9</td><td>128–134</td></tr></tbody></table><p>Boty: 19–21 (první krůčky), 22–25 (batolata), 26–29 (školka).</p>",
+    "nl": "<h2>Maattabel</h2><p>Onze maten volgen de leeftijd, maar elk kind is anders. Twijfel je, kijk dan naar de lengte.</p><table class=\"table\"><thead><tr><th>Leeftijd</th><th>Lengte (cm)</th></tr></thead><tbody><tr><td>0–6 m</td><td>56–68</td></tr><tr><td>6–12 m</td><td>68–80</td></tr><tr><td>12–24 m</td><td>80–92</td></tr><tr><td>2–3</td><td>92–98</td></tr><tr><td>4–5</td><td>104–110</td></tr><tr><td>6–7</td><td>116–122</td></tr><tr><td>8–9</td><td>128–134</td></tr></tbody></table><p>Schoenen: 19–21 (eerste stapjes), 22–25 (peuters), 26–29 (kleuters).</p>",
+    "pt": "<h2>Guia de tamanhos</h2><p>Os nossos tamanhos seguem a idade, mas cada criança é diferente. Na dúvida, use a altura.</p><table class=\"table\"><thead><tr><th>Idade</th><th>Altura (cm)</th></tr></thead><tbody><tr><td>0–6 m</td><td>56–68</td></tr><tr><td>6–12 m</td><td>68–80</td></tr><tr><td>12–24 m</td><td>80–92</td></tr><tr><td>2–3</td><td>92–98</td></tr><tr><td>4–5</td><td>104–110</td></tr><tr><td>6–7</td><td>116–122</td></tr><tr><td>8–9</td><td>128–134</td></tr></tbody></table><p>Calçado: 19–21 (primeiros passos), 22–25 (bebés que andam), 26–29 (pré-escolar).</p>",
+    "ru": "<h2>Таблица размеров</h2><p>Наши размеры соответствуют возрасту, но все дети разные. Если сомневаетесь, ориентируйтесь на рост.</p><table class=\"table\"><thead><tr><th>Возраст</th><th>Рост (см)</th></tr></thead><tbody><tr><td>0–6 m</td><td>56–68</td></tr><tr><td>6–12 m</td><td>68–80</td></tr><tr><td>12–24 m</td><td>80–92</td></tr><tr><td>2–3</td><td>92–98</td></tr><tr><td>4–5</td><td>104–110</td></tr><tr><td>6–7</td><td>116–122</td></tr><tr><td>8–9</td><td>128–134</td></tr></tbody></table><p>Обувь: 19–21 (первые шаги), 22–25 (малыши), 26–29 (дошкольники). «m» — месяцы, без буквы — годы.</p>"
+   }
+  },
+  {
+   "key": "safety",
+   "title": {
+    "en": "Safety & materials",
+    "fr": "Sécurité & matières",
+    "es": "Seguridad y materiales",
+    "it": "Sicurezza e materiali",
+    "pl": "Bezpieczeństwo i materiały",
+    "de": "Sicherheit & Materialien",
+    "cs": "Bezpečnost a materiály",
+    "nl": "Veiligheid & materialen",
+    "pt": "Segurança e materiais",
+    "ru": "Безопасность и материалы"
+   },
+   "meta_description": {
+    "en": "How we choose fabrics, test for harmful substances and design for safe play.",
+    "fr": "Comment nous choisissons nos tissus, testons les substances nocives et concevons pour jouer en sécurité.",
+    "es": "Cómo elegimos los tejidos, analizamos sustancias nocivas y diseñamos para jugar con seguridad.",
+    "it": "Come scegliamo i tessuti, testiamo le sostanze nocive e progettiamo per giocare in sicurezza.",
+    "pl": "Jak wybieramy tkaniny, badamy szkodliwe substancje i projektujemy z myślą o bezpiecznej zabawie.",
+    "de": "Wie wir Stoffe auswählen, auf Schadstoffe prüfen und für sicheres Spielen gestalten.",
+    "cs": "Jak vybíráme látky, testujeme škodlivé látky a navrhujeme pro bezpečnou hru.",
+    "nl": "Hoe we stoffen kiezen, testen op schadelijke stoffen en ontwerpen voor veilig spelen.",
+    "pt": "Como escolhemos os tecidos, testamos substâncias nocivas e desenhamos para brincar em segurança.",
+    "ru": "Как мы выбираем ткани, проверяем их на вредные вещества и создаём одежду для безопасных игр."
+   },
+   "content": {
+    "en": "<h2>Safety &amp; materials</h2><h3>Tested fabrics</h3><p>Every fabric is tested for harmful substances by an independent laboratory.</p><h3>Safe design</h3><p>No drawstrings at the neck or hood, nickel-free poppers and buttons sewn on twice.</p><h3>Sleep safety</h3><p>Our sleeping bags are designed to replace loose blankets. Always choose the right tog for the room temperature.</p><p><em>This is demo content. Replace it with your own product information.</em></p>",
+    "fr": "<h2>Sécurité &amp; matières</h2><h3>Tissus testés</h3><p>Chaque tissu est testé contre les substances nocives par un laboratoire indépendant.</p><h3>Conception sûre</h3><p>Pas de cordons au cou ni à la capuche, pressions sans nickel et boutons cousus deux fois.</p><h3>Sommeil en sécurité</h3><p>Nos gigoteuses remplacent les couvertures. Choisissez toujours l'indice tog adapté à la température de la chambre.</p><p><em>Contenu de démonstration. Remplacez-le par vos propres informations produit.</em></p>",
+    "es": "<h2>Seguridad y materiales</h2><h3>Tejidos analizados</h3><p>Un laboratorio independiente analiza cada tejido para descartar sustancias nocivas.</p><h3>Diseño seguro</h3><p>Sin cordones en el cuello ni la capucha, corchetes sin níquel y botones cosidos dos veces.</p><h3>Sueño seguro</h3><p>Nuestros sacos de dormir sustituyen a las mantas sueltas. Elige siempre el tog adecuado a la temperatura de la habitación.</p><p><em>Contenido de demostración. Sustitúyelo por tu propia información de producto.</em></p>",
+    "it": "<h2>Sicurezza e materiali</h2><h3>Tessuti testati</h3><p>Ogni tessuto è testato contro le sostanze nocive da un laboratorio indipendente.</p><h3>Design sicuro</h3><p>Niente cordoncini al collo o al cappuccio, automatici senza nichel e bottoni cuciti due volte.</p><h3>Sonno sicuro</h3><p>I nostri sacchi nanna sostituiscono le coperte libere. Scegli sempre il tog adatto alla temperatura della stanza.</p><p><em>Contenuto dimostrativo. Sostituiscilo con le tue informazioni di prodotto.</em></p>",
+    "pl": "<h2>Bezpieczeństwo i materiały</h2><h3>Badane tkaniny</h3><p>Każdą tkaninę bada niezależne laboratorium pod kątem szkodliwych substancji.</p><h3>Bezpieczny projekt</h3><p>Bez sznurków przy szyi i kapturze, zatrzaski bez niklu i podwójnie przyszyte guziki.</p><h3>Bezpieczny sen</h3><p>Nasze śpiworki zastępują luźne kocyki. Zawsze dobieraj odpowiedni tog do temperatury w pokoju.</p><p><em>Treść demonstracyjna. Zastąp ją własnymi informacjami o produktach.</em></p>",
+    "de": "<h2>Sicherheit &amp; Materialien</h2><h3>Geprüfte Stoffe</h3><p>Jeder Stoff wird von einem unabhängigen Labor auf Schadstoffe geprüft.</p><h3>Sicheres Design</h3><p>Keine Kordeln an Hals oder Kapuze, nickelfreie Druckknöpfe und doppelt angenähte Knöpfe.</p><h3>Sicherer Schlaf</h3><p>Unsere Schlafsäcke ersetzen lose Decken. Wählen Sie immer den passenden TOG-Wert für die Raumtemperatur.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Produktinformationen.</em></p>",
+    "cs": "<h2>Bezpečnost a materiály</h2><h3>Testované látky</h3><p>Každou látku testuje nezávislá laboratoř na škodlivé látky.</p><h3>Bezpečný design</h3><p>Žádné šňůrky u krku ani kapuce, patentky bez niklu a dvakrát přišité knoflíky.</p><h3>Bezpečný spánek</h3><p>Naše spací pytle nahrazují volné přikrývky. Vždy zvolte správný tog podle teploty v pokoji.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními informacemi o produktech.</em></p>",
+    "nl": "<h2>Veiligheid &amp; materialen</h2><h3>Geteste stoffen</h3><p>Elke stof wordt door een onafhankelijk laboratorium getest op schadelijke stoffen.</p><h3>Veilig ontwerp</h3><p>Geen koordjes bij de hals of capuchon, nikkelvrije drukknoopjes en dubbel aangenaaide knopen.</p><h3>Veilig slapen</h3><p>Onze slaapzakken vervangen losse dekens. Kies altijd de juiste tog voor de kamertemperatuur.</p><p><em>Democontent. Vervang dit door je eigen productinformatie.</em></p>",
+    "pt": "<h2>Segurança e materiais</h2><h3>Tecidos testados</h3><p>Cada tecido é testado contra substâncias nocivas por um laboratório independente.</p><h3>Design seguro</h3><p>Sem cordões no pescoço ou no capuz, molas sem níquel e botões cosidos duas vezes.</p><h3>Sono seguro</h3><p>Os nossos sacos-cama substituem as mantas soltas. Escolha sempre o tog adequado à temperatura do quarto.</p><p><em>Conteúdo de demonstração. Substitua-o pelas suas informações de produto.</em></p>",
+    "ru": "<h2>Безопасность и материалы</h2><h3>Проверенные ткани</h3><p>Каждую ткань проверяет на вредные вещества независимая лаборатория.</p><h3>Безопасный дизайн</h3><p>Никаких шнурков у горла и на капюшоне, кнопки без никеля и пуговицы, пришитые дважды.</p><h3>Безопасный сон</h3><p>Наши спальные мешки заменяют одеяла. Всегда выбирайте тог по температуре в комнате.</p><p><em>Демонстрационный контент. Замените его своей информацией о товарах.</em></p>"
+   }
+  },
+  {
+   "key": "delivery",
+   "title": {
+    "en": "Delivery",
+    "fr": "Livraison",
+    "es": "Envíos",
+    "it": "Spedizioni",
+    "pl": "Dostawa",
+    "de": "Versand",
+    "cs": "Doprava",
+    "nl": "Verzending",
+    "pt": "Entregas",
+    "ru": "Доставка"
+   },
+   "meta_description": {
+    "en": "Delivery times and costs for Little Sprout orders.",
+    "fr": "Délais et frais de livraison des commandes Little Sprout.",
+    "es": "Plazos y costes de envío de los pedidos de Little Sprout.",
+    "it": "Tempi e costi di spedizione degli ordini Little Sprout.",
+    "pl": "Czas i koszt dostawy zamówień Little Sprout.",
+    "de": "Lieferzeiten und Versandkosten für Bestellungen bei Little Sprout.",
+    "cs": "Dodací lhůty a ceny dopravy objednávek Little Sprout.",
+    "nl": "Levertijden en verzendkosten van bestellingen bij Little Sprout.",
+    "pt": "Prazos e custos de entrega das encomendas Little Sprout.",
+    "ru": "Сроки и стоимость доставки заказов Little Sprout."
+   },
+   "content": {
+    "en": "<h2>Delivery</h2><p>Orders placed before 2 pm on a working day are shipped the same day.</p><ul><li><strong>Standard:</strong> 2 to 4 working days, free over €60.</li><li><strong>Express:</strong> next working day in most of Europe.</li><li><strong>Click &amp; collect:</strong> free, ready within 24 hours.</li></ul><p>Every parcel is tracked, and you receive the tracking link by email as soon as it leaves our warehouse.</p><p><em>This is demo content. Replace it with your own delivery terms.</em></p>",
+    "fr": "<h2>Livraison</h2><p>Les commandes passées avant 14 h un jour ouvré sont expédiées le jour même.</p><ul><li><strong>Standard :</strong> 2 à 4 jours ouvrés, offerte dès 60 €.</li><li><strong>Express :</strong> jour ouvré suivant dans la plupart des pays d'Europe.</li><li><strong>Retrait en magasin :</strong> gratuit, prêt sous 24 heures.</li></ul><p>Chaque colis est suivi : vous recevez le lien de suivi par e-mail dès qu'il quitte notre entrepôt.</p><p><em>Contenu de démonstration. Remplacez-le par vos propres conditions de livraison.</em></p>",
+    "es": "<h2>Envíos</h2><p>Los pedidos realizados antes de las 14:00 en día laborable se envían el mismo día.</p><ul><li><strong>Estándar:</strong> de 2 a 4 días laborables, gratis a partir de 60 €.</li><li><strong>Exprés:</strong> siguiente día laborable en la mayor parte de Europa.</li><li><strong>Recogida en tienda:</strong> gratis, listo en 24 horas.</li></ul><p>Todos los paquetes llevan seguimiento y recibirás el enlace por correo en cuanto salga de nuestro almacén.</p><p><em>Contenido de demostración. Sustitúyelo por tus propias condiciones de envío.</em></p>",
+    "it": "<h2>Spedizioni</h2><p>Gli ordini effettuati entro le 14:00 di un giorno lavorativo vengono spediti in giornata.</p><ul><li><strong>Standard:</strong> 2–4 giorni lavorativi, gratuita oltre 60 €.</li><li><strong>Express:</strong> giorno lavorativo successivo in gran parte d'Europa.</li><li><strong>Ritiro in negozio:</strong> gratuito, pronto entro 24 ore.</li></ul><p>Ogni pacco è tracciato: ricevi il link via email appena lascia il nostro magazzino.</p><p><em>Contenuto dimostrativo. Sostituiscilo con le tue condizioni di spedizione.</em></p>",
+    "pl": "<h2>Dostawa</h2><p>Zamówienia złożone w dzień roboczy przed 14:00 wysyłamy tego samego dnia.</p><ul><li><strong>Standard:</strong> 2–4 dni robocze, gratis od 60 €.</li><li><strong>Ekspres:</strong> następny dzień roboczy w większości krajów Europy.</li><li><strong>Odbiór osobisty:</strong> bezpłatnie, gotowe w 24 godziny.</li></ul><p>Każda paczka ma numer śledzenia – link otrzymasz e-mailem, gdy tylko opuści nasz magazyn.</p><p><em>Treść demonstracyjna. Zastąp ją własnymi warunkami dostawy.</em></p>",
+    "de": "<h2>Versand</h2><p>Bestellungen, die an Werktagen vor 14 Uhr eingehen, werden am selben Tag verschickt.</p><ul><li><strong>Standard:</strong> 2–4 Werktage, kostenlos ab 60 €.</li><li><strong>Express:</strong> nächster Werktag in den meisten Ländern Europas.</li><li><strong>Click &amp; Collect:</strong> kostenlos, innerhalb von 24 Stunden abholbereit.</li></ul><p>Jedes Paket ist verfolgbar; den Link erhalten Sie per E-Mail, sobald es unser Lager verlässt.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Versandbedingungen.</em></p>",
+    "cs": "<h2>Doprava</h2><p>Objednávky přijaté v pracovní den do 14:00 odesíláme ještě týž den.</p><ul><li><strong>Standard:</strong> 2–4 pracovní dny, zdarma od 60 €.</li><li><strong>Expres:</strong> následující pracovní den ve většině Evropy.</li><li><strong>Osobní odběr:</strong> zdarma, připraveno do 24 hodin.</li></ul><p>Každý balík je sledovaný; odkaz vám pošleme e-mailem, jakmile opustí náš sklad.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními dodacími podmínkami.</em></p>",
+    "nl": "<h2>Verzending</h2><p>Bestellingen die op een werkdag vóór 14.00 uur worden geplaatst, versturen we dezelfde dag.</p><ul><li><strong>Standaard:</strong> 2–4 werkdagen, gratis vanaf € 60.</li><li><strong>Express:</strong> volgende werkdag in het grootste deel van Europa.</li><li><strong>Afhalen:</strong> gratis, binnen 24 uur klaar.</li></ul><p>Elk pakket is te volgen; je ontvangt de link per e-mail zodra het ons magazijn verlaat.</p><p><em>Democontent. Vervang dit door je eigen verzendvoorwaarden.</em></p>",
+    "pt": "<h2>Entregas</h2><p>As encomendas feitas antes das 14h num dia útil são enviadas no mesmo dia.</p><ul><li><strong>Normal:</strong> 2 a 4 dias úteis, grátis a partir de 60 €.</li><li><strong>Expresso:</strong> dia útil seguinte na maior parte da Europa.</li><li><strong>Levantamento em loja:</strong> grátis, pronto em 24 horas.</li></ul><p>Todas as encomendas têm seguimento e recebe a ligação por e-mail assim que saem do nosso armazém.</p><p><em>Conteúdo de demonstração. Substitua-o pelas suas condições de entrega.</em></p>",
+    "ru": "<h2>Доставка</h2><p>Заказы, оформленные в рабочий день до 14:00, отправляются в тот же день.</p><ul><li><strong>Стандартная:</strong> 2–4 рабочих дня, бесплатно от 60 €.</li><li><strong>Экспресс:</strong> следующий рабочий день в большинстве стран Европы.</li><li><strong>Самовывоз:</strong> бесплатно, готово в течение 24 часов.</li></ul><p>Каждая посылка отслеживается — ссылку вы получите по e-mail, как только она покинет наш склад.</p><p><em>Демонстрационный контент. Замените его своими условиями доставки.</em></p>"
+   }
+  },
+  {
+   "key": "returns",
+   "title": {
+    "en": "Returns & exchanges",
+    "fr": "Retours & échanges",
+    "es": "Devoluciones y cambios",
+    "it": "Resi e cambi",
+    "pl": "Zwroty i wymiany",
+    "de": "Rücksendung & Umtausch",
+    "cs": "Vrácení a výměna",
+    "nl": "Retourneren & ruilen",
+    "pt": "Devoluções e trocas",
+    "ru": "Возврат и обмен"
+   },
+   "meta_description": {
+    "en": "Free returns within 30 days on Little Sprout orders.",
+    "fr": "Retours gratuits sous 30 jours sur les commandes Little Sprout.",
+    "es": "Devoluciones gratuitas en 30 días en los pedidos de Little Sprout.",
+    "it": "Reso gratuito entro 30 giorni sugli ordini Little Sprout.",
+    "pl": "Bezpłatne zwroty w ciągu 30 dni dla zamówień Little Sprout.",
+    "de": "Kostenlose Rücksendung innerhalb von 30 Tagen bei Little Sprout.",
+    "cs": "Vrácení zdarma do 30 dní u objednávek Little Sprout.",
+    "nl": "Gratis retourneren binnen 30 dagen bij Little Sprout.",
+    "pt": "Devoluções gratuitas em 30 dias nas encomendas Little Sprout.",
+    "ru": "Бесплатный возврат в течение 30 дней для заказов Little Sprout."
+   },
+   "content": {
+    "en": "<h2>Returns &amp; exchanges</h2><p>You have 30 days from delivery to return any unworn item with its labels attached. Returns are free within the European Union.</p><ol><li>Sign in to your account and open the order.</li><li>Choose the items to return and print the prepaid label.</li><li>Drop the parcel at any post office or collection point.</li></ol><p>Refunds are made to the original payment method within 5 working days of receiving your parcel. For an exchange, simply return the item and place a new order.</p><p><em>This is demo content. Replace it with your own return policy.</em></p>",
+    "fr": "<h2>Retours &amp; échanges</h2><p>Vous disposez de 30 jours après la livraison pour retourner tout article non porté avec ses étiquettes. Les retours sont gratuits dans l'Union européenne.</p><ol><li>Connectez-vous à votre compte et ouvrez la commande.</li><li>Choisissez les articles à retourner et imprimez l'étiquette prépayée.</li><li>Déposez le colis dans un bureau de poste ou un point relais.</li></ol><p>Le remboursement est effectué sur le moyen de paiement d'origine sous 5 jours ouvrés après réception du colis. Pour un échange, retournez simplement l'article et passez une nouvelle commande.</p><p><em>Contenu de démonstration. Remplacez-le par votre propre politique de retour.</em></p>",
+    "es": "<h2>Devoluciones y cambios</h2><p>Dispones de 30 días desde la entrega para devolver cualquier artículo sin usar y con sus etiquetas. Las devoluciones son gratuitas dentro de la Unión Europea.</p><ol><li>Inicia sesión en tu cuenta y abre el pedido.</li><li>Elige los artículos que quieres devolver e imprime la etiqueta prepagada.</li><li>Entrega el paquete en cualquier oficina de correos o punto de recogida.</li></ol><p>El reembolso se realiza al método de pago original en un plazo de 5 días laborables tras recibir el paquete. Para un cambio, devuelve el artículo y realiza un nuevo pedido.</p><p><em>Contenido de demostración. Sustitúyelo por tu propia política de devoluciones.</em></p>",
+    "it": "<h2>Resi e cambi</h2><p>Hai 30 giorni dalla consegna per restituire qualsiasi articolo non indossato e con le etichette. Il reso è gratuito nell'Unione europea.</p><ol><li>Accedi al tuo account e apri l'ordine.</li><li>Scegli gli articoli da restituire e stampa l'etichetta prepagata.</li><li>Consegna il pacco in un ufficio postale o punto di ritiro.</li></ol><p>Il rimborso avviene sul metodo di pagamento originale entro 5 giorni lavorativi dalla ricezione del pacco. Per un cambio, restituisci l'articolo ed effettua un nuovo ordine.</p><p><em>Contenuto dimostrativo. Sostituiscilo con la tua politica di reso.</em></p>",
+    "pl": "<h2>Zwroty i wymiany</h2><p>Masz 30 dni od dostawy na zwrot nienoszonego produktu z metkami. Zwroty w Unii Europejskiej są bezpłatne.</p><ol><li>Zaloguj się na swoje konto i otwórz zamówienie.</li><li>Wybierz produkty do zwrotu i wydrukuj opłaconą etykietę.</li><li>Nadaj paczkę na poczcie lub w punkcie odbioru.</li></ol><p>Zwrot pieniędzy następuje na pierwotną metodę płatności w ciągu 5 dni roboczych od otrzymania paczki. Aby wymienić produkt, zwróć go i złóż nowe zamówienie.</p><p><em>Treść demonstracyjna. Zastąp ją własną polityką zwrotów.</em></p>",
+    "de": "<h2>Rücksendung &amp; Umtausch</h2><p>Sie haben ab Lieferung 30 Tage Zeit, ungetragene Artikel mit Etikett zurückzusenden. Rücksendungen innerhalb der EU sind kostenlos.</p><ol><li>Melden Sie sich in Ihrem Konto an und öffnen Sie die Bestellung.</li><li>Wählen Sie die Artikel aus und drucken Sie das vorfrankierte Etikett.</li><li>Geben Sie das Paket bei einer Post- oder Paketstelle ab.</li></ol><p>Die Erstattung erfolgt innerhalb von 5 Werktagen nach Eingang auf das ursprüngliche Zahlungsmittel. Für einen Umtausch senden Sie den Artikel zurück und bestellen neu.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Rückgabebedingungen.</em></p>",
+    "cs": "<h2>Vrácení a výměna</h2><p>Na vrácení nenošeného zboží s visačkami máte 30 dní od doručení. Vrácení v rámci Evropské unie je zdarma.</p><ol><li>Přihlaste se ke svému účtu a otevřete objednávku.</li><li>Vyberte zboží k vrácení a vytiskněte předplacený štítek.</li><li>Balík odevzdejte na poště nebo ve výdejním místě.</li></ol><p>Peníze vracíme původní platební metodou do 5 pracovních dnů od přijetí balíku. Pro výměnu zboží vraťte a vytvořte novou objednávku.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními podmínkami vrácení.</em></p>",
+    "nl": "<h2>Retourneren &amp; ruilen</h2><p>Je hebt 30 dagen na levering om ongedragen artikelen met label terug te sturen. Retourneren binnen de Europese Unie is gratis.</p><ol><li>Log in op je account en open de bestelling.</li><li>Kies de artikelen en print het gefrankeerde label.</li><li>Lever het pakket af bij een postkantoor of afhaalpunt.</li></ol><p>We betalen terug via de oorspronkelijke betaalmethode binnen 5 werkdagen na ontvangst. Om te ruilen stuur je het artikel terug en plaats je een nieuwe bestelling.</p><p><em>Democontent. Vervang dit door je eigen retourbeleid.</em></p>",
+    "pt": "<h2>Devoluções e trocas</h2><p>Tem 30 dias após a entrega para devolver qualquer artigo não usado e com etiquetas. As devoluções são gratuitas na União Europeia.</p><ol><li>Inicie sessão na sua conta e abra a encomenda.</li><li>Escolha os artigos a devolver e imprima a etiqueta pré-paga.</li><li>Entregue a encomenda numa estação de correios ou ponto de recolha.</li></ol><p>O reembolso é feito no método de pagamento original no prazo de 5 dias úteis após receção. Para uma troca, devolva o artigo e faça uma nova encomenda.</p><p><em>Conteúdo de demonstração. Substitua-o pela sua política de devoluções.</em></p>",
+    "ru": "<h2>Возврат и обмен</h2><p>У вас есть 30 дней с момента доставки, чтобы вернуть неношеный товар с ярлыками. Возврат в пределах Европейского союза бесплатный.</p><ol><li>Войдите в свой аккаунт и откройте заказ.</li><li>Выберите товары для возврата и распечатайте оплаченную этикетку.</li><li>Сдайте посылку в почтовое отделение или пункт приёма.</li></ol><p>Деньги возвращаются на исходный способ оплаты в течение 5 рабочих дней после получения посылки. Для обмена верните товар и оформите новый заказ.</p><p><em>Демонстрационный контент. Замените его своей политикой возврата.</em></p>"
+   }
+  },
+  {
+   "key": "terms",
+   "title": {
+    "en": "Terms and conditions",
+    "fr": "Conditions générales de vente",
+    "es": "Condiciones generales",
+    "it": "Condizioni di vendita",
+    "pl": "Regulamin",
+    "de": "AGB",
+    "cs": "Obchodní podmínky",
+    "nl": "Algemene voorwaarden",
+    "pt": "Termos e condições",
+    "ru": "Условия продажи"
+   },
+   "meta_description": {
+    "en": "Terms and conditions of sale.",
+    "fr": "Conditions générales de vente.",
+    "es": "Condiciones generales de venta.",
+    "it": "Condizioni generali di vendita.",
+    "pl": "Regulamin sprzedaży.",
+    "de": "Allgemeine Geschäftsbedingungen.",
+    "cs": "Všeobecné obchodní podmínky.",
+    "nl": "Algemene verkoopvoorwaarden.",
+    "pt": "Condições gerais de venda.",
+    "ru": "Общие условия продажи."
+   },
+   "content": {
+    "en": "<h2>Terms and conditions of sale</h2><p>These terms apply to all orders placed on this website. By placing an order you accept them in full.</p><h3>Prices</h3><p>Prices are shown in euros, including VAT. Delivery costs are shown before you confirm your order.</p><h3>Payment</h3><p>Payment is taken when your order is confirmed.</p><h3>Right of withdrawal</h3><p>You may withdraw from your purchase within 30 days of delivery, as described on our returns page.</p><p><em>This is demo content. Replace it with terms reviewed by a legal professional for your country.</em></p>",
+    "fr": "<h2>Conditions générales de vente</h2><p>Ces conditions s'appliquent à toutes les commandes passées sur ce site. En passant commande, vous les acceptez dans leur intégralité.</p><h3>Prix</h3><p>Les prix sont indiqués en euros, TVA comprise. Les frais de livraison sont affichés avant la validation de la commande.</p><h3>Paiement</h3><p>Le paiement est prélevé à la confirmation de la commande.</p><h3>Droit de rétractation</h3><p>Vous pouvez vous rétracter dans les 30 jours suivant la livraison, comme indiqué sur notre page des retours.</p><p><em>Contenu de démonstration. Remplacez-le par des conditions validées par un juriste pour votre pays.</em></p>",
+    "es": "<h2>Condiciones generales de venta</h2><p>Estas condiciones se aplican a todos los pedidos realizados en este sitio web. Al realizar un pedido, las aceptas íntegramente.</p><h3>Precios</h3><p>Los precios se muestran en euros, IVA incluido. Los gastos de envío se indican antes de confirmar el pedido.</p><h3>Pago</h3><p>El pago se cobra al confirmar el pedido.</p><h3>Derecho de desistimiento</h3><p>Puedes desistir de tu compra en los 30 días siguientes a la entrega, tal como se describe en nuestra página de devoluciones.</p><p><em>Contenido de demostración. Sustitúyelo por condiciones revisadas por un profesional jurídico de tu país.</em></p>",
+    "it": "<h2>Condizioni generali di vendita</h2><p>Queste condizioni si applicano a tutti gli ordini effettuati su questo sito. Effettuando un ordine le accetti integralmente.</p><h3>Prezzi</h3><p>I prezzi sono indicati in euro, IVA inclusa. Le spese di spedizione sono indicate prima della conferma dell'ordine.</p><h3>Pagamento</h3><p>Il pagamento viene addebitato alla conferma dell'ordine.</p><h3>Diritto di recesso</h3><p>Puoi recedere dall'acquisto entro 30 giorni dalla consegna, come descritto nella pagina dei resi.</p><p><em>Contenuto dimostrativo. Sostituiscilo con condizioni verificate da un legale del tuo Paese.</em></p>",
+    "pl": "<h2>Regulamin sprzedaży</h2><p>Niniejszy regulamin dotyczy wszystkich zamówień składanych w tym sklepie. Składając zamówienie, akceptujesz go w całości.</p><h3>Ceny</h3><p>Ceny podane są w euro i zawierają VAT. Koszty dostawy wyświetlamy przed potwierdzeniem zamówienia.</p><h3>Płatność</h3><p>Płatność pobierana jest w momencie potwierdzenia zamówienia.</p><h3>Prawo odstąpienia</h3><p>Możesz odstąpić od umowy w ciągu 30 dni od dostawy, jak opisano na stronie zwrotów.</p><p><em>Treść demonstracyjna. Zastąp ją regulaminem sprawdzonym przez prawnika w Twoim kraju.</em></p>",
+    "de": "<h2>Allgemeine Geschäftsbedingungen</h2><p>Diese Bedingungen gelten für alle Bestellungen auf dieser Website. Mit Ihrer Bestellung erkennen Sie sie vollständig an.</p><h3>Preise</h3><p>Alle Preise in Euro inklusive Mehrwertsteuer. Versandkosten werden vor der Bestellbestätigung angezeigt.</p><h3>Zahlung</h3><p>Die Zahlung wird mit der Bestellbestätigung fällig.</p><h3>Widerrufsrecht</h3><p>Sie können innerhalb von 30 Tagen nach Lieferung widerrufen, wie auf unserer Rückgabeseite beschrieben.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch rechtlich geprüfte Bedingungen für Ihr Land.</em></p>",
+    "cs": "<h2>Všeobecné obchodní podmínky</h2><p>Tyto podmínky platí pro všechny objednávky na tomto webu. Odesláním objednávky je přijímáte v plném rozsahu.</p><h3>Ceny</h3><p>Ceny jsou uvedeny v eurech včetně DPH. Cena dopravy se zobrazí před potvrzením objednávky.</p><h3>Platba</h3><p>Platba je stržena při potvrzení objednávky.</p><h3>Odstoupení od smlouvy</h3><p>Od nákupu můžete odstoupit do 30 dnů od doručení, jak je popsáno na stránce vrácení.</p><p><em>Ukázkový obsah. Nahraďte jej podmínkami schválenými právníkem pro vaši zemi.</em></p>",
+    "nl": "<h2>Algemene verkoopvoorwaarden</h2><p>Deze voorwaarden gelden voor alle bestellingen op deze website. Door te bestellen ga je er volledig mee akkoord.</p><h3>Prijzen</h3><p>Prijzen zijn in euro's, inclusief btw. Verzendkosten zie je voordat je je bestelling bevestigt.</p><h3>Betaling</h3><p>De betaling wordt afgeschreven bij bevestiging van de bestelling.</p><h3>Herroepingsrecht</h3><p>Je kunt je aankoop binnen 30 dagen na levering herroepen, zoals beschreven op onze retourpagina.</p><p><em>Democontent. Vervang dit door voorwaarden die door een jurist voor jouw land zijn gecontroleerd.</em></p>",
+    "pt": "<h2>Condições gerais de venda</h2><p>Estas condições aplicam-se a todas as encomendas feitas neste site. Ao encomendar, aceita-as na íntegra.</p><h3>Preços</h3><p>Os preços são apresentados em euros, com IVA incluído. Os portes são indicados antes de confirmar a encomenda.</p><h3>Pagamento</h3><p>O pagamento é cobrado na confirmação da encomenda.</p><h3>Direito de livre resolução</h3><p>Pode desistir da compra no prazo de 30 dias após a entrega, conforme descrito na página de devoluções.</p><p><em>Conteúdo de demonstração. Substitua-o por condições revistas por um jurista do seu país.</em></p>",
+    "ru": "<h2>Общие условия продажи</h2><p>Эти условия распространяются на все заказы на этом сайте. Оформляя заказ, вы принимаете их полностью.</p><h3>Цены</h3><p>Цены указаны в евро с учётом НДС. Стоимость доставки отображается до подтверждения заказа.</p><h3>Оплата</h3><p>Оплата списывается при подтверждении заказа.</p><h3>Право на отказ</h3><p>Вы можете отказаться от покупки в течение 30 дней после доставки, как описано на странице возврата.</p><p><em>Демонстрационный контент. Замените его условиями, проверенными юристом вашей страны.</em></p>"
+   },
+   "role": "conditions"
+  },
+  {
+   "key": "privacy",
+   "title": {
+    "en": "Privacy policy",
+    "fr": "Politique de confidentialité",
+    "es": "Política de privacidad",
+    "it": "Informativa sulla privacy",
+    "pl": "Polityka prywatności",
+    "de": "Datenschutzerklärung",
+    "cs": "Ochrana osobních údajů",
+    "nl": "Privacybeleid",
+    "pt": "Política de privacidade",
+    "ru": "Политика конфиденциальности"
+   },
+   "meta_description": {
+    "en": "How we collect and use your personal data.",
+    "fr": "Comment nous collectons et utilisons vos données personnelles.",
+    "es": "Cómo recogemos y utilizamos tus datos personales.",
+    "it": "Come raccogliamo e utilizziamo i tuoi dati personali.",
+    "pl": "Jak zbieramy i wykorzystujemy Twoje dane osobowe.",
+    "de": "Wie wir Ihre personenbezogenen Daten erheben und nutzen.",
+    "cs": "Jak shromažďujeme a používáme vaše osobní údaje.",
+    "nl": "Hoe we je persoonsgegevens verzamelen en gebruiken.",
+    "pt": "Como recolhemos e utilizamos os seus dados pessoais.",
+    "ru": "Как мы собираем и используем ваши персональные данные."
+   },
+   "content": {
+    "en": "<h2>Privacy policy</h2><p>We only collect the personal data we need to process your orders, answer your questions and, if you agree, send you our newsletter.</p><h3>Your rights</h3><p>You can access, correct or delete your data at any time from your account or by contacting us.</p><h3>Cookies</h3><p>We use the cookies needed for the shop to work, and others only with your consent.</p><p><em>This is demo content. Replace it with a privacy policy reviewed by a legal professional.</em></p>",
+    "fr": "<h2>Politique de confidentialité</h2><p>Nous ne collectons que les données personnelles nécessaires pour traiter vos commandes, répondre à vos questions et, si vous l'acceptez, vous envoyer notre newsletter.</p><h3>Vos droits</h3><p>Vous pouvez à tout moment accéder à vos données, les corriger ou les supprimer depuis votre compte ou en nous contactant.</p><h3>Cookies</h3><p>Nous utilisons les cookies nécessaires au fonctionnement de la boutique, et les autres uniquement avec votre consentement.</p><p><em>Contenu de démonstration. Remplacez-le par une politique validée par un juriste.</em></p>",
+    "es": "<h2>Política de privacidad</h2><p>Solo recogemos los datos personales necesarios para tramitar tus pedidos, responder a tus preguntas y, si lo aceptas, enviarte nuestro boletín.</p><h3>Tus derechos</h3><p>Puedes acceder, corregir o eliminar tus datos en cualquier momento desde tu cuenta o contactándonos.</p><h3>Cookies</h3><p>Usamos las cookies necesarias para el funcionamiento de la tienda y las demás solo con tu consentimiento.</p><p><em>Contenido de demostración. Sustitúyelo por una política revisada por un profesional jurídico.</em></p>",
+    "it": "<h2>Informativa sulla privacy</h2><p>Raccogliamo solo i dati personali necessari per gestire i tuoi ordini, rispondere alle tue domande e, se acconsenti, inviarti la nostra newsletter.</p><h3>I tuoi diritti</h3><p>Puoi accedere, correggere o cancellare i tuoi dati in qualsiasi momento dal tuo account o contattandoci.</p><h3>Cookie</h3><p>Usiamo i cookie necessari al funzionamento del negozio e gli altri solo con il tuo consenso.</p><p><em>Contenuto dimostrativo. Sostituiscilo con un'informativa verificata da un legale.</em></p>",
+    "pl": "<h2>Polityka prywatności</h2><p>Zbieramy wyłącznie dane osobowe potrzebne do realizacji zamówień, odpowiedzi na pytania i – za Twoją zgodą – wysyłki newslettera.</p><h3>Twoje prawa</h3><p>W każdej chwili możesz uzyskać dostęp do swoich danych, poprawić je lub usunąć w swoim koncie albo kontaktując się z nami.</p><h3>Pliki cookie</h3><p>Używamy plików cookie niezbędnych do działania sklepu, a pozostałych wyłącznie za Twoją zgodą.</p><p><em>Treść demonstracyjna. Zastąp ją polityką sprawdzoną przez prawnika.</em></p>",
+    "de": "<h2>Datenschutzerklärung</h2><p>Wir erheben nur die personenbezogenen Daten, die wir zur Abwicklung Ihrer Bestellungen, zur Beantwortung Ihrer Fragen und – mit Ihrer Zustimmung – für unseren Newsletter benötigen.</p><h3>Ihre Rechte</h3><p>Sie können Ihre Daten jederzeit in Ihrem Konto oder über unseren Kontakt einsehen, berichtigen oder löschen.</p><h3>Cookies</h3><p>Wir verwenden die für den Shop notwendigen Cookies, andere nur mit Ihrer Einwilligung.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch eine rechtlich geprüfte Datenschutzerklärung.</em></p>",
+    "cs": "<h2>Ochrana osobních údajů</h2><p>Shromažďujeme pouze osobní údaje nutné k vyřízení objednávek, zodpovězení dotazů a – s vaším souhlasem – k zasílání newsletteru.</p><h3>Vaše práva</h3><p>Své údaje můžete kdykoli zobrazit, opravit nebo smazat ve svém účtu nebo nás kontaktovat.</p><h3>Cookies</h3><p>Používáme cookies nezbytné pro chod obchodu, ostatní pouze s vaším souhlasem.</p><p><em>Ukázkový obsah. Nahraďte jej zásadami schválenými právníkem.</em></p>",
+    "nl": "<h2>Privacybeleid</h2><p>We verzamelen alleen de persoonsgegevens die nodig zijn om je bestellingen te verwerken, je vragen te beantwoorden en, als je dat wilt, onze nieuwsbrief te sturen.</p><h3>Je rechten</h3><p>Je kunt je gegevens op elk moment inzien, corrigeren of verwijderen via je account of door contact met ons op te nemen.</p><h3>Cookies</h3><p>We gebruiken de cookies die nodig zijn voor de werking van de winkel, en andere alleen met jouw toestemming.</p><p><em>Democontent. Vervang dit door een privacybeleid dat door een jurist is gecontroleerd.</em></p>",
+    "pt": "<h2>Política de privacidade</h2><p>Recolhemos apenas os dados pessoais necessários para processar as suas encomendas, responder às suas perguntas e, se concordar, enviar a nossa newsletter.</p><h3>Os seus direitos</h3><p>Pode aceder, corrigir ou apagar os seus dados a qualquer momento na sua conta ou contactando-nos.</p><h3>Cookies</h3><p>Usamos os cookies necessários ao funcionamento da loja e os restantes apenas com o seu consentimento.</p><p><em>Conteúdo de demonstração. Substitua-o por uma política revista por um jurista.</em></p>",
+    "ru": "<h2>Политика конфиденциальности</h2><p>Мы собираем только те персональные данные, которые нужны для обработки заказов, ответов на ваши вопросы и — с вашего согласия — отправки рассылки.</p><h3>Ваши права</h3><p>Вы можете в любой момент просмотреть, исправить или удалить свои данные в аккаунте или связавшись с нами.</p><h3>Файлы cookie</h3><p>Мы используем cookie, необходимые для работы магазина, а остальные — только с вашего согласия.</p><p><em>Демонстрационный контент. Замените его политикой, проверенной юристом.</em></p>"
+   }
+  },
+  {
+   "key": "legal",
+   "title": {
+    "en": "Legal notice",
+    "fr": "Mentions légales",
+    "es": "Aviso legal",
+    "it": "Note legali",
+    "pl": "Nota prawna",
+    "de": "Impressum",
+    "cs": "Právní informace",
+    "nl": "Juridische informatie",
+    "pt": "Aviso legal",
+    "ru": "Правовая информация"
+   },
+   "meta_description": {
+    "en": "Legal notice and company information.",
+    "fr": "Mentions légales et informations sur la société.",
+    "es": "Aviso legal e información de la empresa.",
+    "it": "Note legali e informazioni sulla società.",
+    "pl": "Nota prawna i dane firmy.",
+    "de": "Impressum und Unternehmensangaben.",
+    "cs": "Právní informace a údaje o společnosti.",
+    "nl": "Juridische informatie en bedrijfsgegevens.",
+    "pt": "Aviso legal e informações da empresa.",
+    "ru": "Правовая информация и сведения о компании."
+   },
+   "content": {
+    "en": "<h2>Legal notice</h2><p>Little Sprout is a fictional brand created for this demo store.</p><p>Publisher: your company name, address, registration number and VAT number.</p><p>Hosting: your hosting provider's name and address.</p><p><em>This is demo content. Replace it with your own company details.</em></p>",
+    "fr": "<h2>Mentions légales</h2><p>Little Sprout est une marque fictive créée pour cette boutique de démonstration.</p><p>Éditeur : nom de votre société, adresse, numéro d'immatriculation et numéro de TVA.</p><p>Hébergement : nom et adresse de votre hébergeur.</p><p><em>Contenu de démonstration. Remplacez-le par les informations de votre société.</em></p>",
+    "es": "<h2>Aviso legal</h2><p>Little Sprout es una marca ficticia creada para esta tienda de demostración.</p><p>Titular: nombre de tu empresa, dirección, número de registro y NIF/IVA.</p><p>Alojamiento: nombre y dirección de tu proveedor de hosting.</p><p><em>Contenido de demostración. Sustitúyelo por los datos de tu empresa.</em></p>",
+    "it": "<h2>Note legali</h2><p>Little Sprout è un marchio di fantasia creato per questo negozio dimostrativo.</p><p>Editore: nome della tua società, indirizzo, numero di registrazione e partita IVA.</p><p>Hosting: nome e indirizzo del tuo fornitore di hosting.</p><p><em>Contenuto dimostrativo. Sostituiscilo con i dati della tua società.</em></p>",
+    "pl": "<h2>Nota prawna</h2><p>Little Sprout to fikcyjna marka stworzona na potrzeby tego sklepu demonstracyjnego.</p><p>Wydawca: nazwa Twojej firmy, adres, numer rejestrowy i NIP.</p><p>Hosting: nazwa i adres dostawcy hostingu.</p><p><em>Treść demonstracyjna. Zastąp ją danymi swojej firmy.</em></p>",
+    "de": "<h2>Impressum</h2><p>Little Sprout ist eine fiktive Marke, die für diesen Demo-Shop erstellt wurde.</p><p>Anbieter: Name Ihres Unternehmens, Anschrift, Registernummer und USt-IdNr.</p><p>Hosting: Name und Anschrift Ihres Hosting-Anbieters.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Unternehmensangaben.</em></p>",
+    "cs": "<h2>Právní informace</h2><p>Little Sprout je smyšlená značka vytvořená pro tento ukázkový obchod.</p><p>Provozovatel: název vaší společnosti, adresa, IČO a DIČ.</p><p>Hosting: název a adresa vašeho poskytovatele hostingu.</p><p><em>Ukázkový obsah. Nahraďte jej údaji vaší společnosti.</em></p>",
+    "nl": "<h2>Juridische informatie</h2><p>Little Sprout is een fictief merk, gemaakt voor deze demowinkel.</p><p>Uitgever: je bedrijfsnaam, adres, KvK-nummer en btw-nummer.</p><p>Hosting: naam en adres van je hostingprovider.</p><p><em>Democontent. Vervang dit door je eigen bedrijfsgegevens.</em></p>",
+    "pt": "<h2>Aviso legal</h2><p>A Little Sprout é uma marca fictícia criada para esta loja de demonstração.</p><p>Editor: nome da sua empresa, morada, número de registo e NIF.</p><p>Alojamento: nome e morada do seu fornecedor de alojamento.</p><p><em>Conteúdo de demonstração. Substitua-o pelos dados da sua empresa.</em></p>",
+    "ru": "<h2>Правовая информация</h2><p>Little Sprout — вымышленный бренд, созданный для этого демонстрационного магазина.</p><p>Владелец: название вашей компании, адрес, регистрационный номер и номер НДС.</p><p>Хостинг: название и адрес вашего хостинг-провайдера.</p><p><em>Демонстрационный контент. Замените его данными вашей компании.</em></p>"
+   }
+  }
+ ],
+ "menu": [
+  "category:baby",
+  "category:girls",
+  "category:boys",
+  "category:sleep",
+  "category:outerwear",
+  "category:accessories",
+  {
+   "label": {
+    "en": "Sale",
+    "fr": "Soldes",
+    "es": "Rebajas",
+    "it": "Saldi",
+    "pl": "Wyprzedaż",
+    "de": "Sale",
+    "cs": "Výprodej",
+    "nl": "Sale",
+    "pt": "Saldos",
+    "ru": "Распродажа"
+   },
+   "url": "page:prices-drop"
+  }
+ ],
+ "link_blocks": [
+  {
+   "name": {
+    "en": "Shop",
+    "fr": "Boutique",
+    "es": "Tienda",
+    "it": "Negozio",
+    "pl": "Sklep",
+    "de": "Shop",
+    "cs": "Obchod",
+    "nl": "Winkel",
+    "pt": "Loja",
+    "ru": "Магазин"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "page:new-products",
+    "page:prices-drop",
+    "page:best-sales"
+   ]
+  },
+  {
+   "name": {
+    "en": "Customer care",
+    "fr": "Service client",
+    "es": "Atención al cliente",
+    "it": "Assistenza clienti",
+    "pl": "Obsługa klienta",
+    "de": "Kundenservice",
+    "cs": "Zákaznický servis",
+    "nl": "Klantenservice",
+    "pt": "Apoio ao cliente",
+    "ru": "Покупателям"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "cms:delivery",
+    "cms:returns",
+    "cms:size-guide",
+    "cms:safety",
+    "page:contact"
+   ]
+  },
+  {
+   "name": {
+    "en": "Little Sprout",
+    "fr": "Little Sprout",
+    "es": "Little Sprout",
+    "it": "Little Sprout",
+    "pl": "Little Sprout",
+    "de": "Little Sprout",
+    "cs": "Little Sprout",
+    "nl": "Little Sprout",
+    "pt": "Little Sprout",
+    "ru": "Little Sprout"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "cms:about",
+    "cms:terms",
+    "cms:privacy",
+    "cms:legal",
+    "page:sitemap"
+   ]
+  }
+ ],
+ "reassurance": [
+  {
+   "icon": "pack2/carrier.svg",
+   "title": {
+    "en": "Free delivery over €60",
+    "fr": "Livraison offerte dès 60 €",
+    "es": "Envío gratis a partir de 60 €",
+    "it": "Spedizione gratuita oltre 60 €",
+    "pl": "Darmowa dostawa od 60 €",
+    "de": "Kostenloser Versand ab 60 €",
+    "cs": "Doprava zdarma od 60 €",
+    "nl": "Gratis verzending vanaf € 60",
+    "pt": "Entrega grátis a partir de 60 €",
+    "ru": "Бесплатная доставка от 60 €"
+   },
+   "text": {
+    "en": "Tracked shipping across Europe",
+    "fr": "Envoi suivi dans toute l'Europe",
+    "es": "Envío con seguimiento en toda Europa",
+    "it": "Spedizione tracciata in tutta Europa",
+    "pl": "Przesyłki ze śledzeniem w całej Europie",
+    "de": "Sendungsverfolgung in ganz Europa",
+    "cs": "Sledované zásilky po celé Evropě",
+    "nl": "Track & trace in heel Europa",
+    "pt": "Envio com seguimento em toda a Europa",
+    "ru": "Отслеживаемая доставка по всей Европе"
+   },
+   "cms": "delivery"
+  },
+  {
+   "icon": "pack2/return.svg",
+   "title": {
+    "en": "Free 30-day returns",
+    "fr": "Retours gratuits sous 30 jours",
+    "es": "Devoluciones gratis en 30 días",
+    "it": "Reso gratuito entro 30 giorni",
+    "pl": "Bezpłatny zwrot w 30 dni",
+    "de": "30 Tage kostenlose Rücksendung",
+    "cs": "Vrácení zdarma do 30 dní",
+    "nl": "30 dagen gratis retour",
+    "pt": "Devoluções grátis em 30 dias",
+    "ru": "Бесплатный возврат за 30 дней"
+   },
+   "text": {
+    "en": "Easy returns, no questions asked",
+    "fr": "Retours simples, sans justification",
+    "es": "Devoluciones fáciles, sin preguntas",
+    "it": "Resi semplici, senza domande",
+    "pl": "Proste zwroty bez pytań",
+    "de": "Einfache Rückgabe ohne Fragen",
+    "cs": "Snadné vrácení bez otázek",
+    "nl": "Makkelijk retourneren, zonder vragen",
+    "pt": "Devoluções fáceis, sem perguntas",
+    "ru": "Простой возврат без лишних вопросов"
+   },
+   "cms": "returns"
+  },
+  {
+   "icon": "pack2/security.svg",
+   "title": {
+    "en": "Secure payment",
+    "fr": "Paiement sécurisé",
+    "es": "Pago seguro",
+    "it": "Pagamento sicuro",
+    "pl": "Bezpieczna płatność",
+    "de": "Sichere Zahlung",
+    "cs": "Bezpečná platba",
+    "nl": "Veilig betalen",
+    "pt": "Pagamento seguro",
+    "ru": "Безопасная оплата"
+   },
+   "text": {
+    "en": "Card, PayPal and bank transfer",
+    "fr": "Carte, PayPal et virement",
+    "es": "Tarjeta, PayPal y transferencia",
+    "it": "Carta, PayPal e bonifico",
+    "pl": "Karta, PayPal i przelew",
+    "de": "Karte, PayPal und Überweisung",
+    "cs": "Karta, PayPal a převod",
+    "nl": "Kaart, PayPal en overschrijving",
+    "pt": "Cartão, PayPal e transferência",
+    "ru": "Карта, PayPal и банковский перевод"
+   }
+  }
+ ],
+ "config": {
+  "HOME_FEATURED_CAT": "category:home",
+  "PS_NB_DAYS_NEW_PRODUCT": 30,
+  "PS_PRODUCTS_PER_PAGE": 12,
+  "PS_SHOP_DETAILS": "",
+  "BLOCKSOCIAL_TWITTER": "",
+  "PS_JPEG_QUALITY": 82,
+  "PS_SHIPPING_FREE_PRICE": 60,
+  "PS_DISPLAY_BEST_SELLERS": 1,
+  "PS_GIFT_WRAPPING": 0,
+  "HBKIT_CARD_FEATURE": "feature:ages,feature:material",
+  "HBKIT_PRODUCT_FEATURES": "",
+  "HBKIT_QUICK_FACET": "group:size",
+  "HBKIT_SIZE_GUIDE": "cms:size-guide",
+  "HBKIT_NEXT_CATEGORY": 1,
+  "HBKIT_TXT_NEWS_TITLE": {
+   "en": "Letters from Little Sprout",
+   "fr": "Lettres de Little Sprout",
+   "es": "Cartas de Little Sprout",
+   "it": "Lettere da Little Sprout",
+   "pl": "Listy od Little Sprout",
+   "de": "Post von Little Sprout",
+   "cs": "Dopisy od Little Sprout",
+   "nl": "Brieven van Little Sprout",
+   "pt": "Cartas da Little Sprout",
+   "ru": "Письма от Little Sprout"
+  },
+  "HBKIT_TXT_NEWS_TEXT": {
+   "en": "New collections and parenting tips, once a month. 10% off your first order.",
+   "fr": "Nouvelles collections et conseils aux parents, une fois par mois. 10 % sur votre première commande.",
+   "es": "Nuevas colecciones y consejos para padres, una vez al mes. 10 % en tu primer pedido.",
+   "it": "Nuove collezioni e consigli per genitori, una volta al mese. 10% sul primo ordine.",
+   "pl": "Nowe kolekcje i porady dla rodziców raz w miesiącu. 10% zniżki na pierwsze zamówienie.",
+   "de": "Neue Kollektionen und Tipps für Eltern, einmal im Monat. 10 % auf Ihre erste Bestellung.",
+   "cs": "Nové kolekce a tipy pro rodiče jednou měsíčně. 10 % na první objednávku.",
+   "nl": "Nieuwe collecties en tips voor ouders, één keer per maand. 10% korting op je eerste bestelling.",
+   "pt": "Novas coleções e dicas para pais, uma vez por mês. 10% na primeira encomenda.",
+   "ru": "Новые коллекции и советы родителям раз в месяц. 10% на первый заказ."
+  },
+  "HBKIT_TXT_PRODUCT_NOTE": {
+   "en": "Free delivery over €60, in 2 to 4 working days|Free returns for 30 days, also to swap a size",
+   "fr": "Livraison offerte dès 60 €, en 2 à 4 jours ouvrés|Retours gratuits sous 30 jours, aussi pour changer de taille",
+   "es": "Envío gratis desde 60 €, en 2 a 4 días laborables|Devoluciones gratis en 30 días, también para cambiar de talla",
+   "it": "Spedizione gratuita sopra 60 €, in 2–4 giorni lavorativi|Resi gratuiti entro 30 giorni, anche per cambiare taglia",
+   "pl": "Darmowa dostawa od 60 €, w 2–4 dni robocze|Darmowe zwroty przez 30 dni, także by wymienić rozmiar",
+   "de": "Kostenloser Versand ab 60 €, in 2 bis 4 Werktagen|Kostenlose Rücksendung in 30 Tagen, auch zum Größentausch",
+   "cs": "Doprava zdarma od 60 € za 2 až 4 pracovní dny|Vrácení zdarma do 30 dnů, i pro výměnu velikosti",
+   "nl": "Gratis verzending vanaf €60, in 2 tot 4 werkdagen|Gratis retour binnen 30 dagen, ook om van maat te wisselen",
+   "pt": "Entrega gratuita acima de 60 €, em 2 a 4 dias úteis|Devoluções gratuitas em 30 dias, também para trocar de tamanho",
+   "ru": "Бесплатная доставка от 60 € за 2–4 рабочих дня|Бесплатный возврат 30 дней, в том числе для обмена размера"
+  },
+  "HBKIT_TXT_DELIVERY": {
+   "en": "Delivered in 2 to 4 working days, free over €60. Return any piece within 30 days for a refund or another size.",
+   "fr": "Livré en 2 à 4 jours ouvrés, offert dès 60 €. Retournez un article sous 30 jours pour un remboursement ou une autre taille.",
+   "es": "Entrega en 2 a 4 días laborables, gratis desde 60 €. Devuelve cualquier prenda en 30 días para un reembolso u otra talla.",
+   "it": "Consegna in 2–4 giorni lavorativi, gratuita sopra 60 €. Restituisci un capo entro 30 giorni per un rimborso o un’altra taglia.",
+   "pl": "Dostawa w 2–4 dni robocze, darmowa od 60 €. Zwróć dowolną rzecz w ciągu 30 dni, by otrzymać zwrot pieniędzy lub inny rozmiar.",
+   "de": "Lieferung in 2 bis 4 Werktagen, kostenlos ab 60 €. Jedes Teil innerhalb von 30 Tagen zurückgeben, für eine Erstattung oder eine andere Größe.",
+   "cs": "Doručení za 2 až 4 pracovní dny, zdarma od 60 €. Jakýkoli kus vraťte do 30 dnů za vrácení peněz nebo jinou velikost.",
+   "nl": "Geleverd in 2 tot 4 werkdagen, gratis vanaf €60. Stuur elk stuk binnen 30 dagen terug voor je geld of een andere maat.",
+   "pt": "Entregue em 2 a 4 dias úteis, grátis acima de 60 €. Devolva qualquer peça em 30 dias para reembolso ou outro tamanho.",
+   "ru": "Доставка за 2–4 рабочих дня, бесплатно от 60 €. Верните любую вещь в течение 30 дней за деньги или другой размер."
+  },
+  "HBKIT_TXT_SEARCH_PLACEHOLDER": {
+   "en": "Search for a size or a piece",
+   "fr": "Rechercher une taille ou un article",
+   "es": "Buscar una talla o una prenda",
+   "it": "Cerca una taglia o un capo",
+   "pl": "Szukaj rozmiaru lub ubrania",
+   "de": "Größe oder Teil suchen",
+   "cs": "Hledat velikost nebo kousek",
+   "nl": "Zoek een maat of een stuk",
+   "pt": "Pesquisar um tamanho ou uma peça",
+   "ru": "Поиск размера или вещи"
+  },
+  "HBKIT_TXT_SIZE_HINT": {
+   "en": "Between two sizes? Choose the larger one so it lasts longer.",
+   "fr": "Entre deux tailles ? Prenez la plus grande, elle durera plus longtemps.",
+   "es": "¿Entre dos tallas? Elige la más grande para que dure más.",
+   "it": "Tra due taglie? Scegli la più grande, durerà di più.",
+   "pl": "Pomiędzy rozmiarami? Wybierz większy, posłuży dłużej.",
+   "de": "Zwischen zwei Größen? Nehmen Sie die größere, dann passt sie länger.",
+   "cs": "Mezi dvěma velikostmi? Vezměte větší, vydrží déle.",
+   "nl": "Tussen twee maten? Kies de grootste, dan past hij langer.",
+   "pt": "Entre dois tamanhos? Escolha o maior para durar mais.",
+   "ru": "Между двумя размерами? Берите больший, его хватит надолго."
+  }
+ },
+ "home": [
+  {
+   "type": "hero",
+   "settings": {
+    "variant": "split",
+    "height": "m",
+    "autoplay": 0,
+    "overlay": 0,
+    "width": "container",
+    "spacing": "none"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/hero-1.jpg",
+      "link": "page:new-products",
+      "align": "left",
+      "tone": "dark"
+     },
+     "title": {
+      "en": "Clothes that keep up.",
+      "fr": "Des vêtements qui suivent le rythme.",
+      "es": "Ropa que aguanta el ritmo.",
+      "it": "Vestiti che tengono il passo.",
+      "pl": "Ubrania, które nadążają.",
+      "de": "Kleidung, die mithält.",
+      "cs": "Oblečení, které vydrží tempo.",
+      "nl": "Kleren die het bijhouden.",
+      "pt": "Roupa que acompanha o ritmo.",
+      "ru": "Одежда, которая успевает за ними."
+     },
+     "text": {
+      "en": "<p>Organic cotton clothes for ages 0 to 9, made for climbing, digging and puddles. And for passing on to the next one.</p><p class=\"ls-hero-alt\"><a href=\"#hbk-ruler\">Find their size</a></p><ul class=\"ls-ticks\"><li>Organic cotton</li><li>Free returns for 30 days</li><li>Free delivery over €60</li></ul>",
+      "fr": "<p>Des vêtements en coton bio de 0 à 9 ans, faits pour grimper, creuser et sauter dans les flaques. Et pour être transmis au suivant.</p><p class=\"ls-hero-alt\"><a href=\"#hbk-ruler\">Trouver sa taille</a></p><ul class=\"ls-ticks\"><li>Coton bio</li><li>Retours gratuits sous 30 jours</li><li>Livraison offerte dès 60 €</li></ul>",
+      "es": "<p>Ropa de algodón orgánico de 0 a 9 años, hecha para trepar, excavar y saltar en los charcos. Y para pasarla al siguiente.</p><p class=\"ls-hero-alt\"><a href=\"#hbk-ruler\">Encontrar su talla</a></p><ul class=\"ls-ticks\"><li>Algodón orgánico</li><li>Devoluciones gratis en 30 días</li><li>Envío gratis desde 60 €</li></ul>",
+      "it": "<p>Vestiti in cotone biologico da 0 a 9 anni, fatti per arrampicarsi, scavare e saltare nelle pozzanghere. E per passarli al prossimo.</p><p class=\"ls-hero-alt\"><a href=\"#hbk-ruler\">Trova la sua taglia</a></p><ul class=\"ls-ticks\"><li>Cotone biologico</li><li>Resi gratuiti entro 30 giorni</li><li>Spedizione gratuita sopra 60 €</li></ul>",
+      "pl": "<p>Ubrania z bawełny organicznej dla dzieci od 0 do 9 lat, do wspinania się, kopania i skakania po kałużach. I do przekazania młodszemu.</p><p class=\"ls-hero-alt\"><a href=\"#hbk-ruler\">Znajdź rozmiar</a></p><ul class=\"ls-ticks\"><li>Bawełna organiczna</li><li>Darmowe zwroty przez 30 dni</li><li>Darmowa dostawa od 60 €</li></ul>",
+      "de": "<p>Kleidung aus Bio-Baumwolle für 0 bis 9 Jahre, gemacht zum Klettern, Buddeln und Pfützenspringen. Und zum Weitergeben an das nächste Kind.</p><p class=\"ls-hero-alt\"><a href=\"#hbk-ruler\">Größe finden</a></p><ul class=\"ls-ticks\"><li>Bio-Baumwolle</li><li>Kostenlose Rücksendung in 30 Tagen</li><li>Kostenloser Versand ab 60 €</li></ul>",
+      "cs": "<p>Oblečení z biobavlny pro děti od 0 do 9 let, na lezení, kopání a skákání do louží. A pro předání dalšímu.</p><p class=\"ls-hero-alt\"><a href=\"#hbk-ruler\">Najít velikost</a></p><ul class=\"ls-ticks\"><li>Biobavlna</li><li>Vrácení zdarma do 30 dnů</li><li>Doprava zdarma od 60 €</li></ul>",
+      "nl": "<p>Kleding van biologisch katoen voor 0 tot 9 jaar, gemaakt om te klimmen, graven en in plassen te springen. En om door te geven aan de volgende.</p><p class=\"ls-hero-alt\"><a href=\"#hbk-ruler\">Vind de maat</a></p><ul class=\"ls-ticks\"><li>Biologisch katoen</li><li>Gratis retour binnen 30 dagen</li><li>Gratis verzending vanaf €60</li></ul>",
+      "pt": "<p>Roupa de algodão orgânico dos 0 aos 9 anos, feita para trepar, escavar e saltar em poças. E para passar ao próximo.</p><p class=\"ls-hero-alt\"><a href=\"#hbk-ruler\">Encontrar o tamanho</a></p><ul class=\"ls-ticks\"><li>Algodão orgânico</li><li>Devoluções gratuitas em 30 dias</li><li>Entrega gratuita acima de 60 €</li></ul>",
+      "ru": "<p>Одежда из органического хлопка для детей от 0 до 9 лет: лазать, копать и прыгать по лужам. И передать следующему.</p><p class=\"ls-hero-alt\"><a href=\"#hbk-ruler\">Подобрать размер</a></p><ul class=\"ls-ticks\"><li>Органический хлопок</li><li>Бесплатный возврат 30 дней</li><li>Бесплатная доставка от 60 €</li></ul>"
+     },
+     "button": {
+      "en": "Shop new in",
+      "fr": "Voir les nouveautés",
+      "es": "Ver novedades",
+      "it": "Scopri le novità",
+      "pl": "Zobacz nowości",
+      "de": "Neuheiten ansehen",
+      "cs": "Prohlédnout novinky",
+      "nl": "Bekijk nieuw binnen",
+      "pt": "Ver novidades",
+      "ru": "Смотреть новинки"
+     }
+    }
+   ]
+  },
+  {
+   "type": "banners",
+   "title": {
+    "en": "Shop by age",
+    "fr": "Choisir par âge",
+    "es": "Comprar por edad",
+    "it": "Scegli per età",
+    "pl": "Wybierz według wieku",
+    "de": "Nach Alter einkaufen",
+    "cs": "Nakupujte podle věku",
+    "nl": "Shop op leeftijd",
+    "pt": "Comprar por idade",
+    "ru": "Выбор по возрасту"
+   },
+   "content": {
+    "en": "Every size shows the height it fits, so you can measure and choose.",
+    "fr": "Chaque taille indique la hauteur qui lui correspond : mesurez et choisissez.",
+    "es": "Cada talla indica la altura que le corresponde: mide y elige.",
+    "it": "Ogni taglia indica l’altezza adatta: misura e scegli.",
+    "pl": "Każdy rozmiar pokazuje wzrost, na który pasuje: zmierz i wybierz.",
+    "de": "Jede Größe zeigt die passende Körpergröße: messen und wählen.",
+    "cs": "U každé velikosti je výška, které odpovídá: změřte a vyberte.",
+    "nl": "Bij elke maat staat de lengte waarvoor hij past: meet en kies.",
+    "pt": "Cada tamanho mostra a altura a que serve: meça e escolha.",
+    "ru": "У каждого размера указан рост: измерьте и выберите."
+   },
+   "settings": {
+    "layout": "4",
+    "style": "ruler",
+    "height": "s",
+    "spacing": "l",
+    "heading_align": "left"
+   },
+   "items": [
+    {
+     "data": {
+      "link": "attribute:size:0-6m"
+     },
+     "title": {
+      "en": "0–6 m",
+      "fr": "0–6 mois",
+      "es": "0–6 meses",
+      "it": "0–6 mesi",
+      "pl": "0–6 mies.",
+      "de": "0–6 Mon.",
+      "cs": "0–6 měs.",
+      "nl": "0–6 mnd",
+      "pt": "0–6 meses",
+      "ru": "0–6 мес."
+     },
+     "subtitle": "50–68 cm"
+    },
+    {
+     "data": {
+      "link": "attribute:size:6-12m"
+     },
+     "title": {
+      "en": "6–12 m",
+      "fr": "6–12 mois",
+      "es": "6–12 meses",
+      "it": "6–12 mesi",
+      "pl": "6–12 mies.",
+      "de": "6–12 Mon.",
+      "cs": "6–12 měs.",
+      "nl": "6–12 mnd",
+      "pt": "6–12 meses",
+      "ru": "6–12 мес."
+     },
+     "subtitle": "68–80 cm"
+    },
+    {
+     "data": {
+      "link": "attribute:size:12-24m"
+     },
+     "title": {
+      "en": "1–2 y",
+      "fr": "1–2 ans",
+      "es": "1–2 años",
+      "it": "1–2 anni",
+      "pl": "1–2 lat",
+      "de": "1–2 J.",
+      "cs": "1–2 let",
+      "nl": "1–2 jr",
+      "pt": "1–2 anos",
+      "ru": "1–2 лет"
+     },
+     "subtitle": "80–92 cm"
+    },
+    {
+     "data": {
+      "link": "attribute:size:2-3"
+     },
+     "title": {
+      "en": "2–3 y",
+      "fr": "2–3 ans",
+      "es": "2–3 años",
+      "it": "2–3 anni",
+      "pl": "2–3 lat",
+      "de": "2–3 J.",
+      "cs": "2–3 let",
+      "nl": "2–3 jr",
+      "pt": "2–3 anos",
+      "ru": "2–3 лет"
+     },
+     "subtitle": "92–98 cm"
+    },
+    {
+     "data": {
+      "link": "attribute:size:4-5"
+     },
+     "title": {
+      "en": "4–5 y",
+      "fr": "4–5 ans",
+      "es": "4–5 años",
+      "it": "4–5 anni",
+      "pl": "4–5 lat",
+      "de": "4–5 J.",
+      "cs": "4–5 let",
+      "nl": "4–5 jr",
+      "pt": "4–5 anos",
+      "ru": "4–5 лет"
+     },
+     "subtitle": "104–110 cm"
+    },
+    {
+     "data": {
+      "link": "attribute:size:6-7"
+     },
+     "title": {
+      "en": "6–7 y",
+      "fr": "6–7 ans",
+      "es": "6–7 años",
+      "it": "6–7 anni",
+      "pl": "6–7 lat",
+      "de": "6–7 J.",
+      "cs": "6–7 let",
+      "nl": "6–7 jr",
+      "pt": "6–7 anos",
+      "ru": "6–7 лет"
+     },
+     "subtitle": "116–122 cm"
+    },
+    {
+     "data": {
+      "link": "attribute:size:8-9"
+     },
+     "title": {
+      "en": "8–9 y",
+      "fr": "8–9 ans",
+      "es": "8–9 años",
+      "it": "8–9 anni",
+      "pl": "8–9 lat",
+      "de": "8–9 J.",
+      "cs": "8–9 let",
+      "nl": "8–9 jr",
+      "pt": "8–9 anos",
+      "ru": "8–9 лет"
+     },
+     "subtitle": "128–134 cm"
+    }
+   ]
+  },
+  {
+   "type": "categories",
+   "title": {
+    "en": "Shop by category",
+    "fr": "Choisir par catégorie",
+    "es": "Comprar por categoría",
+    "it": "Scegli per categoria",
+    "pl": "Wybierz kategorię",
+    "de": "Nach Kategorie einkaufen",
+    "cs": "Nakupujte podle kategorie",
+    "nl": "Shop op categorie",
+    "pt": "Comprar por categoria",
+    "ru": "Выбор по категории"
+   },
+   "settings": {
+    "style": "tiles",
+    "columns": "6",
+    "spacing": "l",
+    "heading_align": "left"
+   },
+   "items": [
+    {
+     "data": {
+      "id_category": "baby",
+      "image": "categories/baby.jpg"
+     },
+     "subtitle": {
+      "en": "0 to 24 months",
+      "fr": "0 à 24 mois",
+      "es": "0 a 24 meses",
+      "it": "da 0 a 24 mesi",
+      "pl": "0 do 24 miesięcy",
+      "de": "0 bis 24 Monate",
+      "cs": "0 až 24 měsíců",
+      "nl": "0 tot 24 maanden",
+      "pt": "0 a 24 meses",
+      "ru": "от 0 до 24 месяцев"
+     }
+    },
+    {
+     "data": {
+      "id_category": "girls",
+      "image": "categories/girls.jpg"
+     },
+     "subtitle": {
+      "en": "Ages 2 to 9",
+      "fr": "2 à 9 ans",
+      "es": "2 a 9 años",
+      "it": "da 2 a 9 anni",
+      "pl": "2 do 9 lat",
+      "de": "2 bis 9 Jahre",
+      "cs": "2 až 9 let",
+      "nl": "2 tot 9 jaar",
+      "pt": "2 a 9 anos",
+      "ru": "от 2 до 9 лет"
+     }
+    },
+    {
+     "data": {
+      "id_category": "boys",
+      "image": "categories/boys.jpg"
+     },
+     "subtitle": {
+      "en": "Ages 2 to 9",
+      "fr": "2 à 9 ans",
+      "es": "2 a 9 años",
+      "it": "da 2 a 9 anni",
+      "pl": "2 do 9 lat",
+      "de": "2 bis 9 Jahre",
+      "cs": "2 až 9 let",
+      "nl": "2 tot 9 jaar",
+      "pt": "2 a 9 anos",
+      "ru": "от 2 до 9 лет"
+     }
+    },
+    {
+     "data": {
+      "id_category": "sleep",
+      "image": "categories/sleep.jpg"
+     },
+     "subtitle": {
+      "en": "Ages 0 to 9",
+      "fr": "0 à 9 ans",
+      "es": "0 a 9 años",
+      "it": "da 0 a 9 anni",
+      "pl": "0 do 9 lat",
+      "de": "0 bis 9 Jahre",
+      "cs": "0 až 9 let",
+      "nl": "0 tot 9 jaar",
+      "pt": "0 a 9 anos",
+      "ru": "от 0 до 9 лет"
+     }
+    },
+    {
+     "data": {
+      "id_category": "outerwear",
+      "image": "categories/outerwear.jpg"
+     },
+     "subtitle": {
+      "en": "Ages 2 to 9",
+      "fr": "2 à 9 ans",
+      "es": "2 a 9 años",
+      "it": "da 2 a 9 anni",
+      "pl": "2 do 9 lat",
+      "de": "2 bis 9 Jahre",
+      "cs": "2 až 9 let",
+      "nl": "2 tot 9 jaar",
+      "pt": "2 a 9 anos",
+      "ru": "от 2 до 9 лет"
+     }
+    },
+    {
+     "data": {
+      "id_category": "accessories",
+      "image": "categories/accessories.jpg"
+     },
+     "subtitle": {
+      "en": "First steps and up",
+      "fr": "Des premiers pas et plus",
+      "es": "Desde los primeros pasos",
+      "it": "Dai primi passi in su",
+      "pl": "Od pierwszych kroków",
+      "de": "Ab den ersten Schritten",
+      "cs": "Od prvních krůčků",
+      "nl": "Vanaf de eerste stapjes",
+      "pt": "Desde os primeiros passos",
+      "ru": "С первых шагов"
+     }
+    }
+   ]
+  },
+  {
+   "type": "products",
+   "title": {
+    "en": "New in",
+    "fr": "Nouveautés",
+    "es": "Novedades",
+    "it": "Novità",
+    "pl": "Nowości",
+    "de": "Neu eingetroffen",
+    "cs": "Novinky",
+    "nl": "Nieuw binnen",
+    "pt": "Novidades",
+    "ru": "Новинки"
+   },
+   "subtitle": {
+    "en": "See everything new",
+    "fr": "Voir toutes les nouveautés",
+    "es": "Ver todas las novedades",
+    "it": "Vedi tutte le novità",
+    "pl": "Zobacz wszystkie nowości",
+    "de": "Alle Neuheiten ansehen",
+    "cs": "Všechny novinky",
+    "nl": "Alles wat nieuw is",
+    "pt": "Ver todas as novidades",
+    "ru": "Все новинки"
+   },
+   "settings": {
+    "limit": 4,
+    "layout": "grid",
+    "columns": "4",
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "page:new-products"
+   },
+   "items": [
+    {
+     "data": {
+      "source": "new"
+     },
+     "title": {
+      "en": "New in",
+      "fr": "Nouveautés",
+      "es": "Novedades",
+      "it": "Novità",
+      "pl": "Nowości",
+      "de": "Neu",
+      "cs": "Novinky",
+      "nl": "Nieuw",
+      "pt": "Novidades",
+      "ru": "Новинки"
+     }
+    }
+   ]
+  },
+  {
+   "type": "image_text",
+   "settings": {
+    "style": "image-left",
+    "ratio": "square",
+    "spacing": "l",
+    "background": "surface"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/story.jpg",
+      "link": "cms:about"
+     },
+     "title": {
+      "en": "Made to be handed down",
+      "fr": "Faits pour être transmis",
+      "es": "Hechos para heredarse",
+      "it": "Fatti per essere tramandati",
+      "pl": "Stworzone, by je przekazywać",
+      "de": "Gemacht zum Weitergeben",
+      "cs": "Vyrobeno pro další generaci",
+      "nl": "Gemaakt om door te geven",
+      "pt": "Feitos para passar de mão em mão",
+      "ru": "Сделано, чтобы передавать дальше"
+     },
+     "text": {
+      "en": "<p>Children grow out of clothes long before they wear them out. We make ours to last for the next child, and the one after that.</p><ul class=\"ls-ticks\"><li><b>Organic cotton</b>, soft on new skin and strong in the wash.</li><li><b>Made in Portugal</b> for most of the collection.</li><li><b>Free returns for 30 days</b>, so you can swap for the next size.</li></ul>",
+      "fr": "<p>Les enfants grandissent bien avant d’user leurs vêtements. Nous faisons les nôtres pour durer jusqu’au suivant, et celui d’après.</p><ul class=\"ls-ticks\"><li><b>Coton bio</b>, doux pour les peaux neuves et solide au lavage.</li><li><b>Fabriqué au Portugal</b> pour la plupart de la collection.</li><li><b>Retours gratuits sous 30 jours</b>, pour passer à la taille suivante.</li></ul>",
+      "es": "<p>Los niños crecen mucho antes de gastar la ropa. Hacemos la nuestra para que dure hasta el siguiente, y el de después.</p><ul class=\"ls-ticks\"><li><b>Algodón orgánico</b>, suave con la piel y resistente al lavado.</li><li><b>Hecho en Portugal</b> en la mayor parte de la colección.</li><li><b>Devoluciones gratis en 30 días</b>, para cambiar a la talla siguiente.</li></ul>",
+      "it": "<p>I bambini crescono molto prima di consumare i vestiti. Facciamo i nostri per durare fino al prossimo, e a quello dopo.</p><ul class=\"ls-ticks\"><li><b>Cotone biologico</b>, morbido sulla pelle e resistente ai lavaggi.</li><li><b>Prodotto in Portogallo</b> per gran parte della collezione.</li><li><b>Resi gratuiti entro 30 giorni</b>, per passare alla taglia successiva.</li></ul>",
+      "pl": "<p>Dzieci wyrastają z ubrań, zanim je zniszczą. Nasze robimy tak, by wystarczyły dla następnego dziecka i kolejnego.</p><ul class=\"ls-ticks\"><li><b>Bawełna organiczna</b>, delikatna dla skóry i odporna na pranie.</li><li><b>Szyte w Portugalii</b> w większości kolekcji.</li><li><b>Darmowe zwroty przez 30 dni</b>, by wymienić na większy rozmiar.</li></ul>",
+      "de": "<p>Kinder wachsen aus ihrer Kleidung heraus, lange bevor sie abgetragen ist. Unsere hält für das nächste Kind und das übernächste.</p><ul class=\"ls-ticks\"><li><b>Bio-Baumwolle</b>, sanft zur Haut und robust in der Wäsche.</li><li><b>Hergestellt in Portugal</b> für den Großteil der Kollektion.</li><li><b>Kostenlose Rücksendung in 30 Tagen</b>, um die nächste Größe zu nehmen.</li></ul>",
+      "cs": "<p>Děti z oblečení vyrostou dřív, než ho obnosí. To naše vydrží dalšímu dítěti i tomu po něm.</p><ul class=\"ls-ticks\"><li><b>Biobavlna</b>, jemná k pokožce a odolná při praní.</li><li><b>Vyrobeno v Portugalsku</b> u většiny kolekce.</li><li><b>Vrácení zdarma do 30 dnů</b>, abyste mohli vzít větší velikost.</li></ul>",
+      "nl": "<p>Kinderen groeien eerder uit hun kleren dan dat ze verslijten. Wij maken ze voor het volgende kind, en het kind daarna.</p><ul class=\"ls-ticks\"><li><b>Biologisch katoen</b>, zacht voor de huid en sterk in de was.</li><li><b>Gemaakt in Portugal</b> voor het grootste deel van de collectie.</li><li><b>Gratis retour binnen 30 dagen</b>, zodat je een maat groter kunt nemen.</li></ul>",
+      "pt": "<p>As crianças crescem muito antes de gastarem a roupa. Fazemos a nossa para durar até à próxima, e à seguinte.</p><ul class=\"ls-ticks\"><li><b>Algodão orgânico</b>, suave para a pele e resistente à lavagem.</li><li><b>Feito em Portugal</b> na maior parte da coleção.</li><li><b>Devoluções gratuitas em 30 dias</b>, para trocar pelo tamanho seguinte.</li></ul>",
+      "ru": "<p>Дети вырастают из одежды задолго до того, как её износят. Наша прослужит следующему ребёнку и ещё одному.</p><ul class=\"ls-ticks\"><li><b>Органический хлопок</b>: мягкий для кожи и прочный в стирке.</li><li><b>Сделано в Португалии</b>: большая часть коллекции.</li><li><b>Бесплатный возврат 30 дней</b>, чтобы взять размер побольше.</li></ul>"
+     },
+     "button": {
+      "en": "Our story",
+      "fr": "Notre histoire",
+      "es": "Nuestra historia",
+      "it": "La nostra storia",
+      "pl": "Nasza historia",
+      "de": "Unsere Geschichte",
+      "cs": "Náš příběh",
+      "nl": "Ons verhaal",
+      "pt": "A nossa história",
+      "ru": "Наша история"
+     }
+    }
+   ]
+  },
+  {
+   "type": "testimonials",
+   "settings": {
+    "style": "quote",
+    "spacing": "l"
+   },
+   "items": [
+    {
+     "data": {
+      "rating": 5
+     },
+     "title": {
+      "en": "Anouk V.",
+      "fr": "Anouk V.",
+      "es": "Anouk V.",
+      "it": "Anouk V.",
+      "pl": "Anouk V.",
+      "de": "Anouk V.",
+      "cs": "Anouk V.",
+      "nl": "Anouk V.",
+      "pt": "Anouk V.",
+      "ru": "Anouk V."
+     },
+     "subtitle": {
+      "en": "Utrecht",
+      "fr": "Utrecht",
+      "es": "Utrecht",
+      "it": "Utrecht",
+      "pl": "Utrecht",
+      "de": "Utrecht",
+      "cs": "Utrecht",
+      "nl": "Utrecht",
+      "pt": "Utrecht",
+      "ru": "Утрехт"
+     },
+     "text": {
+      "en": "The dungarees have survived two summers in the garden and still look great. Now my youngest wears them.",
+      "fr": "La salopette a survécu à deux étés au jardin et elle est toujours belle. C'est maintenant mon cadet qui la porte.",
+      "es": "El peto ha sobrevivido a dos veranos en el jardín y sigue perfecto. Ahora lo lleva mi pequeño.",
+      "it": "La salopette è sopravvissuta a due estati in giardino ed è ancora perfetta. Ora la indossa il più piccolo.",
+      "pl": "Ogrodniczki przetrwały dwa lata w ogrodzie i wciąż wyglądają świetnie. Teraz nosi je młodszy syn.",
+      "de": "Die Latzhose hat zwei Sommer im Garten überlebt und sieht noch toll aus. Jetzt trägt sie mein Jüngster.",
+      "cs": "Laclové kalhoty přežily dvě léta na zahradě a pořád vypadají skvěle. Teď je nosí můj mladší.",
+      "nl": "De tuinbroek heeft twee zomers in de tuin overleefd en ziet er nog prima uit. Nu draagt mijn jongste hem.",
+      "pt": "As jardineiras sobreviveram a dois verões no jardim e continuam ótimas. Agora é o meu mais novo que as usa.",
+      "ru": "Полукомбинезон пережил два лета в саду и всё ещё отлично выглядит. Теперь его носит младший."
+     }
+    }
+   ]
+  },
+  {
+   "type": "faq",
+   "title": {
+    "en": "Questions from parents",
+    "fr": "Questions de parents",
+    "es": "Preguntas de padres",
+    "it": "Domande dei genitori",
+    "pl": "Pytania rodziców",
+    "de": "Fragen von Eltern",
+    "cs": "Otázky rodičů",
+    "nl": "Vragen van ouders",
+    "pt": "Perguntas dos pais",
+    "ru": "Вопросы родителей"
+   },
+   "subtitle": {
+    "en": "Read the size guide",
+    "fr": "Lire le guide des tailles",
+    "es": "Ver la guía de tallas",
+    "it": "Leggi la guida alle taglie",
+    "pl": "Zobacz tabelę rozmiarów",
+    "de": "Zur Größentabelle",
+    "cs": "Průvodce velikostmi",
+    "nl": "Bekijk de maattabel",
+    "pt": "Ver o guia de tamanhos",
+    "ru": "Таблица размеров"
+   },
+   "settings": {
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "cms:size-guide"
+   },
+   "items": [
+    {
+     "title": {
+      "en": "How do I choose the right size?",
+      "fr": "Comment choisir la bonne taille ?",
+      "es": "¿Cómo elijo la talla correcta?",
+      "it": "Come scelgo la taglia giusta?",
+      "pl": "Jak dobrać właściwy rozmiar?",
+      "de": "Wie finde ich die richtige Größe?",
+      "cs": "Jak vybrat správnou velikost?",
+      "nl": "Hoe kies ik de juiste maat?",
+      "pt": "Como escolho o tamanho certo?",
+      "ru": "Как выбрать правильный размер?"
+     },
+     "text": {
+      "en": "<p>Our sizes follow age, but height is more reliable. Check the size guide, and if your child is between sizes, take the larger one.</p>",
+      "fr": "<p>Nos tailles suivent l'âge, mais la taille en centimètres est plus fiable. Consultez le guide des tailles et, entre deux tailles, prenez la plus grande.</p>",
+      "es": "<p>Nuestras tallas siguen la edad, pero la altura es más fiable. Consulta la guía de tallas y, si está entre dos, elige la mayor.</p>",
+      "it": "<p>Le nostre taglie seguono l'età, ma l'altezza è più affidabile. Consulta la guida alle taglie e, tra due taglie, scegli la più grande.</p>",
+      "pl": "<p>Nasze rozmiary odpowiadają wiekowi, ale wzrost jest pewniejszy. Sprawdź tabelę rozmiarów, a w razie wątpliwości wybierz większy.</p>",
+      "de": "<p>Unsere Größen richten sich nach dem Alter, die Körpergröße ist aber verlässlicher. Schauen Sie in die Größentabelle und nehmen Sie im Zweifel die größere.</p>",
+      "cs": "<p>Naše velikosti odpovídají věku, ale výška je spolehlivější. Podívejte se do tabulky velikostí a mezi dvěma vyberte větší.</p>",
+      "nl": "<p>Onze maten volgen de leeftijd, maar de lengte is betrouwbaarder. Bekijk de maattabel en kies bij twijfel de grotere maat.</p>",
+      "pt": "<p>Os nossos tamanhos seguem a idade, mas a altura é mais fiável. Consulte o guia de tamanhos e, entre dois, escolha o maior.</p>",
+      "ru": "<p>Наши размеры соответствуют возрасту, но рост — надёжнее. Загляните в таблицу размеров, а если сомневаетесь — берите больший.</p>"
+     }
+    },
+    {
+     "title": {
+      "en": "Are your clothes safe for babies?",
+      "fr": "Vos vêtements sont-ils sûrs pour les bébés ?",
+      "es": "¿Vuestra ropa es segura para bebés?",
+      "it": "I vostri vestiti sono sicuri per i neonati?",
+      "pl": "Czy wasze ubranka są bezpieczne dla niemowląt?",
+      "de": "Ist Ihre Kleidung sicher für Babys?",
+      "cs": "Je vaše oblečení bezpečné pro miminka?",
+      "nl": "Is jullie kleding veilig voor baby's?",
+      "pt": "A vossa roupa é segura para bebés?",
+      "ru": "Ваша одежда безопасна для малышей?"
+     },
+     "text": {
+      "en": "<p>Yes. All fabrics are tested for harmful substances, we use nickel-free poppers and there are no drawstrings at the neck.</p>",
+      "fr": "<p>Oui. Tous les tissus sont testés contre les substances nocives, nos pressions sont sans nickel et il n'y a aucun cordon au cou.</p>",
+      "es": "<p>Sí. Todos los tejidos se analizan para descartar sustancias nocivas, usamos corchetes sin níquel y no hay cordones en el cuello.</p>",
+      "it": "<p>Sì. Tutti i tessuti sono testati contro le sostanze nocive, usiamo automatici senza nichel e non ci sono cordoncini al collo.</p>",
+      "pl": "<p>Tak. Wszystkie tkaniny są badane pod kątem szkodliwych substancji, używamy zatrzasków bez niklu i nie ma sznurków przy szyi.</p>",
+      "de": "<p>Ja. Alle Stoffe sind schadstoffgeprüft, wir verwenden nickelfreie Druckknöpfe und es gibt keine Kordeln am Hals.</p>",
+      "cs": "<p>Ano. Všechny látky jsou testované na škodlivé látky, používáme patentky bez niklu a u krku nejsou žádné šňůrky.</p>",
+      "nl": "<p>Ja. Alle stoffen zijn getest op schadelijke stoffen, we gebruiken nikkelvrije drukknoopjes en er zitten geen koordjes bij de hals.</p>",
+      "pt": "<p>Sim. Todos os tecidos são testados contra substâncias nocivas, usamos molas sem níquel e não há cordões no pescoço.</p>",
+      "ru": "<p>Да. Все ткани проверены на вредные вещества, мы используем кнопки без никеля, и у горла нет шнурков.</p>"
+     }
+    },
+    {
+     "title": {
+      "en": "How should I wash organic cotton?",
+      "fr": "Comment laver le coton bio ?",
+      "es": "¿Cómo lavo el algodón orgánico?",
+      "it": "Come lavo il cotone biologico?",
+      "pl": "Jak prać bawełnę organiczną?",
+      "de": "Wie wasche ich Bio-Baumwolle?",
+      "cs": "Jak prát biobavlnu?",
+      "nl": "Hoe was ik biologisch katoen?",
+      "pt": "Como lavo o algodão biológico?",
+      "ru": "Как стирать органический хлопок?"
+     },
+     "text": {
+      "en": "<p>Wash at 30–40 °C with similar colours and avoid the tumble dryer to keep the fabric soft and the fit right.</p>",
+      "fr": "<p>Lavez à 30–40 °C avec des couleurs similaires et évitez le sèche-linge pour garder un tissu doux et une bonne coupe.</p>",
+      "es": "<p>Lava a 30–40 °C con colores similares y evita la secadora para mantener el tejido suave y el tallaje correcto.</p>",
+      "it": "<p>Lava a 30–40 °C con colori simili ed evita l'asciugatrice per mantenere il tessuto morbido e la vestibilità giusta.</p>",
+      "pl": "<p>Pierz w 30–40 °C z podobnymi kolorami i unikaj suszarki, aby tkanina była miękka, a krój się nie zmieniał.</p>",
+      "de": "<p>Bei 30–40 °C mit ähnlichen Farben waschen und den Trockner meiden, damit der Stoff weich und die Passform richtig bleibt.</p>",
+      "cs": "<p>Perte na 30–40 °C s podobnými barvami a vyhněte se sušičce, aby látka zůstala měkká a střih správný.</p>",
+      "nl": "<p>Was op 30–40 °C met vergelijkbare kleuren en vermijd de droger, zodat de stof zacht en de pasvorm goed blijft.</p>",
+      "pt": "<p>Lave a 30–40 °C com cores semelhantes e evite a máquina de secar para manter o tecido macio e o tamanho certo.</p>",
+      "ru": "<p>Стирайте при 30–40 °C с вещами похожих цветов и не используйте сушильную машину, чтобы ткань оставалась мягкой, а размер — прежним.</p>"
+     }
+    },
+    {
+     "title": {
+      "en": "Can I exchange a size?",
+      "fr": "Puis-je échanger une taille ?",
+      "es": "¿Puedo cambiar una talla?",
+      "it": "Posso cambiare una taglia?",
+      "pl": "Czy mogę wymienić rozmiar?",
+      "de": "Kann ich eine Größe umtauschen?",
+      "cs": "Mohu vyměnit velikost?",
+      "nl": "Kan ik een maat ruilen?",
+      "pt": "Posso trocar um tamanho?",
+      "ru": "Можно ли обменять размер?"
+     },
+     "text": {
+      "en": "<p>Of course. Return the item within 30 days and place a new order for the right size.</p>",
+      "fr": "<p>Bien sûr. Retournez l'article sous 30 jours et passez une nouvelle commande dans la bonne taille.</p>",
+      "es": "<p>Claro. Devuelve el artículo en 30 días y haz un nuevo pedido con la talla correcta.</p>",
+      "it": "<p>Certo. Restituisci l'articolo entro 30 giorni ed effettua un nuovo ordine nella taglia giusta.</p>",
+      "pl": "<p>Oczywiście. Zwróć produkt w ciągu 30 dni i złóż nowe zamówienie we właściwym rozmiarze.</p>",
+      "de": "<p>Natürlich. Senden Sie den Artikel innerhalb von 30 Tagen zurück und bestellen Sie die richtige Größe neu.</p>",
+      "cs": "<p>Samozřejmě. Vraťte zboží do 30 dnů a objednejte si správnou velikost.</p>",
+      "nl": "<p>Natuurlijk. Stuur het artikel binnen 30 dagen terug en plaats een nieuwe bestelling in de juiste maat.</p>",
+      "pt": "<p>Claro. Devolva o artigo em 30 dias e faça uma nova encomenda no tamanho certo.</p>",
+      "ru": "<p>Конечно. Верните товар в течение 30 дней и оформите новый заказ нужного размера.</p>"
+     }
+    }
+   ]
+  }
+ ]
+}
